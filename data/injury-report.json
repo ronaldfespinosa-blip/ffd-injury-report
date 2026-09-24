@@ -1,0 +1,96 @@
+{
+ "season": 2026,
+ "week": 3,
+ "generated": "2026-09-24T06:13:38Z",
+ "sources": "Official NFL injury reports, rosters and depth charts via nflverse; FantasyPros consensus rankings via DynastyProcess",
+ "players": [
+  {
+   "name": "A.J. Brown",
+   "pos": "WR",
+   "team": "NE",
+   "status": "IR",
+   "injury": "Undisclosed",
+   "practice": "",
+   "back": "Eligible Week 6",
+   "pickup": "",
+   "rank": 37
+  },
+  {
+   "name": "Jonathon Brooks",
+   "pos": "RB",
+   "team": "CAR",
+   "status": "IR",
+   "injury": "Groin",
+   "practice": "",
+   "back": "Eligible Week 7",
+   "pickup": "",
+   "rank": 97
+  },
+  {
+   "name": "Jordyn Tyson",
+   "pos": "WR",
+   "team": "NO",
+   "status": "IR",
+   "injury": "Undisclosed",
+   "practice": "",
+   "back": "Eligible Week 5",
+   "pickup": "",
+   "rank": 116
+  },
+  {
+   "name": "De'Zhaun Stribling",
+   "pos": "WR",
+   "team": "SF",
+   "status": "IR",
+   "injury": "Ankle",
+   "practice": "",
+   "back": "Eligible Week 6",
+   "pickup": "",
+   "rank": 117
+  },
+  {
+   "name": "Jordan Mason",
+   "pos": "RB",
+   "team": "MIN",
+   "status": "IR",
+   "injury": "Undisclosed",
+   "practice": "",
+   "back": "Eligible Week 6",
+   "pickup": "",
+   "rank": 129
+  },
+  {
+   "name": "David Njoku",
+   "pos": "TE",
+   "team": "LAC",
+   "status": "IR",
+   "injury": "Undisclosed",
+   "practice": "",
+   "back": "Eligible Week 7",
+   "pickup": "",
+   "rank": 177
+  },
+  {
+   "name": "Omar Cooper Jr.",
+   "pos": "WR",
+   "team": "NYJ",
+   "status": "IR",
+   "injury": "Ankle",
+   "practice": "",
+   "back": "Eligible Week 6",
+   "pickup": "",
+   "rank": 188
+  },
+  {
+   "name": "Jayden Reed",
+   "pos": "WR",
+   "team": "GB",
+   "status": "Out",
+   "injury": "Neck",
+   "practice": "Did Not Participate In Practice",
+   "back": "Out Week 3",
+   "pickup": "Bo Melton",
+   "rank": 94
+  }
+ ]
+}

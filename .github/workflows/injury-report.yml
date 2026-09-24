@@ -1,0 +1,211 @@
+name: Injury report
+
+on:
+  schedule:
+    - cron: "15 */3 * * *"      # every 3 hours, all week
+    - cron: "30 21,23 * * 5"    # extra runs Friday evening, after final game statuses
+  workflow_dispatch:            # the "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build the injury report
+        run: |
+          mkdir -p data
+          python - <<'ENDOFSCRIPT'
+          """
+          Fantasy Football Doctor - injury report builder.
+
+          Runs on GitHub Actions on a schedule. Pulls:
+            * Official NFL injury reports (game status + practice participation) via nflverse
+            * Weekly roster status (for injured reserve) via nflverse
+            * Depth charts via nflverse
+            * FantasyPros expert consensus rankings via DynastyProcess
+          and writes data/injury-report.json, which the WordPress block reads.
+          """
+          import csv, io, json, re, sys, unicodedata, urllib.request
+          from datetime import datetime, timezone
+
+          SEASON = datetime.now(timezone.utc).year
+          NFLVERSE = "https://github.com/nflverse/nflverse-data/releases/download"
+          URLS = {
+              "injuries": f"{NFLVERSE}/injuries/injuries_{SEASON}.csv",
+              "rosters":  f"{NFLVERSE}/weekly_rosters/roster_weekly_{SEASON}.csv",
+              "depth":    f"{NFLVERSE}/depth_charts/depth_charts_{SEASON}.csv",
+              "ecr":      "https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_fpecr_latest.csv",
+          }
+          RANK_PAGE = "/nfl/rankings/ros-ppr-overall.php"   # rest-of-season PPR consensus
+          TOP_N = 200
+          OFFENSE = {"QB", "RB", "WR", "TE"}
+          SEVERITY = {"IR": 0, "Out": 1, "Doubtful": 2, "Questionable": 3}
+          OUT_PATH = "data/injury-report.json"
+
+
+          def fetch_csv(url):
+              req = urllib.request.Request(url, headers={"User-Agent": "ffd-injury-report"})
+              with urllib.request.urlopen(req, timeout=120) as r:
+                  return list(csv.DictReader(io.StringIO(r.read().decode("utf-8"))))
+
+
+          def norm(name):
+              s = unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode().lower()
+              s = re.sub(r"[.'`]", "", s)
+              s = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", s)
+              s = re.sub(r"[^a-z ]", "", s)
+              return re.sub(r"\s+", " ", s).strip()
+
+
+          def main():
+              data = {k: fetch_csv(u) for k, u in URLS.items()}
+
+              # 1. Consensus top 200 (offense only), keyed by name + position
+              ranks = [r for r in data["ecr"] if r["fp_page"] == RANK_PAGE]
+              ranks.sort(key=lambda r: float(r["ecr"]))
+              top = {}
+              for i, r in enumerate(ranks[:TOP_N], start=1):
+                  if r["pos"] in OFFENSE:
+                      top[(norm(r["player"]), r["pos"])] = i
+              if len(top) < 100:
+                  sys.exit(f"Rankings look wrong ({len(top)} offensive players). Not overwriting.")
+
+              # 2. Latest week of official injury reports
+              inj = data["injuries"]
+              last_injury = {}
+              for r in sorted(inj, key=lambda r: int(r["week"])):
+                  label = r["report_primary_injury"] or r["practice_primary_injury"]
+                  if label:
+                      last_injury[r["gsis_id"]] = label
+              week = max(int(r["week"]) for r in inj)
+              rows = {}
+              for r in inj:
+                  if int(r["week"]) != week or r["position"] not in OFFENSE:
+                      continue
+                  status = r["report_status"]
+                  if status not in SEVERITY:
+                      continue
+                  key = (norm(r["full_name"]), r["position"])
+                  if key not in top:
+                      continue
+                  rows[r["gsis_id"]] = {
+                      "id": r["gsis_id"], "name": r["full_name"], "pos": r["position"], "team": r["team"],
+                      "status": status, "injury": r["report_primary_injury"] or r["practice_primary_injury"] or "Undisclosed",
+                      "practice": r["practice_status"], "rank": top[key],
+                  }
+
+              # 3. Injured reserve from weekly rosters (IR players drop off the weekly report)
+              ros = data["rosters"]
+              roster_week = max(int(r["week"]) for r in ros)
+              ir_since = {}
+              for r in sorted(ros, key=lambda r: int(r["week"])):
+                  if r["status"] == "RES" and r["status_description_abbr"] in ("R01", "R48"):
+                      ir_since.setdefault(r["gsis_id"], int(r["week"]))
+                  elif r["status"] == "ACT":
+                      ir_since.pop(r["gsis_id"], None)
+              for r in ros:
+                  if int(r["week"]) != roster_week or r["gsis_id"] not in ir_since or r["position"] not in OFFENSE:
+                      continue
+                  if r["status"] != "RES":
+                      continue
+                  key = (norm(r["full_name"]), r["position"])
+                  if key not in top:
+                      continue
+                  rows[r["gsis_id"]] = {
+                      "id": r["gsis_id"], "name": r["full_name"], "pos": r["position"], "team": r["team"],
+                      "status": "IR", "injury": last_injury.get(r["gsis_id"], "Undisclosed"),
+                      "practice": "", "rank": top[key], "ir_week": ir_since[r["gsis_id"]],
+                  }
+
+              # 4. Latest depth chart snapshot -> next healthy player at the same spot
+              dc = data["depth"]
+              latest = max(r["dt"] for r in dc)
+              chart = [r for r in dc if r["dt"] == latest and r["pos_abb"] in OFFENSE]
+              unavailable = {gid for gid, x in rows.items() if x["status"] in ("IR", "Out")}
+
+              def backup_for(p):
+                  if p["status"] == "IR":
+                      return ""
+                  mine = [c for c in chart if c["gsis_id"] == p["id"]]
+                  same_team = [c for c in chart if c["team"] == p["team"] and c["pos_abb"] == p["pos"]]
+                  if mine:
+                      slot, rank = mine[0]["pos_slot"], int(mine[0]["pos_rank"])
+                      pool = [c for c in same_team if c["pos_slot"] == slot] or same_team
+                      pool = [c for c in pool if int(c["pos_rank"]) > rank]
+                  else:
+                      pool = same_team
+                  pool.sort(key=lambda c: int(c["pos_rank"]))
+                  for c in pool:
+                      if c["gsis_id"] != p["id"] and c["gsis_id"] not in unavailable:
+                          return c["player_name"]
+                  return ""
+
+              # 5. Return window from league rules, not guesses
+              def back_text(p):
+                  if p["status"] == "IR":
+                      return f"Eligible Week {p['ir_week'] + 4}"
+                  if p["status"] == "Out":
+                      return f"Out Week {week}"
+                  if p["status"] == "Doubtful":
+                      return f"Unlikely Week {week}"
+                  return "Game-time call"
+
+              def tidy(label):
+                  if label.lower().startswith("not injury related"):
+                      rest = label.split("-", 1)[1].strip() if "-" in label else "Non-injury"
+                      return rest[:1].upper() + rest[1:]
+                  return label
+
+              out = []
+              for p in rows.values():
+                  p["injury"] = tidy(p["injury"])
+                  out.append({
+                      "name": p["name"], "pos": p["pos"], "team": p["team"], "status": p["status"],
+                      "injury": p["injury"], "practice": p["practice"], "back": back_text(p),
+                      "pickup": backup_for(p), "rank": p["rank"],
+                  })
+              out.sort(key=lambda x: (SEVERITY[x["status"]], x["rank"]))
+
+              payload = {
+                  "season": SEASON, "week": week,
+                  "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                  "sources": "Official NFL injury reports, rosters and depth charts via nflverse; FantasyPros consensus rankings via DynastyProcess",
+                  "players": out,
+              }
+              # Only rewrite the file when the player list itself changed
+              try:
+                  with open(OUT_PATH) as f:
+                      old = json.load(f)
+                  if old.get("players") == out and old.get("week") == week:
+                      print("No change in player list.")
+                      return
+              except (FileNotFoundError, ValueError):
+                  pass
+              with open(OUT_PATH, "w") as f:
+                  json.dump(payload, f, indent=1)
+              print(f"Week {week}: {len(out)} players written to {OUT_PATH}")
+
+
+          if __name__ == "__main__":
+              main()
+
+          ENDOFSCRIPT
+
+      - name: Save it if anything changed
+        run: |
+          git config user.name "ffd-bot"
+          git config user.email "ffd-bot@users.noreply.github.com"
+          git add data/injury-report.json
+          if git diff --cached --quiet -- data/injury-report.json; then
+            echo "No change."
+          else
+            git commit -m "Injury report update"
+            git push
+          fi

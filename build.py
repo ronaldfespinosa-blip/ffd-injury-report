@@ -25,6 +25,8 @@ URLS = {
     "games":    "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
     "ecr":      "https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_fpecr_latest.csv",
 }
+# Doc's own Top 200 lives on the Rankings page (the same list Doc's Top 10 on the homepage reads)
+DOC_RANKINGS_URL = "https://fantasyfootballdoctor.com/wp-json/wp/v2/pages/36?_fields=content,modified"
 RANK_PAGE = "/nfl/rankings/ros-ppr-overall.php"   # rest-of-season PPR consensus
 DYNASTY_PAGE = "/nfl/rankings/dynasty-overall.php"  # keeps long-term injured players ROS drops
 TOP_N = 200          # players on the weekly injury report
@@ -49,6 +51,20 @@ def fetch_csv(url):
     req = urllib.request.Request(url, headers={"User-Agent": "ffd-injury-report"})
     with urllib.request.urlopen(req, timeout=120) as r:
         return list(csv.DictReader(io.StringIO(r.read().decode("utf-8"))))
+
+
+def fetch_doc_top200():
+    """Doc's Top 200 from the Rankings page: {(name, pos): rank}. Returns {} if it can't be read."""
+    try:
+        req = urllib.request.Request(DOC_RANKINGS_URL, headers={"User-Agent": "ffd-injury-report"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            html = json.loads(r.read().decode("utf-8"))["content"]["rendered"]
+        m = re.search(r"var P\s*=\s*(\[\[[\s\S]*?\]\])\s*;", html)
+        rows = json.loads(m.group(1)) if m else []
+        return {(norm(row[1]), row[2]): int(row[0]) for row in rows if row[2] in OFFENSE}
+    except Exception as err:
+        print(f"Could not read Doc's Top 200 ({err}); falling back to FantasyPros.")
+        return {}
 
 
 def load_json(path, default):
@@ -110,7 +126,11 @@ def main():
     ranks = [r for r in data["ecr"] if r["fp_page"] == RANK_PAGE]
     ranks.sort(key=lambda r: float(r["ecr"]))
     ros_rank = {(norm(r["player"]), r["pos"]): i for i, r in enumerate(ranks, start=1) if r["pos"] in OFFENSE}
-    top = {k: v for k, v in ros_rank.items() if v <= TOP_N}
+    doc = fetch_doc_top200()
+    if len(doc) >= 100:
+        top, rank_source = doc, "Doc's Top 200"
+    else:
+        top, rank_source = {k: v for k, v in ros_rank.items() if v <= TOP_N}, "FantasyPros rest-of-season"
     if len(top) < 100:
         sys.exit(f"Rankings look wrong ({len(top)} offensive players). Not overwriting.")
     dyn = [r for r in data["ecr"] if r["fp_page"] == DYNASTY_PAGE]
@@ -118,7 +138,7 @@ def main():
     dyn_rank = {(norm(r["player"]), r["pos"]): i for i, r in enumerate(dyn, start=1) if r["pos"] in OFFENSE}
 
     def reserve_relevant(key):
-        return ros_rank.get(key, 9999) <= RESERVE_TOP_N or dyn_rank.get(key, 9999) <= RESERVE_TOP_N
+        return key in top or ros_rank.get(key, 9999) <= RESERVE_TOP_N or dyn_rank.get(key, 9999) <= RESERVE_TOP_N
 
     # 2. Latest week of official injury reports
     inj = data["injuries"]
@@ -190,7 +210,7 @@ def main():
             "id": r["gsis_id"], "name": r["full_name"], "pos": r["position"], "team": r["team"],
             "status": RESERVE_CODES[r["status_description_abbr"]],
             "injury": last_injury.get(r["gsis_id"], "Undisclosed"),
-            "practice": "", "rank": ros_rank.get(key), "dyn_rank": dyn_rank.get(key),
+            "practice": "", "rank": top.get(key), "dyn_rank": dyn_rank.get(key),
             "ir_week": ir_since[r["gsis_id"]],
         }
 
@@ -290,14 +310,14 @@ def main():
         json.dump(log, f, indent=1)
 
     payload = {
-        "season": SEASON, "week": week,
+        "season": SEASON, "week": week, "rank_source": rank_source,
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
         "players": out,
     }
     # Only rewrite the file when the player list itself changed
     old = load_json(OUT_PATH, {})
-    if old.get("players") == out and old.get("week") == week:
+    if old.get("players") == out and old.get("week") == week and old.get("rank_source") == rank_source:
         print("No change in player list.")
         return
     with open(OUT_PATH, "w") as f:

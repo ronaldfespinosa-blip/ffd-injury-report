@@ -26,9 +26,14 @@ URLS = {
     "ecr":      "https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_fpecr_latest.csv",
 }
 RANK_PAGE = "/nfl/rankings/ros-ppr-overall.php"   # rest-of-season PPR consensus
-TOP_N = 200
+DYNASTY_PAGE = "/nfl/rankings/dynasty-overall.php"  # keeps long-term injured players ROS drops
+TOP_N = 200          # players on the weekly injury report
+RESERVE_TOP_N = 250  # IR/PUP players: ROS top 250 OR dynasty top 250
+RESERVE_CODES = {"R01": "IR", "R48": "IR", "R04": "PUP"}
 OFFENSE = {"QB", "RB", "WR", "TE"}
-SEVERITY = {"IR": 0, "Out": 1, "Doubtful": 2, "Questionable": 3}
+# Page order: this week's decisions first, stashed IR/PUP players last
+SEVERITY = {"Out": 0, "Doubtful": 1, "Questionable": 2, "Practicing": 3, "Cleared": 4, "IR": 5, "PUP": 5}
+REPORT_STATUSES = {"Out", "Doubtful", "Questionable"}
 OUT_PATH = "data/injury-report.json"
 TIMELINES_PATH = "data/return-timelines.json"
 LOG_PATH = "data/practice-log.json"
@@ -83,6 +88,19 @@ def practice_window(games, week):
     return windows
 
 
+def final_report_day(games, week):
+    """Team -> ET date of its final injury report (the one that sets game statuses)."""
+    finals = {}
+    for g in games:
+        if g["season"] != str(SEASON) or g["week"] != str(week):
+            continue
+        gd = date.fromisoformat(g["gameday"])
+        day = gd - timedelta(1 if g["weekday"] == "Thursday" else 2)
+        for team in (g["home_team"], g["away_team"]):
+            finals[team] = day
+    return finals
+
+
 def main():
     data = {k: fetch_csv(u) for k, u in URLS.items()}
     timelines = load_json(TIMELINES_PATH, {"injuries": [], "fallback": {}})
@@ -91,12 +109,16 @@ def main():
     # 1. Consensus top 200 (offense only), keyed by name + position
     ranks = [r for r in data["ecr"] if r["fp_page"] == RANK_PAGE]
     ranks.sort(key=lambda r: float(r["ecr"]))
-    top = {}
-    for i, r in enumerate(ranks[:TOP_N], start=1):
-        if r["pos"] in OFFENSE:
-            top[(norm(r["player"]), r["pos"])] = i
+    ros_rank = {(norm(r["player"]), r["pos"]): i for i, r in enumerate(ranks, start=1) if r["pos"] in OFFENSE}
+    top = {k: v for k, v in ros_rank.items() if v <= TOP_N}
     if len(top) < 100:
         sys.exit(f"Rankings look wrong ({len(top)} offensive players). Not overwriting.")
+    dyn = [r for r in data["ecr"] if r["fp_page"] == DYNASTY_PAGE]
+    dyn.sort(key=lambda r: float(r["ecr"]))
+    dyn_rank = {(norm(r["player"]), r["pos"]): i for i, r in enumerate(dyn, start=1) if r["pos"] in OFFENSE}
+
+    def reserve_relevant(key):
+        return ros_rank.get(key, 9999) <= RESERVE_TOP_N or dyn_rank.get(key, 9999) <= RESERVE_TOP_N
 
     # 2. Latest week of official injury reports
     inj = data["injuries"]
@@ -121,53 +143,65 @@ def main():
         if code and today_et in windows.get(r["team"], ()):
             log["players"].setdefault(r["gsis_id"], {})[today_et.isoformat()] = code
 
+    # A team's final report is out once any of its players has a game status,
+    # or once its final-report day has passed.
+    finals = final_report_day(data["games"], week)
+    final_out = {r["team"] for r in inj if int(r["week"]) == week and r["report_status"]}
+    final_out |= {t for t, d in finals.items() if today_et > d}
+
     rows = {}
     for r in inj:
         if int(r["week"]) != week or r["position"] not in OFFENSE:
             continue
-        status = r["report_status"]
-        if status not in SEVERITY:
-            continue
         key = (norm(r["full_name"]), r["position"])
         if key not in top:
             continue
+        status = r["report_status"]
+        label = r["report_primary_injury"] or r["practice_primary_injury"] or ""
+        if status not in REPORT_STATUSES:
+            if label.lower().startswith("not injury related"):
+                continue          # veteran rest days and personal days without a designation
+            status = "Cleared" if r["team"] in final_out else "Practicing"
         rows[r["gsis_id"]] = {
             "id": r["gsis_id"], "name": r["full_name"], "pos": r["position"], "team": r["team"],
             "status": status, "injury": r["report_primary_injury"] or r["practice_primary_injury"] or "Undisclosed",
             "practice": r["practice_status"], "rank": top[key],
+            "status_day": finals[r["team"]].strftime("%a") if r["team"] in finals else "",
         }
 
-    # 3. Injured reserve from weekly rosters (IR players drop off the weekly report)
+    # 3. Injured reserve and PUP from weekly rosters (these players drop off the weekly report)
     ros = data["rosters"]
     roster_week = max(int(r["week"]) for r in ros)
     ir_since = {}
     for r in sorted(ros, key=lambda r: int(r["week"])):
-        if r["status"] == "RES" and r["status_description_abbr"] in ("R01", "R48"):
+        if r["status"] == "RES" and r["status_description_abbr"] in RESERVE_CODES:
             ir_since.setdefault(r["gsis_id"], int(r["week"]))
         elif r["status"] == "ACT":
             ir_since.pop(r["gsis_id"], None)
     for r in ros:
         if int(r["week"]) != roster_week or r["gsis_id"] not in ir_since or r["position"] not in OFFENSE:
             continue
-        if r["status"] != "RES":
+        if r["status"] != "RES" or r["status_description_abbr"] not in RESERVE_CODES:
             continue
         key = (norm(r["full_name"]), r["position"])
-        if key not in top:
+        if not reserve_relevant(key):
             continue
         rows[r["gsis_id"]] = {
             "id": r["gsis_id"], "name": r["full_name"], "pos": r["position"], "team": r["team"],
-            "status": "IR", "injury": last_injury.get(r["gsis_id"], "Undisclosed"),
-            "practice": "", "rank": top[key], "ir_week": ir_since[r["gsis_id"]],
+            "status": RESERVE_CODES[r["status_description_abbr"]],
+            "injury": last_injury.get(r["gsis_id"], "Undisclosed"),
+            "practice": "", "rank": ros_rank.get(key), "dyn_rank": dyn_rank.get(key),
+            "ir_week": ir_since[r["gsis_id"]],
         }
 
     # 4. Latest depth chart snapshot -> next healthy player at the same spot
     dc = data["depth"]
     latest = max(r["dt"] for r in dc)
     chart = [r for r in dc if r["dt"] == latest and r["pos_abb"] in OFFENSE]
-    unavailable = {gid for gid, x in rows.items() if x["status"] in ("IR", "Out")}
+    unavailable = {gid for gid, x in rows.items() if x["status"] in ("IR", "PUP", "Out")}
 
     def backup_for(p):
-        if p["status"] == "IR":
+        if p["status"] in ("IR", "PUP", "Cleared"):
             return ""
         mine = [c for c in chart if c["gsis_id"] == p["id"]]
         same_team = [c for c in chart if c["team"] == p["team"] and c["pos_abb"] == p["pos"]]
@@ -185,8 +219,12 @@ def main():
 
     # 5. Return window from league rules, not guesses
     def back_text(p):
-        if p["status"] == "IR":
+        if p["status"] in ("IR", "PUP"):
             return f"Eligible Week {p['ir_week'] + 4}"
+        if p["status"] == "Cleared":
+            return "Expected to play"
+        if p["status"] == "Practicing":
+            return f"Status due {p['status_day']}" if p.get("status_day") else "Status due Friday"
         if p["status"] == "Out":
             return f"Out Week {week}"
         if p["status"] == "Doubtful":
@@ -200,8 +238,10 @@ def main():
                      timelines.get("fallback", {}))
         lo = entry.get("min", 0)
         hi = entry.get("qb_max", entry.get("max", 2)) if p["pos"] == "QB" else entry.get("max", 2)
-        if p["status"] == "IR":
-            typical = "IR: 4+ games"
+        if p["status"] in ("IR", "PUP"):
+            typical = f"{p['status']}: 4+ games"
+        elif p["status"] == "Cleared":
+            typical = "\u2014"
         else:
             if p["status"] in ("Out", "Doubtful"):
                 lo, hi = max(lo, 1), max(hi, 1)
@@ -218,11 +258,11 @@ def main():
     # 7. Condition, hospital-chart style, from game status + latest practice
     def condition_for(p):
         code = PRACTICE_CODES.get(p["practice"], "")
-        if p["status"] in ("IR", "Out"):
+        if p["status"] in ("IR", "PUP", "Out"):
             return "Critical"
         if p["status"] == "Doubtful" or code == "DNP":
             return "Serious"
-        if code == "FP":
+        if code == "FP" or p["status"] == "Cleared":
             return "Good"
         return "Fair"
 
@@ -240,10 +280,11 @@ def main():
             "practice_code": PRACTICE_CODES.get(p["practice"], ""),
             "trail": trail_for(p),
             "back": back_text(p), "pickup": backup_for(p), "rank": p["rank"],
+            "dyn_rank": p.get("dyn_rank"),
         }
         item.update(timeline_for(p))
         out.append(item)
-    out.sort(key=lambda x: (SEVERITY[x["status"]], x["rank"]))
+    out.sort(key=lambda x: (SEVERITY[x["status"]], x["rank"] or 1000 + (x["dyn_rank"] or 999)))
 
     with open(LOG_PATH, "w") as f:
         json.dump(log, f, indent=1)

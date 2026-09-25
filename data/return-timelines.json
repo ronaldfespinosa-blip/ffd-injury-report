@@ -1,0 +1,142 @@
+{
+ "about": "Typical games missed for players who land on the weekly injury report (not IR). 'study' rows are backed by NFL research; 'estimate' rows are FFD estimates from general sports-medicine ranges. Edit numbers or notes here; the injury job picks them up on its next run.",
+ "injuries": [
+  {
+   "match": ["hamstring"],
+   "min": 0, "max": 3, "qb_max": 2,
+   "reinjury": "High",
+   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "evidence": "study",
+   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/39649523/"
+  },
+  {
+   "match": ["concussion"],
+   "min": 0, "max": 2,
+   "reinjury": "Low",
+   "note": "NFL players missed a median of 9 days after a concussion. 59% missed at least one game, and only 38% concussed on a Sunday played the next Sunday.",
+   "evidence": "study",
+   "source": "Return to Full Participation Following Concussion in the NFL, 2015-2020 (Clin J Sport Med 2022)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/36315827/"
+  },
+  {
+   "match": ["ankle"],
+   "min": 0, "max": 3,
+   "reinjury": "Moderate",
+   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
+   "evidence": "study",
+   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/"
+  },
+  {
+   "match": ["knee", "mcl", "pcl"],
+   "min": 0, "max": 3,
+   "reinjury": "Moderate",
+   "note": "'Knee' covers everything from a bruise to a torn ligament. Most MCL sprains cost 2-6 weeks; ACL tears go straight to IR.",
+   "evidence": "study",
+   "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
+   "url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135"
+  },
+  {
+   "match": ["calf"],
+   "min": 0, "max": 3,
+   "reinjury": "Moderate",
+   "note": "Calf strains took about 2.5 weeks to return from in one NFL team's data, and they tend to linger.",
+   "evidence": "study",
+   "source": "Acute Gastrocnemius-Soleus Complex Injuries in NFL Athletes (PMC5298443)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5298443/"
+  },
+  {
+   "match": ["foot"],
+   "min": 0, "max": 2,
+   "reinjury": "Moderate",
+   "note": "Mild midfoot sprains cost NFL players about 3 days; moderate ones about 5 weeks.",
+   "evidence": "study",
+   "source": "Midfoot sprains in the National Football League (Am J Sports Med 2014)",
+   "url": "https://vivo.weill.cornell.edu/display/pubid25490010"
+  },
+  {
+   "match": ["groin", "adductor", "core muscle", "sports hernia"],
+   "min": 0, "max": 2,
+   "reinjury": "Moderate",
+   "note": "Groin strains often limit cutting for a week or two. Core muscle surgery usually means IR.",
+   "evidence": "estimate"
+  },
+  {
+   "match": ["quad", "thigh"],
+   "min": 0, "max": 2,
+   "reinjury": "Moderate",
+   "note": "Thigh bruises usually cost little time; true quad strains behave more like hamstrings.",
+   "evidence": "estimate"
+  },
+  {
+   "match": ["achilles"],
+   "min": 0, "max": 1,
+   "reinjury": "Moderate",
+   "note": "On a weekly report this is usually soreness or tendinitis. A tear ends the season.",
+   "evidence": "estimate"
+  },
+  {
+   "match": ["toe", "heel"],
+   "min": 0, "max": 2,
+   "reinjury": "Moderate",
+   "note": "Turf toe and heel issues often linger and sap burst even when the player suits up.",
+   "evidence": "estimate"
+  },
+  {
+   "match": ["hip", "glute", "oblique", "abdomen", "back"],
+   "min": 0, "max": 2,
+   "reinjury": "Moderate",
+   "note": "Trunk and hip injuries are usually played through, but they can cap snaps.",
+   "evidence": "estimate"
+  },
+  {
+   "match": ["neck", "stinger"],
+   "min": 0, "max": 2,
+   "reinjury": "Moderate",
+   "note": "Stingers usually clear in days. Neck injuries that need imaging can mean IR.",
+   "evidence": "estimate"
+  },
+  {
+   "match": ["shoulder"],
+   "min": 0, "max": 2,
+   "reinjury": "Moderate",
+   "note": "AC sprains are often played through with padding. Dislocations tend to recur.",
+   "evidence": "estimate"
+  },
+  {
+   "match": ["rib", "chest", "pectoral"],
+   "min": 0, "max": 2,
+   "reinjury": "Low",
+   "note": "Rib injuries are painful but often played through with a flak jacket. Pec tears go to IR.",
+   "evidence": "estimate"
+  },
+  {
+   "match": ["hand", "finger", "thumb", "wrist", "elbow", "forearm"],
+   "min": 0, "max": 1, "qb_max": 2,
+   "reinjury": "Low",
+   "note": "Skill players usually play with a wrap or cast. It matters more for a QB's throwing hand.",
+   "evidence": "estimate"
+  },
+  {
+   "match": ["illness"],
+   "min": 0, "max": 1,
+   "reinjury": "Low",
+   "note": "Most illnesses cost a practice or two, rarely a game.",
+   "evidence": "estimate"
+  },
+  {
+   "match": ["personal", "resting", "non-injury", "not injury"],
+   "min": 0, "max": 1,
+   "reinjury": "None",
+   "note": "Not an injury.",
+   "evidence": "estimate"
+  }
+ ],
+ "fallback": {
+  "min": 0, "max": 2,
+  "reinjury": "Unknown",
+  "note": "Team hasn't said what the injury is, or it doesn't match our table yet.",
+  "evidence": "estimate"
+ }
+}

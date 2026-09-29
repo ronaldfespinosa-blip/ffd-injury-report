@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 3,
  "rank_source": "Doc's Top 200",
- "generated": "2026-09-29T04:05:27Z",
+ "generated": "2026-09-29T06:31:49Z",
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -51,7 +51,7 @@
     }
    ],
    "back": "Out Week 3",
-   "pickup": "Tyson Bagent",
+   "pickup": "Case Keenum",
    "rank": 99,
    "dyn_rank": null,
    "typical": "1\u20132 games",
@@ -107,7 +107,7 @@
     }
    ],
    "back": "Out Week 3",
-   "pickup": "Johnny Mundt",
+   "pickup": "Zach Ertz",
    "rank": 107,
    "dyn_rank": null,
    "typical": "1\u20133 games",
@@ -154,7 +154,7 @@
    "practice_code": "DNP",
    "trail": [],
    "back": "Out Week 3",
-   "pickup": "Bo Melton",
+   "pickup": "J. Michael Sturdivant",
    "rank": 144,
    "dyn_rank": null,
    "typical": "1\u20132 games",

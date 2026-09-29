@@ -319,7 +319,7 @@ def main():
     old = load_json(OUT_PATH, {})
     if old.get("players") == out and old.get("week") == week and old.get("rank_source") == rank_source:
         print("No change in player list.")
-        return
+       
     with open(OUT_PATH, "w") as f:
         json.dump(payload, f, indent=1)
     print(f"Week {week}: {len(out)} players written to {OUT_PATH}")

@@ -6,6 +6,8 @@ Runs on GitHub Actions on a schedule. Pulls:
   * Weekly roster status (for injured reserve) via nflverse
   * Depth charts and the season schedule via nflverse
   * FantasyPros expert consensus rankings via DynastyProcess
+  * Sleeper's player feed, for injuries announced after games (a torn ACL on
+    Sunday) that the official reports and roster moves don't carry yet
 and writes data/injury-report.json, which the WordPress block reads.
 
 Also reads data/return-timelines.json (typical games missed + re-injury risk,
@@ -26,6 +28,8 @@ URLS = {
     "ecr":      "https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_fpecr_latest.csv",
 }
 # Doc's own Top 200 lives on the Rankings page (the same list Doc's Top 10 on the homepage reads)
+SLEEPER_URL = "https://api.sleeper.app/v1/players/nfl"
+SLEEPER_STATUS = {"Out": "Out", "Doubtful": "Doubtful", "Questionable": "Questionable", "IR": "IR", "PUP": "PUP"}
 DOC_RANKINGS_URL = "https://fantasyfootballdoctor.com/wp-json/wp/v2/pages/36?_fields=content,modified"
 RANK_PAGE = "/nfl/rankings/ros-ppr-overall.php"   # rest-of-season PPR consensus
 DYNASTY_PAGE = "/nfl/rankings/dynasty-overall.php"  # keeps long-term injured players ROS drops
@@ -64,6 +68,17 @@ def fetch_doc_top200():
         return {(norm(row[1]), row[2]): int(row[0]) for row in rows if row[2] in OFFENSE}
     except Exception as err:
         print(f"Could not read Doc's Top 200 ({err}); falling back to FantasyPros.")
+        return {}
+
+
+def fetch_sleeper():
+    """Sleeper players: {player_id: {...}}. Returns {} if it can't be read (the report still builds)."""
+    try:
+        req = urllib.request.Request(SLEEPER_URL, headers={"User-Agent": "ffd-injury-report"})
+        with urllib.request.urlopen(req, timeout=120) as r:
+            return json.loads(r.read().decode("utf-8"))
+    except Exception as err:
+        print(f"Could not read Sleeper ({err}); using official reports only.")
         return {}
 
 
@@ -214,6 +229,43 @@ def main():
             "ir_week": ir_since[r["gsis_id"]],
         }
 
+    # 3a. Injuries announced after a team's game (Sleeper), before the next official report or IR move.
+    #     Official data always wins: only players the official data doesn't list, and only for teams
+    #     that have already played this week (their next report isn't out yet).
+    team_gameday = {}
+    for g in data["games"]:
+        if g["season"] == str(SEASON) and g["week"] == str(week):
+            for t in (g["home_team"], g["away_team"]):
+                team_gameday[t] = date.fromisoformat(g["gameday"])
+    listed_names = {(norm(x["name"]), x["pos"]) for x in rows.values()}
+    news_added = 0
+    for sp in fetch_sleeper().values():
+        if not isinstance(sp, dict):
+            continue
+        status = SLEEPER_STATUS.get(sp.get("injury_status") or "")
+        pos, team = sp.get("position"), sp.get("team")
+        if not status or pos not in OFFENSE or not team:
+            continue
+        gid = (sp.get("gsis_id") or "").strip()
+        name = sp.get("full_name") or f"{sp.get('first_name', '')} {sp.get('last_name', '')}".strip()
+        key = (norm(name), pos)
+        if gid in rows or key in listed_names:
+            continue
+        played = team in team_gameday and today_et > team_gameday[team]
+        if not played:
+            continue
+        if not (key in top if status not in ("IR", "PUP") else reserve_relevant(key)):
+            continue
+        part = (sp.get("injury_body_part") or "").strip()
+        rows[gid or f"sleeper-{sp.get('player_id')}"] = {
+            "id": gid, "name": name, "pos": pos, "team": team,
+            "status": status, "injury": part[:1].upper() + part[1:] if part else "Undisclosed",
+            "practice": "", "rank": top.get(key), "dyn_rank": dyn_rank.get(key),
+            "ir_week": week + 1, "wk": week + 1, "news": True,
+        }
+        news_added += 1
+    print(f"Sleeper: added {news_added} post-game injuries not yet on official reports.")
+
     # 4. Latest depth chart snapshot -> next healthy player at the same spot
     dc = data["depth"]
     latest = max(r["dt"] for r in dc)
@@ -245,10 +297,11 @@ def main():
             return "Expected to play"
         if p["status"] == "Practicing":
             return f"Status due {p['status_day']}" if p.get("status_day") else "Status due Friday"
+        wk = p.get("wk", week)
         if p["status"] == "Out":
-            return f"Out Week {week}"
+            return f"Out Week {wk}"
         if p["status"] == "Doubtful":
-            return f"Unlikely Week {week}"
+            return f"Unlikely Week {wk}"
         return "Game-time call"
 
     # 6. Typical games missed + re-injury risk from the lookup table
@@ -302,6 +355,8 @@ def main():
             "back": back_text(p), "pickup": backup_for(p), "rank": p["rank"],
             "dyn_rank": p.get("dyn_rank"),
         }
+        if p.get("news"):
+            item["news"] = True   # reported by the team/media; not on an official NFL report yet
         item.update(timeline_for(p))
         out.append(item)
     out.sort(key=lambda x: (SEVERITY[x["status"]], x["rank"] or 1000 + (x["dyn_rank"] or 999)))
@@ -312,13 +367,10 @@ def main():
     payload = {
         "season": SEASON, "week": week, "rank_source": rank_source,
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
+        "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
         "players": out,
     }
-    # Only rewrite the file when the player list itself changed
-    old = load_json(OUT_PATH, {})
-    if old.get("players") == out and old.get("week") == week and old.get("rank_source") == rank_source:
-        print("No change in player list.")
+    # Rewrite every run so "Updated" on the page shows the latest check
        
     with open(OUT_PATH, "w") as f:
         json.dump(payload, f, indent=1)

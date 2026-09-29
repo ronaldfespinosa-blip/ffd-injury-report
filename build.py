@@ -30,6 +30,8 @@ URLS = {
 # Doc's own Top 200 lives on the Rankings page (the same list Doc's Top 10 on the homepage reads)
 SLEEPER_URL = "https://api.sleeper.app/v1/players/nfl"
 SLEEPER_STATUS = {"Out": "Out", "Doubtful": "Doubtful", "Questionable": "Questionable", "IR": "IR", "PUP": "PUP"}
+SLEEPER_CACHE = "data/sleeper-injuries.json"
+SLEEPER_HOUR_ET = 7   # Sleeper asks for this download at most once a day: first run after 7am ET
 DOC_RANKINGS_URL = "https://fantasyfootballdoctor.com/wp-json/wp/v2/pages/36?_fields=content,modified"
 RANK_PAGE = "/nfl/rankings/ros-ppr-overall.php"   # rest-of-season PPR consensus
 DYNASTY_PAGE = "/nfl/rankings/dynasty-overall.php"  # keeps long-term injured players ROS drops
@@ -78,8 +80,39 @@ def fetch_sleeper():
         with urllib.request.urlopen(req, timeout=120) as r:
             return json.loads(r.read().decode("utf-8"))
     except Exception as err:
-        print(f"Could not read Sleeper ({err}); using official reports only.")
+        print(f"Could not read Sleeper ({err}); using the saved copy.")
         return {}
+
+
+def sleeper_injuries():
+    """Injured offensive players from Sleeper, downloaded once a day and saved in data/sleeper-injuries.json
+    so the other runs reuse the saved copy (Sleeper asks for this download at most once a day)."""
+    cache = load_json(SLEEPER_CACHE, {})
+    now_et = datetime.now(ET)
+    fetched = cache.get("fetched_et", "")[:10]
+    due = fetched != now_et.date().isoformat() and (now_et.hour >= SLEEPER_HOUR_ET or not fetched)
+    if not due:
+        print(f"Sleeper: using saved copy from {cache.get('fetched_et')}.")
+        return cache.get("players", [])
+    raw = fetch_sleeper()
+    if not raw:
+        return cache.get("players", [])
+    players = []
+    for sp in raw.values():
+        if not isinstance(sp, dict) or sp.get("position") not in OFFENSE or not sp.get("team"):
+            continue
+        if (sp.get("injury_status") or "") not in SLEEPER_STATUS:
+            continue
+        players.append({
+            "id": (sp.get("gsis_id") or "").strip(), "sleeper_id": sp.get("player_id"),
+            "name": sp.get("full_name") or f"{sp.get('first_name', '')} {sp.get('last_name', '')}".strip(),
+            "pos": sp["position"], "team": sp["team"], "status": sp["injury_status"],
+            "part": (sp.get("injury_body_part") or "").strip(),
+        })
+    with open(SLEEPER_CACHE, "w") as f:
+        json.dump({"fetched_et": now_et.strftime("%Y-%m-%dT%H:%M"), "players": players}, f, indent=1)
+    print(f"Sleeper: downloaded today's copy ({len(players)} injured offensive players).")
+    return players
 
 
 def load_json(path, default):
@@ -239,30 +272,32 @@ def main():
                 team_gameday[t] = date.fromisoformat(g["gameday"])
     listed_names = {(norm(x["name"]), x["pos"]) for x in rows.values()}
     news_added = 0
-    for sp in fetch_sleeper().values():
-        if not isinstance(sp, dict):
-            continue
-        status = SLEEPER_STATUS.get(sp.get("injury_status") or "")
-        pos, team = sp.get("position"), sp.get("team")
-        if not status or pos not in OFFENSE or not team:
-            continue
-        gid = (sp.get("gsis_id") or "").strip()
-        name = sp.get("full_name") or f"{sp.get('first_name', '')} {sp.get('last_name', '')}".strip()
+    for sp in sleeper_injuries():
+        status = SLEEPER_STATUS.get(sp["status"])
+        gid, team, pos, name = sp["id"], sp["team"], sp["pos"], sp["name"]
         key = (norm(name), pos)
         if gid in rows or key in listed_names:
             continue
-        played = team in team_gameday and today_et > team_gameday[team]
-        if not played:
+        if not (team in team_gameday and today_et > team_gameday[team]):
             continue
-        if not (key in top if status not in ("IR", "PUP") else reserve_relevant(key)):
+        reserve = status in ("IR", "PUP")
+        if not (reserve_relevant(key) if reserve else key in top):
             continue
-        part = (sp.get("injury_body_part") or "").strip()
-        rows[gid or f"sleeper-{sp.get('player_id')}"] = {
+        part = sp["part"]
+        row = {
             "id": gid, "name": name, "pos": pos, "team": team,
-            "status": status, "injury": part[:1].upper() + part[1:] if part else "Undisclosed",
-            "practice": "", "rank": top.get(key), "dyn_rank": dyn_rank.get(key),
-            "ir_week": week + 1, "wk": week + 1, "news": True,
+            "injury": part[:1].upper() + part[1:] if part else "Undisclosed",
+            "practice": "", "rank": top.get(key), "dyn_rank": dyn_rank.get(key), "news": True,
         }
+        if reserve:
+            row.update(status=status, ir_week=week + 1)
+        else:
+            # Sleeper's Out/Questionable here usually means he left the game, not a ruling for next week.
+            # Show it as hurt with next week's status to come, until the official report says more.
+            row.update(status="Practicing", status_day="",
+                       back=f"Hurt Week {week}. Week {week + 1} status TBD",
+                       cond="Serious" if status in ("Out", "Doubtful") else "Fair")
+        rows[gid or f"sleeper-{sp['sleeper_id']}"] = row
         news_added += 1
     print(f"Sleeper: added {news_added} post-game injuries not yet on official reports.")
 
@@ -291,6 +326,8 @@ def main():
 
     # 5. Return window from league rules, not guesses
     def back_text(p):
+        if p.get("back"):
+            return p["back"]
         if p["status"] in ("IR", "PUP"):
             return f"Eligible Week {p['ir_week'] + 4}"
         if p["status"] == "Cleared":
@@ -330,6 +367,8 @@ def main():
 
     # 7. Condition, hospital-chart style, from game status + latest practice
     def condition_for(p):
+        if p.get("cond"):
+            return p["cond"]
         code = PRACTICE_CODES.get(p["practice"], "")
         if p["status"] in ("IR", "PUP", "Out"):
             return "Critical"

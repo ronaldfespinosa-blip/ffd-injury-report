@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-10-01T08:34",
+ "fetched_et": "2026-10-02T08:33",
  "players": [
   {
    "id": "",
@@ -129,6 +129,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "6790",
+   "name": "D'Andre Swift",
+   "pos": "RB",
+   "team": "CHI",
+   "status": "Questionable",
+   "part": "Knee"
+  },
+  {
+   "id": "",
    "sleeper_id": "11635",
    "name": "Ladd McConkey",
    "pos": "WR",
@@ -153,15 +162,6 @@
    "team": "SF",
    "status": "Questionable",
    "part": "Knee"
-  },
-  {
-   "id": "00-0033921",
-   "sleeper_id": "4037",
-   "name": "Chris Godwin",
-   "pos": "WR",
-   "team": "TB",
-   "status": "Questionable",
-   "part": "Ankle"
   },
   {
    "id": "",
@@ -251,15 +251,6 @@
    "pos": "RB",
    "team": "NE",
    "status": "IR",
-   "part": "Undisclosed"
-  },
-  {
-   "id": "00-0034796",
-   "sleeper_id": "4881",
-   "name": "Lamar Jackson",
-   "pos": "QB",
-   "team": "BAL",
-   "status": "Questionable",
    "part": "Undisclosed"
   },
   {
@@ -444,6 +435,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "13299",
+   "name": "Nate Boerkircher",
+   "pos": "TE",
+   "team": "JAX",
+   "status": "Questionable",
+   "part": "Illness"
+  },
+  {
+   "id": "",
    "sleeper_id": "8206",
    "name": "Skylar Thompson",
    "pos": "QB",
@@ -495,6 +495,15 @@
    "team": "GB",
    "status": "IR",
    "part": "Undisclosed"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13423",
+   "name": "Eli Heidenreich",
+   "pos": "RB",
+   "team": "PIT",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -585,15 +594,6 @@
    "team": "NYG",
    "status": "IR",
    "part": "Achilles"
-  },
-  {
-   "id": "00-0035261",
-   "sleeper_id": "5967",
-   "name": "Tony Pollard",
-   "pos": "RB",
-   "team": "TEN",
-   "status": "Questionable",
-   "part": "Ankle"
   },
   {
    "id": "",
@@ -705,6 +705,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "12511",
+   "name": "Will Howard",
+   "pos": "QB",
+   "team": "PIT",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "13355",
    "name": "DJ Rogers",
    "pos": "TE",
@@ -765,6 +774,15 @@
    "team": "NO",
    "status": "IR",
    "part": "Knee"
+  },
+  {
+   "id": "00-0030279",
+   "sleeper_id": "1479",
+   "name": "Keenan Allen",
+   "pos": "WR",
+   "team": "IND",
+   "status": "Questionable",
+   "part": "Groin"
   },
   {
    "id": "",
@@ -862,7 +880,7 @@
    "name": "Travis Etienne",
    "pos": "RB",
    "team": "NO",
-   "status": "Out",
+   "status": "IR",
    "part": "Hamstring"
   },
   {
@@ -1010,6 +1028,15 @@
    "part": "Ankle"
   },
   {
+   "id": "00-0035644",
+   "sleeper_id": "5857",
+   "name": "Noah Fant",
+   "pos": "TE",
+   "team": "NO",
+   "status": "Questionable",
+   "part": "Abdomen"
+  },
+  {
    "id": "",
    "sleeper_id": "13477",
    "name": "Colbie Young",
@@ -1055,15 +1082,6 @@
    "part": "Knee - ACL"
   },
   {
-   "id": "00-0034798",
-   "sleeper_id": "5008",
-   "name": "Durham Smythe",
-   "pos": "TE",
-   "team": "BAL",
-   "status": "Questionable",
-   "part": "Heel"
-  },
-  {
    "id": "00-0035045",
    "sleeper_id": "6453",
    "name": "D.J. Montgomery",
@@ -1089,15 +1107,6 @@
    "team": "JAX",
    "status": "Questionable",
    "part": "Hip"
-  },
-  {
-   "id": "",
-   "sleeper_id": "9997",
-   "name": "Zay Flowers",
-   "pos": "WR",
-   "team": "BAL",
-   "status": "Questionable",
-   "part": "Hamstring"
   },
   {
    "id": "",
@@ -1227,6 +1236,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "13306",
+   "name": "Taylen Green",
+   "pos": "QB",
+   "team": "CLE",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "13435",
    "name": "Joe Royer",
    "pos": "TE",
@@ -1245,21 +1263,21 @@
   },
   {
    "id": "",
+   "sleeper_id": "13289",
+   "name": "Drew Allar",
+   "pos": "QB",
+   "team": "PIT",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "11566",
    "name": "Jayden Daniels",
    "pos": "QB",
    "team": "WAS",
    "status": "Questionable",
    "part": "Elbow"
-  },
-  {
-   "id": "",
-   "sleeper_id": "11643",
-   "name": "Jaylen Wright",
-   "pos": "RB",
-   "team": "MIA",
-   "status": "Questionable",
-   "part": "Foot"
   },
   {
    "id": "00-0033885",
@@ -1298,13 +1316,13 @@
    "part": "Undisclosed"
   },
   {
-   "id": "00-0035021",
-   "sleeper_id": "6427",
-   "name": "Ashton Dulin",
-   "pos": "WR",
-   "team": "IND",
-   "status": "Questionable",
-   "part": "Ankle"
+   "id": "",
+   "sleeper_id": "13437",
+   "name": "Noah Whittington",
+   "pos": "RB",
+   "team": "HOU",
+   "status": "Out",
+   "part": "Quadriceps"
   },
   {
    "id": "",

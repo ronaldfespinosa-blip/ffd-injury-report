@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 4,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-02T12:33:06Z",
+ "generated": "2026-10-02T15:29:35Z",
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -1363,6 +1363,27 @@
    "evidence": "estimate",
    "source": "",
    "source_url": ""
+  },
+  {
+   "name": "Travis Etienne",
+   "pos": "RB",
+   "team": "NO",
+   "status": "IR",
+   "condition": "Critical",
+   "injury": "Hamstring",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Eligible Week 8",
+   "pickup": "",
+   "rank": 69,
+   "dyn_rank": 77,
+   "typical": "IR: 4+ games",
+   "reinjury": "High",
+   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "evidence": "study",
+   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/"
   },
   {
    "name": "Jordan Mason",

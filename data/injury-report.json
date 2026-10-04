@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 4,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-04T12:26:41Z",
+ "generated": "2026-10-04T20:42:05Z",
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -402,7 +402,7 @@
    "practice_code": "LP",
    "trail": [],
    "back": "Game-time call",
-   "pickup": "Dyami Brown",
+   "pickup": "Treylon Burks",
    "rank": 49,
    "dyn_rank": null,
    "typical": "0\u20133 games",

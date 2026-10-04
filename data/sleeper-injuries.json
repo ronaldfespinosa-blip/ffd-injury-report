@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-10-03T11:03",
+ "fetched_et": "2026-10-04T08:26",
  "players": [
   {
    "id": "",
@@ -9,15 +9,6 @@
    "team": "BAL",
    "status": "IR",
    "part": "Undisclosed"
-  },
-  {
-   "id": "00-0033217",
-   "sleeper_id": "4054",
-   "name": "Mo Alie-Cox",
-   "pos": "TE",
-   "team": "IND",
-   "status": "Questionable",
-   "part": "Illness"
   },
   {
    "id": "",
@@ -327,6 +318,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "11650",
+   "name": "Luke McCaffrey",
+   "pos": "WR",
+   "team": "WAS",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "13296",
    "name": "Caleb Douglas",
    "pos": "WR",
@@ -502,7 +502,7 @@
    "name": "Jadarian Price",
    "pos": "RB",
    "team": "SEA",
-   "status": "Out",
+   "status": "IR",
    "part": "Chest"
   },
   {
@@ -531,6 +531,15 @@
    "team": "KC",
    "status": "IR",
    "part": "Knee"
+  },
+  {
+   "id": "",
+   "sleeper_id": "12470",
+   "name": "Riley Leonard",
+   "pos": "QB",
+   "team": "IND",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "00-0034351",
@@ -603,15 +612,6 @@
    "team": "NE",
    "status": "IR",
    "part": "Knee"
-  },
-  {
-   "id": "",
-   "sleeper_id": "10866",
-   "name": "Aidan O'Connell",
-   "pos": "QB",
-   "team": "LV",
-   "status": "Questionable",
-   "part": "Personal"
   },
   {
    "id": "",
@@ -777,15 +777,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "13533",
-   "name": "Barion Brown",
-   "pos": "WR",
-   "team": "NO",
-   "status": "Questionable",
-   "part": "Hamstring"
-  },
-  {
-   "id": "",
    "sleeper_id": "11583",
    "name": "Jonathon Brooks",
    "pos": "RB",
@@ -808,7 +799,7 @@
    "name": "Terry McLaurin",
    "pos": "WR",
    "team": "WAS",
-   "status": "Doubtful",
+   "status": "Out",
    "part": "Hamstring"
   },
   {
@@ -889,7 +880,7 @@
    "name": "Xavier Legette",
    "pos": "WR",
    "team": "CAR",
-   "status": "Out",
+   "status": "IR",
    "part": "Knee"
   },
   {
@@ -963,6 +954,15 @@
    "team": "NYJ",
    "status": "Out",
    "part": "Finger"
+  },
+  {
+   "id": "",
+   "sleeper_id": "12471",
+   "name": "DJ Giddens",
+   "pos": "RB",
+   "team": "IND",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -1062,6 +1062,15 @@
    "team": "HOU",
    "status": "IR",
    "part": "Knee - ACL + MCL"
+  },
+  {
+   "id": "00-0035535",
+   "sleeper_id": "6149",
+   "name": "Darius Slayton",
+   "pos": "WR",
+   "team": "IND",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "",

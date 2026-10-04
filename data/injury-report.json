@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 4,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-04T05:17:04Z",
+ "generated": "2026-10-04T12:26:41Z",
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -91,36 +91,6 @@
    "typical": "1\u20132 games",
    "reinjury": "Moderate",
    "note": "Thigh bruises usually cost little time; true quad strains behave more like hamstrings.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": ""
-  },
-  {
-   "name": "Jadarian Price",
-   "pos": "RB",
-   "team": "SEA",
-   "status": "Out",
-   "condition": "Critical",
-   "injury": "Chest",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Thu",
-     "s": "LP"
-    },
-    {
-     "d": "Fri",
-     "s": "LP"
-    }
-   ],
-   "back": "Out Week 4",
-   "pickup": "Emanuel Wilson",
-   "rank": 65,
-   "dyn_rank": null,
-   "typical": "1\u20132 games",
-   "reinjury": "Low",
-   "note": "Rib injuries are painful but often played through with a flak jacket. Pec tears go to IR.",
    "evidence": "estimate",
    "source": "",
    "source_url": ""
@@ -240,36 +210,6 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/"
-  },
-  {
-   "name": "Terrance Ferguson",
-   "pos": "TE",
-   "team": "LA",
-   "status": "Out",
-   "condition": "Critical",
-   "injury": "Ankle",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Thu",
-     "s": "DNP"
-    },
-    {
-     "d": "Fri",
-     "s": "DNP"
-    }
-   ],
-   "back": "Out Week 4",
-   "pickup": "",
-   "rank": 145,
-   "dyn_rank": null,
-   "typical": "1\u20133 games",
-   "reinjury": "Moderate",
-   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
-   "evidence": "study",
-   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
-   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/"
   },
   {
    "name": "Adonai Mitchell",
@@ -522,7 +462,7 @@
     }
    ],
    "back": "Game-time call",
-   "pickup": "John Metchie III",
+   "pickup": "David Moore",
    "rank": 100,
    "dyn_rank": null,
    "typical": "0\u20132 games",
@@ -1437,6 +1377,36 @@
    "source_url": ""
   },
   {
+   "name": "Jadarian Price",
+   "pos": "RB",
+   "team": "SEA",
+   "status": "IR",
+   "condition": "Critical",
+   "injury": "Chest",
+   "practice": "",
+   "practice_code": "",
+   "trail": [
+    {
+     "d": "Thu",
+     "s": "LP"
+    },
+    {
+     "d": "Fri",
+     "s": "LP"
+    }
+   ],
+   "back": "Eligible Week 8",
+   "pickup": "",
+   "rank": 65,
+   "dyn_rank": 72,
+   "typical": "IR: 4+ games",
+   "reinjury": "Low",
+   "note": "Rib injuries are painful but often played through with a flak jacket. Pec tears go to IR.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": ""
+  },
+  {
    "name": "Travis Etienne",
    "pos": "RB",
    "team": "NO",
@@ -1519,6 +1489,36 @@
    "evidence": "estimate",
    "source": "",
    "source_url": ""
+  },
+  {
+   "name": "Terrance Ferguson",
+   "pos": "TE",
+   "team": "LA",
+   "status": "IR",
+   "condition": "Critical",
+   "injury": "Ankle",
+   "practice": "",
+   "practice_code": "",
+   "trail": [
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Eligible Week 8",
+   "pickup": "",
+   "rank": 145,
+   "dyn_rank": 112,
+   "typical": "IR: 4+ games",
+   "reinjury": "Moderate",
+   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
+   "evidence": "study",
+   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/"
   },
   {
    "name": "Dylan Sampson",

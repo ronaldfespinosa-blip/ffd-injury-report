@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 4,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-05T15:31:00Z",
+ "generated": "2026-10-05T18:32:56Z",
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -548,7 +548,7 @@
     }
    ],
    "back": "Game-time call",
-   "pickup": "Ashton Dulin",
+   "pickup": "Deion Burks",
    "rank": 148,
    "dyn_rank": null,
    "typical": "0\u20131 games",

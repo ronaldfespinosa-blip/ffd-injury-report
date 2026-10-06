@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 4,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-06T03:26:59Z",
+ "generated": "2026-10-06T06:33:04Z",
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -171,7 +171,7 @@
     }
    ],
    "back": "Out Week 4",
-   "pickup": "Zach Ertz",
+   "pickup": "Johnny Mundt",
    "rank": 127,
    "dyn_rank": null,
    "typical": "1\u20133 games",
@@ -621,7 +621,7 @@
    "practice_code": "",
    "trail": [],
    "back": "Hurt Week 4. Week 5 status TBD",
-   "pickup": "Tank Bigsby",
+   "pickup": "Will Shipley",
    "rank": 11,
    "dyn_rank": 61,
    "news": true,

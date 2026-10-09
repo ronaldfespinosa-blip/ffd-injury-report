@@ -1,14 +1,23 @@
 {
- "fetched_et": "2026-10-08T08:35",
+ "fetched_et": "2026-10-09T08:32",
  "players": [
+  {
+   "id": "",
+   "sleeper_id": "6786",
+   "name": "CeeDee Lamb",
+   "pos": "WR",
+   "team": "DAL",
+   "status": "Questionable",
+   "part": "Quadriceps"
+  },
   {
    "id": "00-0034860",
    "sleeper_id": "4992",
    "name": "Dante Pettis",
    "pos": "WR",
    "team": "SF",
-   "status": "Out",
-   "part": "Undisclosed"
+   "status": "Questionable",
+   "part": "Calf"
   },
   {
    "id": "",
@@ -27,15 +36,6 @@
    "team": "SF",
    "status": "IR",
    "part": "Knee"
-  },
-  {
-   "id": "",
-   "sleeper_id": "8116",
-   "name": "Pierre Strong",
-   "pos": "RB",
-   "team": "GB",
-   "status": "Questionable",
-   "part": "Hamstring"
   },
   {
    "id": "",
@@ -92,15 +92,6 @@
    "part": "Ankle"
   },
   {
-   "id": "00-0032398",
-   "sleeper_id": "3269",
-   "name": "Chris Moore",
-   "pos": "WR",
-   "team": "BAL",
-   "status": "Questionable",
-   "part": "Ankle"
-  },
-  {
    "id": "",
    "sleeper_id": "13047",
    "name": "Jacardia Wright",
@@ -117,6 +108,15 @@
    "team": "LAC",
    "status": "Questionable",
    "part": "Quadriceps"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13400",
+   "name": "Justin Joly",
+   "pos": "TE",
+   "team": "MIA",
+   "status": "Questionable",
+   "part": "Concussion"
   },
   {
    "id": "",
@@ -281,6 +281,15 @@
    "part": "Concussion"
   },
   {
+   "id": "",
+   "sleeper_id": "9486",
+   "name": "Dontayvion Wicks",
+   "pos": "WR",
+   "team": "PHI",
+   "status": "Questionable",
+   "part": "Hamstring"
+  },
+  {
    "id": "00-0034796",
    "sleeper_id": "4881",
    "name": "Lamar Jackson",
@@ -315,15 +324,6 @@
    "team": "WAS",
    "status": "IR",
    "part": "Quadriceps"
-  },
-  {
-   "id": "",
-   "sleeper_id": "12545",
-   "name": "Tyler Shough",
-   "pos": "QB",
-   "team": "NO",
-   "status": "Questionable",
-   "part": "Hand"
   },
   {
    "id": "00-0034855",
@@ -525,15 +525,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "11596",
-   "name": "Ben Sinnott",
-   "pos": "TE",
-   "team": "WAS",
-   "status": "Questionable",
-   "part": "Ribs"
-  },
-  {
-   "id": "",
    "sleeper_id": "12656",
    "name": "Robbie Ouzts",
    "pos": "RB",
@@ -585,15 +576,6 @@
    "team": "PHI",
    "status": "Questionable",
    "part": "Hamstring"
-  },
-  {
-   "id": "00-0035261",
-   "sleeper_id": "5967",
-   "name": "Tony Pollard",
-   "pos": "RB",
-   "team": "TEN",
-   "status": "Questionable",
-   "part": "Foot"
   },
   {
    "id": "",
@@ -678,12 +660,12 @@
   },
   {
    "id": "",
-   "sleeper_id": "10225",
-   "name": "Jonathan Mingo",
-   "pos": "WR",
-   "team": "DAL",
+   "sleeper_id": "12527",
+   "name": "Ashton Jeanty",
+   "pos": "RB",
+   "team": "LV",
    "status": "Questionable",
-   "part": "Illness"
+   "part": "Ankle"
   },
   {
    "id": "00-0034827",
@@ -705,15 +687,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "13414",
-   "name": "Kaelon Black",
-   "pos": "RB",
-   "team": "SF",
-   "status": "Questionable",
-   "part": "Illness"
-  },
-  {
-   "id": "",
    "sleeper_id": "10229",
    "name": "Rashee Rice",
    "pos": "WR",
@@ -732,6 +705,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "13279",
+   "name": "Carnell Tate",
+   "pos": "WR",
+   "team": "TEN",
+   "status": "Questionable",
+   "part": "Back"
+  },
+  {
+   "id": "",
    "sleeper_id": "12113",
    "name": "Thomas Yassmin",
    "pos": "TE",
@@ -747,15 +729,6 @@
    "team": "ARI",
    "status": "Questionable",
    "part": "Ankle"
-  },
-  {
-   "id": "",
-   "sleeper_id": "6869",
-   "name": "Adam Trautman",
-   "pos": "TE",
-   "team": "DEN",
-   "status": "Questionable",
-   "part": "Shoulder"
   },
   {
    "id": "",
@@ -921,15 +894,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "12718",
-   "name": "Konata Mumpfield",
-   "pos": "WR",
-   "team": "LAR",
-   "status": "Questionable",
-   "part": "Shoulder"
-  },
-  {
-   "id": "",
    "sleeper_id": "9481",
    "name": "Luke Musgrave",
    "pos": "TE",
@@ -945,6 +909,15 @@
    "team": "NO",
    "status": "IR",
    "part": "Hamstring"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13726",
+   "name": "Camden Brown",
+   "pos": "WR",
+   "team": "DAL",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -1047,12 +1020,12 @@
   },
   {
    "id": "",
-   "sleeper_id": "7571",
-   "name": "Rashod Bateman",
-   "pos": "WR",
-   "team": "BAL",
+   "sleeper_id": "12502",
+   "name": "Gunnar Helm",
+   "pos": "TE",
+   "team": "TEN",
    "status": "Questionable",
-   "part": "Shoulder"
+   "part": "Knee"
   },
   {
    "id": "00-0035659",
@@ -1173,15 +1146,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "13477",
-   "name": "Colbie Young",
-   "pos": "WR",
-   "team": "CIN",
-   "status": "Questionable",
-   "part": "Knee"
-  },
-  {
-   "id": "",
    "sleeper_id": "12484",
    "name": "Jayden Higgins",
    "pos": "WR",
@@ -1269,6 +1233,24 @@
    "team": "NYJ",
    "status": "Doubtful",
    "part": "Finger"
+  },
+  {
+   "id": "",
+   "sleeper_id": "8144",
+   "name": "Chris Olave",
+   "pos": "WR",
+   "team": "NO",
+   "status": "Questionable",
+   "part": "Foot"
+  },
+  {
+   "id": "",
+   "sleeper_id": "12357",
+   "name": "David Martin-Robinson",
+   "pos": "TE",
+   "team": "TEN",
+   "status": "Questionable",
+   "part": "Hamstring"
   },
   {
    "id": "",
@@ -1434,6 +1416,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "13580",
+   "name": "Carsen Ryan",
+   "pos": "TE",
+   "team": "CLE",
+   "status": "Questionable",
+   "part": "Calf"
+  },
+  {
+   "id": "",
    "sleeper_id": "9753",
    "name": "Zach Charbonnet",
    "pos": "RB",
@@ -1443,12 +1434,12 @@
   },
   {
    "id": "",
-   "sleeper_id": "11604",
-   "name": "Brock Bowers",
-   "pos": "TE",
-   "team": "LV",
+   "sleeper_id": "11643",
+   "name": "Jaylen Wright",
+   "pos": "RB",
+   "team": "MIA",
    "status": "Questionable",
-   "part": "Knee"
+   "part": "Foot"
   },
   {
    "id": "",
@@ -1483,7 +1474,7 @@
    "name": "Michael Pittman",
    "pos": "WR",
    "team": "PIT",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Foot"
   },
   {

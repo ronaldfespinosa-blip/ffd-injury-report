@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 5,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-10T12:30:43Z",
+ "generated": "2026-10-10T15:25:37Z",
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -133,7 +133,7 @@
     }
    ],
    "back": "Out Week 5",
-   "pickup": "Marquez Valdes-Scantling",
+   "pickup": "",
    "rank": 85,
    "dyn_rank": null,
    "typical": "1\u20132 games",
@@ -537,7 +537,7 @@
     }
    ],
    "back": "Game-time call",
-   "pickup": "Brenen Thompson",
+   "pickup": "",
    "rank": 49,
    "dyn_rank": null,
    "typical": "0\u20132 games",

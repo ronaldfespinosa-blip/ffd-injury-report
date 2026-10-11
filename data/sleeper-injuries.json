@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-10-10T08:30",
+ "fetched_et": "2026-10-11T08:32",
  "players": [
   {
    "id": "",
@@ -70,8 +70,17 @@
    "name": "Chris Brooks",
    "pos": "RB",
    "team": "GB",
-   "status": "Out",
+   "status": "IR",
    "part": "Ankle"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13554",
+   "name": "CJ Williams",
+   "pos": "WR",
+   "team": "JAX",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -452,15 +461,6 @@
    "part": "Undisclosed"
   },
   {
-   "id": "00-0033375",
-   "sleeper_id": "4351",
-   "name": "Tim Patrick",
-   "pos": "WR",
-   "team": "NYJ",
-   "status": "IR",
-   "part": "Groin"
-  },
-  {
    "id": "",
    "sleeper_id": "12656",
    "name": "Robbie Ouzts",
@@ -655,7 +655,7 @@
    "name": "Mack Hollins",
    "pos": "WR",
    "team": "NE",
-   "status": "Out",
+   "status": "IR",
    "part": "Calf"
   },
   {
@@ -682,7 +682,7 @@
    "name": "Trey Lance",
    "pos": "QB",
    "team": "LAC",
-   "status": "Doubtful",
+   "status": "IR",
    "part": "Groin"
   },
   {
@@ -704,6 +704,15 @@
    "part": "Knee"
   },
   {
+   "id": "",
+   "sleeper_id": "11628",
+   "name": "Marvin Harrison",
+   "pos": "WR",
+   "team": "ARI",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
    "id": "00-0030279",
    "sleeper_id": "1479",
    "name": "Keenan Allen",
@@ -718,7 +727,7 @@
    "name": "Reggie Gilliam",
    "pos": "RB",
    "team": "NE",
-   "status": "Out",
+   "status": "IR",
    "part": "Ankle"
   },
   {
@@ -826,8 +835,8 @@
    "name": "Ben Yurosek",
    "pos": "TE",
    "team": "MIN",
-   "status": "IR",
-   "part": "Undisclosed"
+   "status": "Questionable",
+   "part": "Ankle"
   },
   {
    "id": "00-0031588",
@@ -954,6 +963,15 @@
    "team": "IND",
    "status": "IR",
    "part": "Undisclosed"
+  },
+  {
+   "id": "",
+   "sleeper_id": "7670",
+   "name": "Joshua Palmer",
+   "pos": "WR",
+   "team": "BUF",
+   "status": "Out",
+   "part": "Shoulder"
   },
   {
    "id": "",
@@ -1231,7 +1249,7 @@
    "name": "Darius Slayton",
    "pos": "WR",
    "team": "IND",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Knee"
   },
   {
@@ -1330,7 +1348,7 @@
    "name": "Michael Pittman",
    "pos": "WR",
    "team": "PIT",
-   "status": "Out",
+   "status": "IR",
    "part": "Foot"
   },
   {

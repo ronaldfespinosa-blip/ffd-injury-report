@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 5,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-12T15:30:23Z",
+ "generated": "2026-10-12T18:32:40Z",
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -223,7 +223,7 @@
     }
    ],
    "back": "Out Week 5",
-   "pickup": "Tim Patrick",
+   "pickup": "Malik McClain",
    "rank": 147,
    "dyn_rank": null,
    "typical": "1 game",
@@ -891,7 +891,7 @@
    "practice_code": "",
    "trail": [],
    "back": "Hurt Week 5. Week 6 status TBD",
-   "pickup": "Kayshon Boutte",
+   "pickup": "Xavier Hutchinson",
    "rank": 70,
    "dyn_rank": 67,
    "news": true,

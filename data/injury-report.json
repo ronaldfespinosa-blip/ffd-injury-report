@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 5,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-13T03:30:18Z",
+ "generated": "2026-10-13T06:37:36Z",
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -1045,7 +1045,7 @@
    "practice_code": "",
    "trail": [],
    "back": "Hurt Week 5. Week 6 status TBD",
-   "pickup": "Kalel Mullings",
+   "pickup": "Nicholas Singleton",
    "rank": 195,
    "dyn_rank": 192,
    "news": true,

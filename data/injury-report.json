@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 5,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-13T09:32:12Z",
+ "generated": "2026-10-13T12:38:00Z",
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -804,6 +804,28 @@
    "evidence": "estimate",
    "source": "",
    "source_url": ""
+  },
+  {
+   "name": "Jaxon Smith-Njigba",
+   "pos": "WR",
+   "team": "SEA",
+   "status": "Practicing",
+   "condition": "Fair",
+   "injury": "Ankle",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 5. Week 6 status TBD",
+   "pickup": "Tory Horton",
+   "rank": 5,
+   "dyn_rank": 1,
+   "news": true,
+   "typical": "0\u20133 games",
+   "reinjury": "Moderate",
+   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
+   "evidence": "study",
+   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/"
   },
   {
    "name": "Aaron Jones",

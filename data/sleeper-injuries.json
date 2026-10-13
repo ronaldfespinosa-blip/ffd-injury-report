@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-10-12T08:50",
+ "fetched_et": "2026-10-13T08:38",
  "players": [
   {
    "id": "",
@@ -36,6 +36,15 @@
    "team": "SF",
    "status": "IR",
    "part": "Knee"
+  },
+  {
+   "id": "00-0035704",
+   "sleeper_id": "5854",
+   "name": "Drew Lock",
+   "pos": "QB",
+   "team": "SEA",
+   "status": "Questionable",
+   "part": "Forearm"
   },
   {
    "id": "",
@@ -102,12 +111,30 @@
   },
   {
    "id": "",
+   "sleeper_id": "13270",
+   "name": "CJ Daniels",
+   "pos": "WR",
+   "team": "LAR",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "13282",
    "name": "Jack Endries",
    "pos": "TE",
    "team": "CIN",
    "status": "Out",
    "part": "Coach's Decision"
+  },
+  {
+   "id": "",
+   "sleeper_id": "9488",
+   "name": "Jaxon Smith-Njigba",
+   "pos": "WR",
+   "team": "SEA",
+   "status": "Questionable",
+   "part": "Ankle"
   },
   {
    "id": "",
@@ -180,6 +207,15 @@
    "team": "NO",
    "status": "Out",
    "part": "Coach's Decision"
+  },
+  {
+   "id": "",
+   "sleeper_id": "11635",
+   "name": "Ladd McConkey",
+   "pos": "WR",
+   "team": "LAC",
+   "status": "Questionable",
+   "part": "Foot"
   },
   {
    "id": "",
@@ -754,8 +790,8 @@
    "name": "DJ Moore",
    "pos": "WR",
    "team": "BUF",
-   "status": "Questionable",
-   "part": "Undisclosed"
+   "status": "Out",
+   "part": "Shoulder - AC Joint"
   },
   {
    "id": "",
@@ -966,6 +1002,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "13275",
+   "name": "Ty Simpson",
+   "pos": "QB",
+   "team": "LAR",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "8423",
    "name": "Brittain Brown",
    "pos": "RB",
@@ -1087,7 +1132,7 @@
    "name": "Ben Skowronek",
    "pos": "WR",
    "team": "PIT",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Leg"
   },
   {
@@ -1443,12 +1488,30 @@
   },
   {
    "id": "",
+   "sleeper_id": "13278",
+   "name": "Max Klare",
+   "pos": "TE",
+   "team": "LAR",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "11560",
    "name": "Caleb Williams",
    "pos": "QB",
    "team": "CHI",
    "status": "Out",
    "part": "Hamstring"
+  },
+  {
+   "id": "",
+   "sleeper_id": "9490",
+   "name": "Tyler Scott",
+   "pos": "WR",
+   "team": "LV",
+   "status": "Out",
+   "part": "Undisclosed"
   },
   {
    "id": "",
@@ -1573,8 +1636,8 @@
    "name": "Tom Kennedy",
    "pos": "WR",
    "team": "DET",
-   "status": "Questionable",
-   "part": "Knee"
+   "status": "Out",
+   "part": "Knee - MCL"
   },
   {
    "id": "",
@@ -1620,6 +1683,15 @@
    "team": "CLE",
    "status": "Out",
    "part": "Concussion"
+  },
+  {
+   "id": "00-0034613",
+   "sleeper_id": "5409",
+   "name": "Tanner Hudson",
+   "pos": "TE",
+   "team": "CIN",
+   "status": "Questionable",
+   "part": "Pectoral"
   },
   {
    "id": "",
@@ -1681,7 +1753,7 @@
    "name": "Tyquan Thornton",
    "pos": "WR",
    "team": "KC",
-   "status": "Out",
+   "status": "IR",
    "part": "Ankle"
   },
   {

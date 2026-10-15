@@ -1,15 +1,6 @@
 {
- "fetched_et": "2026-10-14T08:48",
+ "fetched_et": "2026-10-15T08:50",
  "players": [
-  {
-   "id": "",
-   "sleeper_id": "6786",
-   "name": "CeeDee Lamb",
-   "pos": "WR",
-   "team": "DAL",
-   "status": "Questionable",
-   "part": "Quadriceps"
-  },
   {
    "id": "",
    "sleeper_id": "13302",
@@ -21,21 +12,21 @@
   },
   {
    "id": "",
+   "sleeper_id": "11304",
+   "name": "E.J. Jenkins",
+   "pos": "TE",
+   "team": "PHI",
+   "status": "Questionable",
+   "part": "Toe"
+  },
+  {
+   "id": "",
    "sleeper_id": "8698",
    "name": "Jake Tonges",
    "pos": "TE",
    "team": "SF",
    "status": "IR",
    "part": "Knee"
-  },
-  {
-   "id": "00-0035704",
-   "sleeper_id": "5854",
-   "name": "Drew Lock",
-   "pos": "QB",
-   "team": "SEA",
-   "status": "Questionable",
-   "part": "Forearm"
   },
   {
    "id": "",
@@ -93,15 +84,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "9488",
-   "name": "Jaxon Smith-Njigba",
-   "pos": "WR",
-   "team": "SEA",
-   "status": "Questionable",
-   "part": "Ankle"
-  },
-  {
-   "id": "",
    "sleeper_id": "13047",
    "name": "Jacardia Wright",
    "pos": "RB",
@@ -142,7 +124,7 @@
    "name": "TreVeyon Henderson",
    "pos": "RB",
    "team": "NE",
-   "status": "Doubtful",
+   "status": "Questionable",
    "part": "Ankle"
   },
   {
@@ -272,6 +254,15 @@
    "part": "Concussion"
   },
   {
+   "id": "",
+   "sleeper_id": "9486",
+   "name": "Dontayvion Wicks",
+   "pos": "WR",
+   "team": "PHI",
+   "status": "Questionable",
+   "part": "Hamstring"
+  },
+  {
    "id": "00-0034796",
    "sleeper_id": "4881",
    "name": "Lamar Jackson",
@@ -322,7 +313,7 @@
    "name": "Baker Mayfield",
    "pos": "QB",
    "team": "TB",
-   "status": "Out",
+   "status": "Doubtful",
    "part": "Thumb"
   },
   {
@@ -342,6 +333,15 @@
    "team": "NYJ",
    "status": "Questionable",
    "part": "Concussion"
+  },
+  {
+   "id": "",
+   "sleeper_id": "9506",
+   "name": "Sean Tucker",
+   "pos": "RB",
+   "team": "TB",
+   "status": "Questionable",
+   "part": "Quadriceps"
   },
   {
    "id": "",
@@ -444,6 +444,33 @@
   },
   {
    "id": "",
+   "sleeper_id": "7694",
+   "name": "Tommy Tremble",
+   "pos": "TE",
+   "team": "CAR",
+   "status": "Questionable",
+   "part": "Ribs"
+  },
+  {
+   "id": "",
+   "sleeper_id": "11597",
+   "name": "Theo Johnson",
+   "pos": "TE",
+   "team": "NYG",
+   "status": "Questionable",
+   "part": "Neck"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13299",
+   "name": "Nate Boerkircher",
+   "pos": "TE",
+   "team": "JAX",
+   "status": "Questionable",
+   "part": "Back"
+  },
+  {
+   "id": "",
    "sleeper_id": "8206",
    "name": "Skylar Thompson",
    "pos": "QB",
@@ -504,6 +531,15 @@
    "team": "SEA",
    "status": "IR",
    "part": "Undisclosed"
+  },
+  {
+   "id": "",
+   "sleeper_id": "6847",
+   "name": "Devin Duvernay",
+   "pos": "WR",
+   "team": "ARI",
+   "status": "Questionable",
+   "part": "Ribs"
   },
   {
    "id": "",
@@ -660,21 +696,21 @@
   },
   {
    "id": "",
-   "sleeper_id": "11559",
-   "name": "Michael Penix",
-   "pos": "QB",
-   "team": "ATL",
-   "status": "Questionable",
-   "part": "Ribs"
-  },
-  {
-   "id": "",
    "sleeper_id": "12113",
    "name": "Thomas Yassmin",
    "pos": "TE",
    "team": "GB",
    "status": "IR",
    "part": "Undisclosed"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13287",
+   "name": "Jeremiyah Love",
+   "pos": "RB",
+   "team": "ARI",
+   "status": "Questionable",
+   "part": "Ankle"
   },
   {
    "id": "",
@@ -723,6 +759,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "10214",
+   "name": "Davis Allen",
+   "pos": "TE",
+   "team": "LAR",
+   "status": "Questionable",
+   "part": "Foot"
+  },
+  {
+   "id": "",
    "sleeper_id": "7610",
    "name": "Trey Lance",
    "pos": "QB",
@@ -741,11 +786,29 @@
   },
   {
    "id": "",
+   "sleeper_id": "7090",
+   "name": "Darnell Mooney",
+   "pos": "WR",
+   "team": "NYG",
+   "status": "Questionable",
+   "part": "Neck"
+  },
+  {
+   "id": "",
    "sleeper_id": "12480",
    "name": "Moliki Matavao",
    "pos": "TE",
    "team": "NO",
    "status": "IR",
+   "part": "Knee"
+  },
+  {
+   "id": "00-0032394",
+   "sleeper_id": "3258",
+   "name": "Nick Vannett",
+   "pos": "TE",
+   "team": "BAL",
+   "status": "Questionable",
    "part": "Knee"
   },
   {
@@ -894,6 +957,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "9508",
+   "name": "Tyjae Spears",
+   "pos": "RB",
+   "team": "TEN",
+   "status": "Questionable",
+   "part": "Knee"
+  },
+  {
+   "id": "",
    "sleeper_id": "12534",
    "name": "Kyle Monangai",
    "pos": "RB",
@@ -947,6 +1019,15 @@
    "part": "Knee"
   },
   {
+   "id": "",
+   "sleeper_id": "7571",
+   "name": "Rashod Bateman",
+   "pos": "WR",
+   "team": "BAL",
+   "status": "Questionable",
+   "part": "Shoulder"
+  },
+  {
    "id": "00-0033293",
    "sleeper_id": "4199",
    "name": "Aaron Jones",
@@ -972,15 +1053,6 @@
    "team": "CLE",
    "status": "IR",
    "part": "Hip"
-  },
-  {
-   "id": "",
-   "sleeper_id": "11646",
-   "name": "Jalen Coker",
-   "pos": "WR",
-   "team": "CAR",
-   "status": "Questionable",
-   "part": "Quadriceps"
   },
   {
    "id": "00-0035359",
@@ -1123,8 +1195,17 @@
    "name": "Adonai Mitchell",
    "pos": "WR",
    "team": "NYJ",
-   "status": "Questionable",
+   "status": "Doubtful",
    "part": "Finger"
+  },
+  {
+   "id": "",
+   "sleeper_id": "8144",
+   "name": "Chris Olave",
+   "pos": "WR",
+   "team": "NO",
+   "status": "Questionable",
+   "part": "Illness"
   },
   {
    "id": "",
@@ -1137,12 +1218,39 @@
   },
   {
    "id": "",
+   "sleeper_id": "9500",
+   "name": "Josh Downs",
+   "pos": "WR",
+   "team": "IND",
+   "status": "Questionable",
+   "part": "Hamstring"
+  },
+  {
+   "id": "",
    "sleeper_id": "12357",
    "name": "David Martin-Robinson",
    "pos": "TE",
    "team": "TEN",
    "status": "Questionable",
    "part": "Hamstring"
+  },
+  {
+   "id": "00-0035537",
+   "sleeper_id": "6039",
+   "name": "Ty Johnson",
+   "pos": "RB",
+   "team": "BUF",
+   "status": "Questionable",
+   "part": "Hamstring"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13346",
+   "name": "Denzel Boston",
+   "pos": "WR",
+   "team": "CLE",
+   "status": "Questionable",
+   "part": "Foot"
   },
   {
    "id": "",
@@ -1226,6 +1334,15 @@
    "part": "Undisclosed"
   },
   {
+   "id": "00-0033906",
+   "sleeper_id": "4035",
+   "name": "Alvin Kamara",
+   "pos": "RB",
+   "team": "NO",
+   "status": "Questionable",
+   "part": "Back"
+  },
+  {
    "id": "",
    "sleeper_id": "11716",
    "name": "Tip Reiman",
@@ -1253,15 +1370,6 @@
    "part": "Knee - MCL"
   },
   {
-   "id": "00-0035535",
-   "sleeper_id": "6149",
-   "name": "Darius Slayton",
-   "pos": "WR",
-   "team": "IND",
-   "status": "Questionable",
-   "part": "Knee"
-  },
-  {
    "id": "",
    "sleeper_id": "8214",
    "name": "Cole Turner",
@@ -1269,6 +1377,24 @@
    "team": "MIA",
    "status": "IR",
    "part": "Undisclosed"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13630",
+   "name": "Evan Svoboda",
+   "pos": "TE",
+   "team": "LAC",
+   "status": "Out",
+   "part": "Undisclosed"
+  },
+  {
+   "id": "00-0031610",
+   "sleeper_id": "2505",
+   "name": "Darren Waller",
+   "pos": "TE",
+   "team": "CAR",
+   "status": "Questionable",
+   "part": "Toe"
   },
   {
    "id": "",
@@ -1287,6 +1413,15 @@
    "team": "LAC",
    "status": "IR",
    "part": "Hamstring"
+  },
+  {
+   "id": "00-0034272",
+   "sleeper_id": "5086",
+   "name": "Marquez Valdes-Scantling",
+   "pos": "WR",
+   "team": "LAC",
+   "status": "Questionable",
+   "part": "Ribs"
   },
   {
    "id": "",
@@ -1316,6 +1451,15 @@
    "part": "Knee - ACL"
   },
   {
+   "id": "",
+   "sleeper_id": "11604",
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "team": "LV",
+   "status": "Questionable",
+   "part": "Knee"
+  },
+  {
    "id": "00-0035544",
    "sleeper_id": "6588",
    "name": "Tom Kennedy",
@@ -1341,6 +1485,15 @@
    "team": "LAC",
    "status": "IR",
    "part": "Lower Leg"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13324",
+   "name": "Matt Hibner",
+   "pos": "TE",
+   "team": "BAL",
+   "status": "Questionable",
+   "part": "Hand"
   },
   {
    "id": "",
@@ -1384,7 +1537,7 @@
    "name": "Breece Hall",
    "pos": "RB",
    "team": "NYJ",
-   "status": "Questionable",
+   "status": "Doubtful",
    "part": "Quadriceps"
   },
   {
@@ -1416,12 +1569,30 @@
   },
   {
    "id": "",
+   "sleeper_id": "6828",
+   "name": "AJ Dillon",
+   "pos": "RB",
+   "team": "CAR",
+   "status": "Questionable",
+   "part": "Ankle"
+  },
+  {
+   "id": "",
    "sleeper_id": "8188",
    "name": "Tyquan Thornton",
    "pos": "WR",
    "team": "KC",
    "status": "IR",
    "part": "Ankle"
+  },
+  {
+   "id": "",
+   "sleeper_id": "6865",
+   "name": "Colby Parkinson",
+   "pos": "TE",
+   "team": "LAR",
+   "status": "Questionable",
+   "part": "Shoulder"
   },
   {
    "id": "",

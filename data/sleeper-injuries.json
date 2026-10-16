@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-10-15T08:50",
+ "fetched_et": "2026-10-16T08:49",
  "players": [
   {
    "id": "",
@@ -57,6 +57,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "13418",
+   "name": "Robert Henry",
+   "pos": "RB",
+   "team": "SEA",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "10222",
    "name": "Jayden Reed",
    "pos": "WR",
@@ -81,6 +90,15 @@
    "team": "CIN",
    "status": "Out",
    "part": "Coach's Decision"
+  },
+  {
+   "id": "",
+   "sleeper_id": "7526",
+   "name": "Jaylen Waddle",
+   "pos": "WR",
+   "team": "DEN",
+   "status": "Questionable",
+   "part": "Shoulder"
   },
   {
    "id": "",
@@ -129,12 +147,30 @@
   },
   {
    "id": "",
+   "sleeper_id": "6904",
+   "name": "Jalen Hurts",
+   "pos": "QB",
+   "team": "PHI",
+   "status": "Out",
+   "part": "Calf"
+  },
+  {
+   "id": "",
    "sleeper_id": "11635",
    "name": "Ladd McConkey",
    "pos": "WR",
    "team": "LAC",
    "status": "Questionable",
    "part": "Foot"
+  },
+  {
+   "id": "",
+   "sleeper_id": "7583",
+   "name": "Sam Ehlinger",
+   "pos": "QB",
+   "team": "DEN",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "00-0034419",
@@ -261,6 +297,15 @@
    "team": "PHI",
    "status": "Questionable",
    "part": "Hamstring"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13199",
+   "name": "Montorie Foster",
+   "pos": "WR",
+   "team": "SEA",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "00-0034796",
@@ -408,15 +453,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "7021",
-   "name": "Rico Dowdle",
-   "pos": "RB",
-   "team": "PIT",
-   "status": "Questionable",
-   "part": "Toe"
-  },
-  {
-   "id": "",
    "sleeper_id": "11895",
    "name": "Mason Tipton",
    "pos": "WR",
@@ -444,6 +480,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "8135",
+   "name": "Treylon Burks",
+   "pos": "WR",
+   "team": "WAS",
+   "status": "Questionable",
+   "part": "Shoulder"
+  },
+  {
+   "id": "",
    "sleeper_id": "7694",
    "name": "Tommy Tremble",
    "pos": "TE",
@@ -461,6 +506,15 @@
    "part": "Neck"
   },
   {
+   "id": "00-0033699",
+   "sleeper_id": "4663",
+   "name": "Austin Ekeler",
+   "pos": "RB",
+   "team": "WAS",
+   "status": "Questionable",
+   "part": "Chest"
+  },
+  {
    "id": "",
    "sleeper_id": "13299",
    "name": "Nate Boerkircher",
@@ -468,6 +522,15 @@
    "team": "JAX",
    "status": "Questionable",
    "part": "Back"
+  },
+  {
+   "id": "",
+   "sleeper_id": "8208",
+   "name": "Tyler Badie",
+   "pos": "RB",
+   "team": "DEN",
+   "status": "Questionable",
+   "part": "Thumb"
   },
   {
    "id": "",
@@ -486,6 +549,15 @@
    "team": "HOU",
    "status": "IR",
    "part": "Hamstring"
+  },
+  {
+   "id": "00-0031408",
+   "sleeper_id": "2216",
+   "name": "Mike Evans",
+   "pos": "WR",
+   "team": "SF",
+   "status": "Questionable",
+   "part": "Ribs"
   },
   {
    "id": "00-0034611",
@@ -642,6 +714,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "12533",
+   "name": "Jacory Croskey-Merritt",
+   "pos": "RB",
+   "team": "WAS",
+   "status": "Questionable",
+   "part": "Groin"
+  },
+  {
+   "id": "",
    "sleeper_id": "13392",
    "name": "Jeff Caldwell",
    "pos": "WR",
@@ -786,29 +867,11 @@
   },
   {
    "id": "",
-   "sleeper_id": "7090",
-   "name": "Darnell Mooney",
-   "pos": "WR",
-   "team": "NYG",
-   "status": "Questionable",
-   "part": "Neck"
-  },
-  {
-   "id": "",
    "sleeper_id": "12480",
    "name": "Moliki Matavao",
    "pos": "TE",
    "team": "NO",
    "status": "IR",
-   "part": "Knee"
-  },
-  {
-   "id": "00-0032394",
-   "sleeper_id": "3258",
-   "name": "Nick Vannett",
-   "pos": "TE",
-   "team": "BAL",
-   "status": "Questionable",
    "part": "Knee"
   },
   {
@@ -997,7 +1060,7 @@
    "name": "David Montgomery",
    "pos": "RB",
    "team": "HOU",
-   "status": "Doubtful",
+   "status": "Out",
    "part": "Groin"
   },
   {
@@ -1026,6 +1089,24 @@
    "team": "BAL",
    "status": "Questionable",
    "part": "Shoulder"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13577",
+   "name": "Dallen Bentley",
+   "pos": "TE",
+   "team": "DEN",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "00-0035659",
+   "sleeper_id": "5927",
+   "name": "Terry McLaurin",
+   "pos": "WR",
+   "team": "WAS",
+   "status": "Questionable",
+   "part": "Hamstring"
   },
   {
    "id": "00-0033293",
@@ -1137,6 +1218,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "12521",
+   "name": "Elijah Arroyo",
+   "pos": "TE",
+   "team": "SEA",
+   "status": "Doubtful",
+   "part": "Shoulder"
+  },
+  {
+   "id": "",
    "sleeper_id": "12484",
    "name": "Jayden Higgins",
    "pos": "WR",
@@ -1218,15 +1308,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "9500",
-   "name": "Josh Downs",
-   "pos": "WR",
-   "team": "IND",
-   "status": "Questionable",
-   "part": "Hamstring"
-  },
-  {
-   "id": "",
    "sleeper_id": "12357",
    "name": "David Martin-Robinson",
    "pos": "TE",
@@ -1242,6 +1323,15 @@
    "team": "BUF",
    "status": "Questionable",
    "part": "Hamstring"
+  },
+  {
+   "id": "",
+   "sleeper_id": "9997",
+   "name": "Zay Flowers",
+   "pos": "WR",
+   "team": "BAL",
+   "status": "Questionable",
+   "part": "Toe"
   },
   {
    "id": "",
@@ -1388,6 +1478,15 @@
    "part": "Undisclosed"
   },
   {
+   "id": "",
+   "sleeper_id": "12510",
+   "name": "Jalen Milroe",
+   "pos": "QB",
+   "team": "SEA",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
    "id": "00-0031610",
    "sleeper_id": "2505",
    "name": "Darren Waller",
@@ -1415,15 +1514,6 @@
    "part": "Hamstring"
   },
   {
-   "id": "00-0034272",
-   "sleeper_id": "5086",
-   "name": "Marquez Valdes-Scantling",
-   "pos": "WR",
-   "team": "LAC",
-   "status": "Questionable",
-   "part": "Ribs"
-  },
-  {
    "id": "",
    "sleeper_id": "13435",
    "name": "Joe Royer",
@@ -1449,15 +1539,6 @@
    "team": "SEA",
    "status": "PUP",
    "part": "Knee - ACL"
-  },
-  {
-   "id": "",
-   "sleeper_id": "11604",
-   "name": "Brock Bowers",
-   "pos": "TE",
-   "team": "LV",
-   "status": "Questionable",
-   "part": "Knee"
   },
   {
    "id": "00-0035544",

@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 6,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-16T09:39:19Z",
+ "generated": "2026-10-16T12:49:16Z",
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -214,6 +214,28 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/"
+  },
+  {
+   "name": "Jaylen Waddle",
+   "pos": "WR",
+   "team": "DEN",
+   "status": "Practicing",
+   "condition": "Fair",
+   "injury": "Shoulder",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 6. Week 7 status TBD",
+   "pickup": "Marvin Mims Jr.",
+   "rank": 33,
+   "dyn_rank": 43,
+   "news": true,
+   "typical": "0\u20132 games",
+   "reinjury": "Moderate",
+   "note": "AC sprains are often played through with padding. Dislocations tend to recur.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": ""
   },
   {
    "name": "Rashee Rice",

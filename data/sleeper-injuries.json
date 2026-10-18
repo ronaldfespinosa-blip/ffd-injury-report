@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-10-17T08:41",
+ "fetched_et": "2026-10-18T08:41",
  "players": [
   {
    "id": "",
@@ -57,15 +57,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "8136",
-   "name": "Rachaad White",
-   "pos": "RB",
-   "team": "WAS",
-   "status": "Questionable",
-   "part": "Shoulder"
-  },
-  {
-   "id": "",
    "sleeper_id": "10222",
    "name": "Jayden Reed",
    "pos": "WR",
@@ -81,6 +72,15 @@
    "team": "GB",
    "status": "IR",
    "part": "Ankle"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13554",
+   "name": "CJ Williams",
+   "pos": "WR",
+   "team": "JAX",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -151,7 +151,7 @@
    "name": "Jalen Hurts",
    "pos": "QB",
    "team": "PHI",
-   "status": "Out",
+   "status": "IR",
    "part": "Calf"
   },
   {
@@ -180,15 +180,6 @@
    "team": "KC",
    "status": "IR",
    "part": "Knee"
-  },
-  {
-   "id": "",
-   "sleeper_id": "10220",
-   "name": "Will Mallory",
-   "pos": "TE",
-   "team": "IND",
-   "status": "IR",
-   "part": "Thumb"
   },
   {
    "id": "",
@@ -457,7 +448,7 @@
    "name": "Roman Wilson",
    "pos": "WR",
    "team": "PIT",
-   "status": "Out",
+   "status": "IR",
    "part": "Finger"
   },
   {
@@ -471,30 +462,12 @@
   },
   {
    "id": "",
-   "sleeper_id": "8135",
-   "name": "Treylon Burks",
-   "pos": "WR",
-   "team": "WAS",
-   "status": "Questionable",
-   "part": "Shoulder"
-  },
-  {
-   "id": "",
    "sleeper_id": "11597",
    "name": "Theo Johnson",
    "pos": "TE",
    "team": "NYG",
    "status": "Out",
    "part": "Neck"
-  },
-  {
-   "id": "00-0033699",
-   "sleeper_id": "4663",
-   "name": "Austin Ekeler",
-   "pos": "RB",
-   "team": "WAS",
-   "status": "Questionable",
-   "part": "Chest"
   },
   {
    "id": "",
@@ -565,8 +538,8 @@
    "name": "Savion Williams",
    "pos": "WR",
    "team": "GB",
-   "status": "IR",
-   "part": "Undisclosed"
+   "status": "Questionable",
+   "part": "Ankle"
   },
   {
    "id": "",
@@ -605,12 +578,21 @@
    "part": "Foot"
   },
   {
+   "id": "",
+   "sleeper_id": "13307",
+   "name": "Marlin Klein",
+   "pos": "TE",
+   "team": "HOU",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
    "id": "00-0035676",
    "sleeper_id": "5859",
    "name": "A.J. Brown",
    "pos": "WR",
    "team": "NE",
-   "status": "IR",
+   "status": "Questionable",
    "part": "Ankle"
   },
   {
@@ -682,7 +664,7 @@
    "name": "Jacory Croskey-Merritt",
    "pos": "RB",
    "team": "WAS",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Groin"
   },
   {
@@ -826,7 +808,7 @@
    "name": "Trevor Etienne",
    "pos": "RB",
    "team": "CAR",
-   "status": "IR",
+   "status": "Questionable",
    "part": "Ankle"
   },
   {
@@ -925,7 +907,7 @@
    "name": "Omar Cooper",
    "pos": "WR",
    "team": "NYJ",
-   "status": "IR",
+   "status": "Questionable",
    "part": "Ankle"
   },
   {
@@ -1028,15 +1010,6 @@
    "part": "Coach's Decision"
   },
   {
-   "id": "00-0035659",
-   "sleeper_id": "5927",
-   "name": "Terry McLaurin",
-   "pos": "WR",
-   "team": "WAS",
-   "status": "Questionable",
-   "part": "Hamstring"
-  },
-  {
    "id": "00-0033293",
    "sleeper_id": "4199",
    "name": "Aaron Jones",
@@ -1107,6 +1080,15 @@
    "team": "HOU",
    "status": "IR",
    "part": "Knee - ACL"
+  },
+  {
+   "id": "",
+   "sleeper_id": "7600",
+   "name": "Pat Freiermuth",
+   "pos": "TE",
+   "team": "PIT",
+   "status": "Questionable",
+   "part": "Calf"
   },
   {
    "id": "",
@@ -1240,7 +1222,7 @@
    "name": "Ja'Kobi Lane",
    "pos": "WR",
    "team": "BAL",
-   "status": "IR",
+   "status": "Questionable",
    "part": "Wrist"
   },
   {
@@ -1258,7 +1240,7 @@
    "name": "Skyy Moore",
    "pos": "WR",
    "team": "GB",
-   "status": "Out",
+   "status": "IR",
    "part": "Ankle"
   },
   {
@@ -1330,7 +1312,7 @@
    "name": "Marcus Mariota",
    "pos": "QB",
    "team": "WAS",
-   "status": "Doubtful",
+   "status": "Out",
    "part": "Knee - MCL"
   },
   {
@@ -1375,7 +1357,7 @@
    "name": "KeAndre Lambert-Smith",
    "pos": "WR",
    "team": "LAC",
-   "status": "IR",
+   "status": "Questionable",
    "part": "Hamstring"
   },
   {
@@ -1458,15 +1440,6 @@
    "team": "PIT",
    "status": "IR",
    "part": "Foot"
-  },
-  {
-   "id": "00-0035640",
-   "sleeper_id": "5846",
-   "name": "DK Metcalf",
-   "pos": "WR",
-   "team": "PIT",
-   "status": "Questionable",
-   "part": "Illness"
   },
   {
    "id": "",

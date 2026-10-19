@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 6,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-19T03:40:49Z",
+ "generated": "2026-10-19T06:52:22Z",
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -732,7 +732,7 @@
     }
    ],
    "back": "Game-time call",
-   "pickup": "LaJohntay Wester",
+   "pickup": "Elijah Sarratt",
    "rank": 169,
    "dyn_rank": null,
    "typical": "0\u20131 games",

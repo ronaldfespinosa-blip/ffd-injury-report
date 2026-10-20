@@ -45,7 +45,18 @@ REPORT_STATUSES = {"Out", "Doubtful", "Questionable"}
 OUT_PATH = "data/injury-report.json"
 TIMELINES_PATH = "data/return-timelines.json"
 LOG_PATH = "data/practice-log.json"
+OVERRIDES_PATH = "data/overrides.json"   # hand-edited corrections, e.g. a diagnosis the label gets wrong
+CHECKS_PATH = "data/checks.json"         # what the quality checks caught on the latest run
+CHANGE_FIELDS = ("status", "injury", "practice_code")   # a change in any of these is a real update
+CHANGES_KEEP_DAYS = 7
 ET = ZoneInfo("America/New_York")
+# Absences that aren't injuries: no recovery note, no re-injury risk, never "Serious" from a rest day
+NON_INJURY_RE = re.compile(
+    r"coach'?e?s?'?\s*decision|team decision|not injury|non-injury|\bresting\b|\brest\b|personal|suspen")
+
+
+def non_injury(label):
+    return bool(NON_INJURY_RE.search((label or "").lower().replace("’", "'")))
 PRACTICE_CODES = {
     "Did Not Participate In Practice": "DNP",
     "Limited Participation in Practice": "LP",
@@ -197,19 +208,28 @@ def main():
             last_injury[r["gsis_id"]] = label
     week = max(int(r["week"]) for r in inj)
 
-    # 2a. Practice log: save today's practice status on the team's practice days
+    # 2a. Practice log. nflverse posts each practice report overnight, so what we read today is the
+    #     report from the team's most recent practice day BEFORE today. (Stamping it with today's date
+    #     shifted every trail a day late and dropped the final Friday report.) Only that latest
+    #     practice day is ever written, so earlier days in the trail are never overwritten.
     log = load_json(LOG_PATH, {})
     if log.get("season") != SEASON or log.get("week") != week:
         log = {"season": SEASON, "week": week, "players": {}}
     windows = practice_window(data["games"], week)
+    report_day = {}
+    for team, days in windows.items():
+        past = [d for d in days if d < today_et]
+        if past:
+            report_day[team] = max(past)
     for r in inj:
         if int(r["week"]) != week or r["position"] not in OFFENSE:
             continue
         if (norm(r["full_name"]), r["position"]) not in top:
             continue
         code = PRACTICE_CODES.get(r["practice_status"])
-        if code and today_et in windows.get(r["team"], ()):
-            log["players"].setdefault(r["gsis_id"], {})[today_et.isoformat()] = code
+        day = report_day.get(r["team"])
+        if code and day:
+            log["players"].setdefault(r["gsis_id"], {})[day.isoformat()] = code
 
     # A team's final report is out once any of its players has a game status,
     # or once its final-report day has passed.
@@ -235,6 +255,7 @@ def main():
             "status": status, "injury": r["report_primary_injury"] or r["practice_primary_injury"] or "Undisclosed",
             "practice": r["practice_status"], "rank": top[key],
             "status_day": finals[r["team"]].strftime("%a") if r["team"] in finals else "",
+            "source_date": report_day[r["team"]].isoformat() if r["team"] in report_day else None,
         }
 
     # 3. Injured reserve and PUP from weekly rosters (these players drop off the weekly report)
@@ -272,7 +293,10 @@ def main():
                 team_gameday[t] = date.fromisoformat(g["gameday"])
     listed_names = {(norm(x["name"]), x["pos"]) for x in rows.values()}
     news_added = 0
-    for sp in sleeper_injuries():
+    checks = []   # filled in by the quality checks below; saved to data/checks.json
+    sleeper_players = sleeper_injuries()
+    sleeper_day = (load_json(SLEEPER_CACHE, {}).get("fetched_et") or "")[:10] or None
+    for sp in sleeper_players:
         status = SLEEPER_STATUS.get(sp["status"])
         gid, team, pos, name = sp["id"], sp["team"], sp["pos"], sp["name"]
         key = (norm(name), pos)
@@ -284,10 +308,17 @@ def main():
         if not (reserve_relevant(key) if reserve else key in top):
             continue
         part = sp["part"]
+        if non_injury(part):
+            # A benching or rest day after a game isn't an injury report (this put Nicholas
+            # Singleton's coach's decision on the page with himself as his own pickup).
+            checks.append({"name": name, "team": team, "check": "non_injury_news",
+                           "detail": part, "action": "left off the report"})
+            continue
         row = {
             "id": gid, "name": name, "pos": pos, "team": team,
             "injury": part[:1].upper() + part[1:] if part else "Undisclosed",
             "practice": "", "rank": top.get(key), "dyn_rank": dyn_rank.get(key), "news": True,
+            "source_date": sleeper_day,
         }
         if reserve:
             row.update(status=status, ir_week=week + 1)
@@ -306,6 +337,8 @@ def main():
     latest = max(r["dt"] for r in dc)
     chart = [r for r in dc if r["dt"] == latest and r["pos_abb"] in OFFENSE]
     unavailable = {gid for gid, x in rows.items() if x["status"] in ("IR", "PUP", "Out")}
+    # By name too: post-game (Sleeper) rows can arrive without an NFL id
+    unavailable_names = {(norm(x["name"]), x["team"]) for x in rows.values() if x["status"] in ("IR", "PUP", "Out")}
 
     def backup_for(p):
         if p["status"] in ("IR", "PUP", "Cleared"):
@@ -320,8 +353,11 @@ def main():
             pool = same_team
         pool.sort(key=lambda c: int(c["pos_rank"]))
         for c in pool:
-            if c["gsis_id"] != p["id"] and c["gsis_id"] not in unavailable:
-                return c["player_name"]
+            if c["gsis_id"] == p["id"] or norm(c["player_name"]) == norm(p["name"]):
+                continue   # never suggest the injured player as his own replacement
+            if c["gsis_id"] in unavailable or (norm(c["player_name"]), c["team"]) in unavailable_names:
+                continue
+            return c["player_name"]
         return ""
 
     # 5. Return window from league rules, not guesses
@@ -344,8 +380,10 @@ def main():
     # 6. Typical games missed + re-injury risk from the lookup table
     def timeline_for(p):
         label = p["injury"].lower()
-        entry = next((e for e in timelines["injuries"] if any(m in label for m in e["match"])),
-                     timelines.get("fallback", {}))
+        if non_injury(label):
+            label = "not injury"   # route every non-injury reason to the non-injury entry
+        matched = next((e for e in timelines["injuries"] if any(m in label for m in e["match"])), None)
+        entry = matched or timelines.get("fallback", {})
         lo = entry.get("min", 0)
         hi = entry.get("qb_max", entry.get("max", 2)) if p["pos"] == "QB" else entry.get("max", 2)
         if p["status"] in ("IR", "PUP"):
@@ -356,7 +394,7 @@ def main():
             if p["status"] in ("Out", "Doubtful"):
                 lo, hi = max(lo, 1), max(hi, 1)
             typical = f"{lo} game" if lo == hi == 1 else (f"{lo} games" if lo == hi else f"{lo}\u2013{hi} games")
-        return {
+        result = {
             "typical": typical,
             "reinjury": entry.get("reinjury", "Unknown"),
             "note": entry.get("note", ""),
@@ -364,6 +402,24 @@ def main():
             "source": entry.get("source", ""),
             "source_url": entry.get("url", ""),
         }
+        shown = p["injury"].strip()
+        if matched is None and shown.lower() not in ("", "undisclosed"):
+            # The team DID name it; the old fallback said it hadn't
+            result["note"] = (f"The team listed {shown.lower()} without more detail. "
+                              "We don't have a typical timeline for that one yet.")
+            checks.append({"name": p["name"], "team": p["team"], "check": "unmatched_label",
+                           "detail": shown, "action": "generic note; add it to return-timelines.json"})
+        elif matched is not None and p["status"] in ("IR", "PUP") and not non_injury(label) \
+                and entry.get("max", 2) < 4 and "IR" not in entry.get("note", ""):
+            # IR means 4+ games. A note about a routine version of this injury contradicts that
+            # (the Hurts entry explained a 2.5-week calf strain for a player on IR).
+            result["note"] = (f"He's on IR, so he's out at least four games. That's longer than a "
+                              f"typical {shown.lower()} injury, so expect more than the routine "
+                              f"version. Routine case: " + entry.get("note", ""))
+            checks.append({"name": p["name"], "team": p["team"], "check": "ir_longer_than_typical",
+                           "detail": f"{shown} usually 0\u2013{entry.get('max', 2)} games",
+                           "action": "note reworded to say the IR stint is longer than typical"})
+        return result
 
     # 7. Condition, hospital-chart style, from game status + latest practice
     def condition_for(p):
@@ -372,6 +428,9 @@ def main():
         code = PRACTICE_CODES.get(p["practice"], "")
         if p["status"] in ("IR", "PUP", "Out"):
             return "Critical"
+        if non_injury(p["injury"]):
+            # A rest-day DNP isn't a health signal: Doubtful still reads Serious, otherwise Fair
+            return "Serious" if p["status"] == "Doubtful" else "Fair"
         if p["status"] == "Doubtful" or code == "DNP":
             return "Serious"
         if code == "FP" or p["status"] == "Cleared":
@@ -382,9 +441,25 @@ def main():
         days = log["players"].get(p["id"], {})
         return [{"d": date.fromisoformat(d).strftime("%a"), "s": s} for d, s in sorted(days.items())][-3:]
 
+    # 8. Hand corrections (data/overrides.json) for cases the official label gets wrong
+    overrides = {}
+    for o in load_json(OVERRIDES_PATH, {"players": []}).get("players", []):
+        okey = (norm(o.get("name", "")), o.get("team", ""))
+        if o.get("until") and date.fromisoformat(o["until"]) < today_et:
+            checks.append({"name": o.get("name"), "team": o.get("team"), "check": "override_expired",
+                           "detail": f"expired {o['until']}", "action": "ignored; delete or extend it"})
+            continue
+        overrides[okey] = o
+    OVERRIDE_FIELDS = ("injury", "note", "typical", "reinjury", "evidence", "source", "source_url", "pickup")
+
+    week_days = [d for d in team_gameday.values()]
+    week_complete = bool(week_days) and today_et > max(week_days)
+
     out = []
     for p in rows.values():
         p["injury"] = tidy(p["injury"])
+        if non_injury(p["injury"]) and not p["injury"].lower().startswith("not injury"):
+            p["injury"] = f"Not injury: {p['injury']}"
         item = {
             "name": p["name"], "pos": p["pos"], "team": p["team"], "status": p["status"],
             "condition": condition_for(p),
@@ -393,12 +468,93 @@ def main():
             "trail": trail_for(p),
             "back": back_text(p), "pickup": backup_for(p), "rank": p["rank"],
             "dyn_rank": p.get("dyn_rank"),
+            "source_date": p.get("source_date"),   # date of the report or news this row is built from
         }
         if p.get("news"):
             item["news"] = True   # reported by the team/media; not on an official NFL report yet
         item.update(timeline_for(p))
+        chk = lambda check, detail, action: checks.append(
+            {"name": item["name"], "team": item["team"], "check": check, "detail": detail, "action": action})
+
+        # Game already played: this week's designation is history, not a lineup decision
+        played = (not item.get("news") and item["status"] in ("Out", "Doubtful", "Questionable", "Cleared")
+                  and p["team"] in team_gameday and today_et > team_gameday[p["team"]])
+        if played:
+            item["game_played"] = True
+            item["back"] = (f"Missed Week {week}. Week {week + 1} status TBD" if item["status"] == "Out"
+                            else f"Week {week} game played. Week {week + 1} status TBD"
+                            if item["status"] != "Cleared" else f"Cleared for Week {week}")
+
+        if non_injury(item["injury"]):
+            chk("non_injury", item["injury"], "no recovery note or re-injury risk")
+            item["reinjury"] = "None"
+            if item["status"] not in ("Out", "Doubtful"):
+                item["pickup"] = ""
+
+        o = overrides.get((norm(item["name"]), item["team"]))
+        if o:
+            for k in OVERRIDE_FIELDS:
+                if k in o:
+                    item[k] = o[k]
+            if o.get("hold"):
+                # Not confident in the details: show the official status and trail only
+                item.update(note="", pickup="", evidence="estimate", source="", source_url="")
+            # The hand correction replaces whatever the automatic note checks said about him
+            checks[:] = [c for c in checks if not (c["name"] == item["name"] and c["team"] == item["team"]
+                         and c["check"] in ("ir_longer_than_typical", "unmatched_label"))]
+            chk("override", o.get("why", ""), "hand correction applied")
+
+        # Last line of defense: these should never reach the page
+        if item["pickup"] and norm(item["pickup"]) == norm(item["name"]):
+            chk("self_pickup", item["pickup"], "pickup removed")
+            item["pickup"] = ""
+        if item["pickup"] and (norm(item["pickup"]), item["team"]) in unavailable_names:
+            chk("pickup_unavailable", item["pickup"], "pickup removed (he's out too)")
+            item["pickup"] = ""
+        if item["trail"] and item["practice_code"] and item["trail"][-1]["s"] != item["practice_code"]:
+            chk("trail_mismatch", f"latest {item['practice_code']}, trail ends {item['trail'][-1]['s']}",
+                "flag only")
         out.append(item)
     out.sort(key=lambda x: (SEVERITY[x["status"]], x["rank"] or 1000 + (x["dyn_rank"] or 999)))
+
+    # 9. What changed since the last run. Each player keeps the date his status, injury or practice
+    #    last changed, and the page gets a rolling 7-day list for a "What changed" strip.
+    prev = load_json(OUT_PATH, {})
+    stamp = datetime.now(ET).strftime("%Y-%m-%dT%H:%M")
+    prev_by = {(x["name"], x["team"]): x for x in prev.get("players", [])}
+    # Only compare like with like: a rankings fallback or season change would look like mass changes
+    comparable = prev.get("rank_source") == rank_source and prev.get("season") == SEASON
+    changes = [c for c in prev.get("recent_changes", [])
+               if c["at"][:10] >= (today_et - timedelta(CHANGES_KEEP_DAYS)).isoformat()]
+    new_changes = []
+    for item in out:
+        old = prev_by.get((item["name"], item["team"]))
+        if old is None:
+            item["changed"] = stamp if comparable else None
+            if comparable:
+                new_changes.append({"at": stamp, "name": item["name"], "team": item["team"],
+                                    "pos": item["pos"], "what": f"Added: {item['status']} ({item['injury']})"})
+        elif not comparable or all(old.get(k) == item.get(k) for k in CHANGE_FIELDS):
+            item["changed"] = old.get("changed")
+        else:
+            item["changed"] = stamp
+            if comparable:
+                bits = []
+                if old.get("status") != item["status"]:
+                    bits.append(f"{old.get('status')} → {item['status']}")
+                if old.get("injury") != item["injury"]:
+                    bits.append(f"injury now {item['injury']}")
+                if old.get("practice_code") != item["practice_code"] and item["practice_code"]:
+                    bits.append(f"practice {item['practice_code']}")
+                new_changes.append({"at": stamp, "name": item["name"], "team": item["team"],
+                                    "pos": item["pos"], "what": "; ".join(bits)})
+    if comparable:
+        current = {(x["name"], x["team"]) for x in out}
+        for (name, team), old in prev_by.items():
+            if (name, team) not in current:
+                new_changes.append({"at": stamp, "name": name, "team": team, "pos": old.get("pos"),
+                                    "what": "Off the report"})
+    changes = (new_changes + changes)[:60]
 
     with open(LOG_PATH, "w") as f:
         json.dump(log, f, indent=1)
@@ -406,14 +562,20 @@ def main():
     payload = {
         "season": SEASON, "week": week, "rank_source": rank_source,
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "week_complete": week_complete,               # every Week N game has been played
+        "next_week": week + 1 if week_complete else week,
         "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
         "players": out,
+        "recent_changes": changes,
     }
     # Rewrite every run so "Updated" on the page shows the latest check
-       
     with open(OUT_PATH, "w") as f:
         json.dump(payload, f, indent=1)
+    with open(CHECKS_PATH, "w") as f:
+        json.dump({"week": week, "checks": checks}, f, indent=1)
     print(f"Week {week}: {len(out)} players written to {OUT_PATH}")
+    print(f"Quality checks: {len(checks)} caught" + "".join(
+        f"\n  - {c['name']} ({c['team']}): {c['check']}: {c['detail']} -> {c['action']}" for c in checks))
 
 
 if __name__ == "__main__":

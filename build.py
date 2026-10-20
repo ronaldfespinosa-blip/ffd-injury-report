@@ -49,6 +49,8 @@ OVERRIDES_PATH = "data/overrides.json"   # hand-edited corrections, e.g. a diagn
 CHECKS_PATH = "data/checks.json"         # what the quality checks caught on the latest run
 CHANGE_FIELDS = ("status", "injury", "practice_code")   # a change in any of these is a real update
 CHANGES_KEEP_DAYS = 7
+CHANGES_KEEP_MAX = 80
+SEED_PATH = "data/changes-seed.json"     # one-time backfill of the change list; ages out after 7 days
 ET = ZoneInfo("America/New_York")
 # Absences that aren't injuries: no recovery note, no re-injury risk, never "Serious" from a rest day
 NON_INJURY_RE = re.compile(
@@ -174,6 +176,103 @@ def final_report_day(games, week):
         for team in (g["home_team"], g["away_team"]):
             finals[team] = day
     return finals
+
+
+def _as_et(s):
+    """Parse a stored timestamp; older ones were written without an offset and are ET."""
+    try:
+        t = datetime.fromisoformat(s)
+    except (TypeError, ValueError):
+        return None
+    return t if t.tzinfo else t.replace(tzinfo=ET)
+
+
+def track_changes(prev, out, season, week, rank_source, now, seed=()):
+    """Stamp each player in `out` with when he last changed ("changed") and return the rolling
+    7-day change list, newest first. Each entry: at, name, team, pos, rank, kind
+    (added | status | injury | off), from, to, injury, news, week."""
+    stamp = now.isoformat(timespec="minutes")
+    prev_by = {(x["name"], x["team"]): x for x in prev.get("players", [])}
+    # Only compare like with like: a rankings fallback or a new season would look like mass changes
+    comparable = prev.get("rank_source") == rank_source and prev.get("season") == season
+    rollover = prev.get("week") != week
+    cutoff = now - timedelta(CHANGES_KEEP_DAYS)
+    seen, changes = set(), []
+    for c in list(prev.get("recent_changes", [])) + list(seed):
+        at = _as_et(c.get("at"))
+        sig = (c.get("at"), c.get("name"), c.get("kind"))
+        if c.get("kind") and at and at >= cutoff and sig not in seen:   # no kind = an older format
+            seen.add(sig)
+            changes.append(c)
+
+    def add(kind, item, old=None, **extra):
+        # A player who drops off and comes back with the same status (a rankings wobble, say)
+        # never really changed: cancel the earlier entry instead of logging a second one.
+        undo = {"added": ("off", "from"), "off": ("added", "to")}.get(kind)
+        if undo:
+            for c in changes:
+                if (c["name"], c["team"], c["kind"]) == (item["name"], item["team"], undo[0]) \
+                        and c.get(undo[1]) == item.get("status"):
+                    changes.remove(c)
+                    return
+        changes.append({
+            "at": stamp, "name": item["name"], "team": item["team"], "pos": item.get("pos"),
+            "rank": item.get("rank"), "kind": kind,
+            "from": item.get("status") if kind == "off" else (old.get("status") if old else None),
+            "to": None if kind == "off" else item.get("status"),
+            "injury": item.get("injury"), "news": bool(item.get("news")), "week": week, **extra})
+
+    for item in out:
+        old = prev_by.get((item["name"], item["team"]))
+        last = old.get("changed") if old else None
+        if item.get("news") and old and old.get("news") and old.get("source_date"):
+            # Sleeper is re-downloaded daily; the report date is the day we first saw it
+            item["source_date"] = old["source_date"]
+            item["source_label"] = f"Reported by {date.fromisoformat(old['source_date']):%A}"
+        if not comparable:
+            item["changed"] = last
+        elif old is None:
+            m = re.match(r"Eligible Week (\d+)", item.get("back") or "")
+            if item["status"] in ("IR", "PUP") and m and int(m.group(1)) - 4 < week:
+                # Long-term IR player who just moved back into the rankings window: not news
+                item["changed"] = None
+                continue
+            item["changed"] = stamp
+            add("added", item)
+        elif rollover:
+            # A new week resets every status to Practicing. Only moves on or off IR/PUP are news then.
+            if (old.get("status") in ("IR", "PUP")) != (item["status"] in ("IR", "PUP")):
+                item["changed"] = stamp
+                add("status", item, old)
+            else:
+                item["changed"] = last
+        elif all(old.get(k) == item.get(k) for k in CHANGE_FIELDS):
+            item["changed"] = last
+        else:
+            item["changed"] = stamp
+            if old.get("status") != item["status"]:
+                add("status", item, old)
+            elif old.get("injury") != item["injury"]:
+                add("injury", item, old, was=old.get("injury"))
+            # a practice-only change updates "changed" but stays off the list (it happens daily)
+    if comparable and not rollover:
+        current = {(x["name"], x["team"]) for x in out}
+        for key, old in prev_by.items():
+            if key not in current:
+                add("off", old)
+    changes.sort(key=lambda c: (-_as_et(c["at"]).timestamp(), c.get("rank") or 999))
+    # A post-game report's date is the day it first appeared in the list, if that's earlier
+    first_seen = {}
+    for c in changes:
+        if c["kind"] == "added" and c.get("news"):
+            k, d = (c["name"], c["team"]), _as_et(c["at"]).date().isoformat()
+            first_seen[k] = min(first_seen.get(k, d), d)
+    for item in out:
+        d = first_seen.get((item["name"], item["team"]))
+        if item.get("news") and d and (not item.get("source_date") or d < item["source_date"]):
+            item["source_date"] = d
+            item["source_label"] = f"Reported by {date.fromisoformat(d):%A}"
+    return changes[:CHANGES_KEEP_MAX]
 
 
 def main():
@@ -455,6 +554,18 @@ def main():
     week_days = [d for d in team_gameday.values()]
     week_complete = bool(week_days) and today_et > max(week_days)
 
+    def source_label(p):
+        """Where a row's information comes from, in words: "Friday's final Week 6 report"."""
+        sd = p.get("source_date")
+        if p.get("news"):
+            return f"Reported by {date.fromisoformat(sd):%A}" if sd else "Reported, not official yet"
+        if p["status"] in ("IR", "PUP") or not sd:
+            return ""
+        d = date.fromisoformat(sd)
+        if finals.get(p["team"]) == d:
+            return f"{d:%A}’s final Week {week} report"
+        return f"{d:%A}’s practice report"
+
     out = []
     for p in rows.values():
         p["injury"] = tidy(p["injury"])
@@ -469,6 +580,7 @@ def main():
             "back": back_text(p), "pickup": backup_for(p), "rank": p["rank"],
             "dyn_rank": p.get("dyn_rank"),
             "source_date": p.get("source_date"),   # date of the report or news this row is built from
+            "source_label": source_label(p),       # the same, in words, for the page
         }
         if p.get("news"):
             item["news"] = True   # reported by the team/media; not on an official NFL report yet
@@ -517,44 +629,10 @@ def main():
         out.append(item)
     out.sort(key=lambda x: (SEVERITY[x["status"]], x["rank"] or 1000 + (x["dyn_rank"] or 999)))
 
-    # 9. What changed since the last run. Each player keeps the date his status, injury or practice
-    #    last changed, and the page gets a rolling 7-day list for a "What changed" strip.
-    prev = load_json(OUT_PATH, {})
-    stamp = datetime.now(ET).strftime("%Y-%m-%dT%H:%M")
-    prev_by = {(x["name"], x["team"]): x for x in prev.get("players", [])}
-    # Only compare like with like: a rankings fallback or season change would look like mass changes
-    comparable = prev.get("rank_source") == rank_source and prev.get("season") == SEASON
-    changes = [c for c in prev.get("recent_changes", [])
-               if c["at"][:10] >= (today_et - timedelta(CHANGES_KEEP_DAYS)).isoformat()]
-    new_changes = []
-    for item in out:
-        old = prev_by.get((item["name"], item["team"]))
-        if old is None:
-            item["changed"] = stamp if comparable else None
-            if comparable:
-                new_changes.append({"at": stamp, "name": item["name"], "team": item["team"],
-                                    "pos": item["pos"], "what": f"Added: {item['status']} ({item['injury']})"})
-        elif not comparable or all(old.get(k) == item.get(k) for k in CHANGE_FIELDS):
-            item["changed"] = old.get("changed")
-        else:
-            item["changed"] = stamp
-            if comparable:
-                bits = []
-                if old.get("status") != item["status"]:
-                    bits.append(f"{old.get('status')} → {item['status']}")
-                if old.get("injury") != item["injury"]:
-                    bits.append(f"injury now {item['injury']}")
-                if old.get("practice_code") != item["practice_code"] and item["practice_code"]:
-                    bits.append(f"practice {item['practice_code']}")
-                new_changes.append({"at": stamp, "name": item["name"], "team": item["team"],
-                                    "pos": item["pos"], "what": "; ".join(bits)})
-    if comparable:
-        current = {(x["name"], x["team"]) for x in out}
-        for (name, team), old in prev_by.items():
-            if (name, team) not in current:
-                new_changes.append({"at": stamp, "name": name, "team": team, "pos": old.get("pos"),
-                                    "what": "Off the report"})
-    changes = (new_changes + changes)[:60]
+    # 9. What changed since the last run: each player's last-change time, plus the rolling
+    #    7-day list behind the page's "What changed" box
+    changes = track_changes(load_json(OUT_PATH, {}), out, SEASON, week, rank_source,
+                            datetime.now(ET), seed=load_json(SEED_PATH, []))
 
     with open(LOG_PATH, "w") as f:
         json.dump(log, f, indent=1)

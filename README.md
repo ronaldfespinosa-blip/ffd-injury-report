@@ -49,7 +49,15 @@ Each player in the report carries:
 - `changed`: when his status, injury or practice status last changed
 - `game_played`: true once his team has played this week, so the designation is history rather than a lineup call
 
-The top level adds `week_complete`, `next_week` and `recent_changes`, a rolling 7-day list of status changes for a "What changed" section.
+The top level adds `week_complete`, `next_week` and `recent_changes`, the rolling 7-day list behind the page's "What changed" box. Each change has `at`, `name`, `team`, `pos`, `rank`, `kind` (`added`, `status`, `injury` or `off`), `from`, `to`, `injury`, `news` and `week`.
+
+What doesn't count as a change:
+
+- **New week.** When Wednesday's first report resets every status, only moves on or off IR/PUP and brand-new names are logged.
+- **Rankings wobble.** A player who drops off and returns with the same status cancels out, and a long-term IR player who moves back into the rankings window isn't logged as a new IR move.
+- **Practice-only changes.** These update the player's `changed` time but stay off the list, since they happen every day.
+
+`data/changes-seed.json` backfilled the list from the report's history when the feature launched. Its entries age out after 7 days; the file can be deleted after Oct 27, 2026.
 
 ## Practice trail timing
 

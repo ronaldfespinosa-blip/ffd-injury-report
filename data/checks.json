@@ -1,0 +1,96 @@
+{
+ "week": 6,
+ "checks": [
+  {
+   "name": "Nicholas Singleton",
+   "team": "TEN",
+   "check": "non_injury_news",
+   "detail": "Coach's Decision",
+   "action": "left off the report"
+  },
+  {
+   "name": "Jalen Hurts",
+   "team": "PHI",
+   "check": "override",
+   "detail": "Official label says calf; it's a blood clot in the calf, not a strain",
+   "action": "hand correction applied"
+  },
+  {
+   "name": "Michael Pittman",
+   "team": "PIT",
+   "check": "ir_longer_than_typical",
+   "detail": "Foot usually 0\u20132 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Travis Etienne",
+   "team": "NO",
+   "check": "ir_longer_than_typical",
+   "detail": "Hamstring usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Malik Davis",
+   "team": "DAL",
+   "check": "ir_longer_than_typical",
+   "detail": "Hip usually 0\u20132 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Alec Pierce",
+   "team": "IND",
+   "check": "ir_longer_than_typical",
+   "detail": "Heel usually 0\u20132 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Tank Bigsby",
+   "team": "PHI",
+   "check": "ir_longer_than_typical",
+   "detail": "Abdomen usually 0\u20132 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Roman Wilson",
+   "team": "PIT",
+   "check": "ir_longer_than_typical",
+   "detail": "Finger usually 0\u20131 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Pat Bryant",
+   "team": "DEN",
+   "check": "ir_longer_than_typical",
+   "detail": "Ankle usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Terrance Ferguson",
+   "team": "LA",
+   "check": "ir_longer_than_typical",
+   "detail": "Ankle usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "De'Zhaun Stribling",
+   "team": "SF",
+   "check": "ir_longer_than_typical",
+   "detail": "Ankle usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Eli Stowers",
+   "team": "PHI",
+   "check": "ir_longer_than_typical",
+   "detail": "Quadricep usually 0\u20132 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Jonah Coleman",
+   "team": "DEN",
+   "check": "ir_longer_than_typical",
+   "detail": "Ankle usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  }
+ ]
+}

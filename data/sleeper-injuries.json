@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-10-19T08:49",
+ "fetched_et": "2026-10-20T08:49",
  "players": [
   {
    "id": "",
@@ -227,15 +227,6 @@
    "part": "Knee"
   },
   {
-   "id": "00-0033662",
-   "sleeper_id": "4574",
-   "name": "Cooper Rush",
-   "pos": "QB",
-   "team": "ATL",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
    "id": "",
    "sleeper_id": "8205",
    "name": "Isiah Pacheco",
@@ -371,13 +362,13 @@
    "part": "Knee - PCL"
   },
   {
-   "id": "00-0033955",
-   "sleeper_id": "4219",
-   "name": "Jeremy McNichols",
-   "pos": "RB",
-   "team": "WAS",
-   "status": "IR",
-   "part": "Quadriceps"
+   "id": "00-0031381",
+   "sleeper_id": "2133",
+   "name": "Davante Adams",
+   "pos": "WR",
+   "team": "LAR",
+   "status": "Out",
+   "part": "Knee"
   },
   {
    "id": "00-0035719",
@@ -583,8 +574,8 @@
    "name": "Mike Evans",
    "pos": "WR",
    "team": "SF",
-   "status": "Questionable",
-   "part": "Ribs"
+   "status": "Out",
+   "part": "Achilles"
   },
   {
    "id": "",
@@ -677,6 +668,15 @@
    "part": "Coach's Decision"
   },
   {
+   "id": "00-0035676",
+   "sleeper_id": "5859",
+   "name": "A.J. Brown",
+   "pos": "WR",
+   "team": "NE",
+   "status": "Questionable",
+   "part": "Ankle"
+  },
+  {
    "id": "00-0035645",
    "sleeper_id": "6699",
    "name": "Gunner Olszewski",
@@ -745,7 +745,7 @@
    "name": "Jacory Croskey-Merritt",
    "pos": "RB",
    "team": "WAS",
-   "status": "Out",
+   "status": "IR",
    "part": "Groin"
   },
   {
@@ -939,6 +939,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "12477",
+   "name": "Kurtis Rourke",
+   "pos": "QB",
+   "team": "SF",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "7204",
    "name": "Reggie Gilliam",
    "pos": "RB",
@@ -1073,15 +1082,6 @@
    "part": "Ankle"
   },
   {
-   "id": "00-0031588",
-   "sleeper_id": "2449",
-   "name": "Stefon Diggs",
-   "pos": "WR",
-   "team": "WAS",
-   "status": "Questionable",
-   "part": "Hamstring"
-  },
-  {
    "id": "",
    "sleeper_id": "7543",
    "name": "Travis Etienne",
@@ -1172,6 +1172,15 @@
    "part": "Coach's Decision"
   },
   {
+   "id": "00-0035659",
+   "sleeper_id": "5927",
+   "name": "Terry McLaurin",
+   "pos": "WR",
+   "team": "WAS",
+   "status": "Out",
+   "part": "Knee"
+  },
+  {
    "id": "00-0033293",
    "sleeper_id": "4199",
    "name": "Aaron Jones",
@@ -1231,7 +1240,7 @@
    "name": "Romeo Doubs",
    "pos": "WR",
    "team": "NE",
-   "status": "Out",
+   "status": "IR",
    "part": "Shoulder"
   },
   {
@@ -1303,7 +1312,7 @@
    "name": "Elijah Arroyo",
    "pos": "TE",
    "team": "SEA",
-   "status": "Doubtful",
+   "status": "Out",
    "part": "Shoulder"
   },
   {
@@ -1636,7 +1645,7 @@
    "name": "Tanner Hudson",
    "pos": "TE",
    "team": "CIN",
-   "status": "Out",
+   "status": "IR",
    "part": "Pectoral"
   },
   {

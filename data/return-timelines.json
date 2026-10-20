@@ -112,10 +112,24 @@
    "evidence": "estimate"
   },
   {
-   "match": ["hand", "finger", "thumb", "wrist", "elbow", "forearm"],
+   "match": ["hand", "finger", "thumb", "wrist"],
    "min": 0, "max": 1, "qb_max": 2,
    "reinjury": "Low",
    "note": "Skill players usually play with a wrap or cast. It matters more for a QB's throwing hand.",
+   "evidence": "estimate"
+  },
+  {
+   "match": ["elbow", "forearm"],
+   "min": 0, "max": 1, "qb_max": 2,
+   "reinjury": "Low",
+   "note": "Elbow bruises and sprains are usually played through with a sleeve or brace. For a QB's throwing arm, watch for lost velocity even if he plays. A UCL tear or fracture means IR.",
+   "evidence": "estimate"
+  },
+  {
+   "match": ["lower leg", "shin", "fibula", "tibia"],
+   "min": 0, "max": 2,
+   "reinjury": "Moderate",
+   "note": "Lower-leg injuries run from a shin bruise that costs nothing to a fibula fracture that means IR.",
    "evidence": "estimate"
   },
   {
@@ -129,14 +143,14 @@
    "match": ["personal", "resting", "non-injury", "not injury"],
    "min": 0, "max": 1,
    "reinjury": "None",
-   "note": "Not an injury.",
+   "note": "Not an injury. Whether he plays is the team's call, so there's no recovery timeline to track.",
    "evidence": "estimate"
   }
  ],
  "fallback": {
   "min": 0, "max": 2,
   "reinjury": "Unknown",
-  "note": "Team hasn't said what the injury is, or it doesn't match our table yet.",
+  "note": "The team hasn't said what the injury is.",
   "evidence": "estimate"
  }
 }

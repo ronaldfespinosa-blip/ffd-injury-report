@@ -1,0 +1,17 @@
+{
+ "about": "Hand corrections for when the official injury label is misleading. Match on name + team. Any field listed replaces the automatic one (injury, note, typical, reinjury, evidence, source, source_url, pickup). \"hold\": true hides the note and pickup and shows only the official status and practice trail. \"until\" is the last day it applies; after that the job ignores it and lists it in data/checks.json.",
+ "players": [
+  {
+   "name": "Jalen Hurts",
+   "team": "PHI",
+   "until": "2026-12-31",
+   "why": "Official label says calf; it's a blood clot in the calf, not a strain",
+   "injury": "Calf (blood clot)",
+   "note": "Not a calf strain: it's a blood clot in his calf. If the clot stays superficial, he could be back around Week 8 or 9. The likelier path is about six weeks of blood thinners, which points to Week 11 or 12. If it becomes a deep-vein clot, he's out into January.",
+   "reinjury": "Unknown",
+   "evidence": "study",
+   "source": "FFD: Jalen Hurts blood clot return timeline",
+   "source_url": "https://fantasyfootballdoctor.com/2026/10/17/jalen-hurts-blood-clot-return-timeline/"
+  }
+ ]
+}

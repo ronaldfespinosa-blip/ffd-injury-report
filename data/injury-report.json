@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 6,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-20T03:39:41Z",
+ "generated": "2026-10-20T06:46:51Z",
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -205,7 +205,7 @@
     }
    ],
    "back": "Out Week 6",
-   "pickup": "Rachaad White",
+   "pickup": "",
    "rank": 84,
    "dyn_rank": null,
    "typical": "1\u20132 games",
@@ -406,7 +406,7 @@
    "practice_code": "LP",
    "trail": [],
    "back": "Game-time call",
-   "pickup": "Mo Alie-Cox",
+   "pickup": "Will Mallory",
    "rank": 40,
    "dyn_rank": null,
    "typical": "0\u20132 games",
@@ -492,7 +492,7 @@
     }
    ],
    "back": "Game-time call",
-   "pickup": "Efton Chism III",
+   "pickup": "Kyle Williams",
    "rank": 62,
    "dyn_rank": null,
    "typical": "0\u20133 games",
@@ -762,7 +762,7 @@
     }
    ],
    "back": "Game-time call",
-   "pickup": "Mason Taylor",
+   "pickup": "Jeremy Ruckert",
    "rank": 190,
    "dyn_rank": null,
    "typical": "0\u20132 games",
@@ -900,7 +900,7 @@
    "practice_code": "",
    "trail": [],
    "back": "Hurt Week 6. Week 7 status TBD",
-   "pickup": "Efton Chism III",
+   "pickup": "Kyle Williams",
    "rank": 118,
    "dyn_rank": 128,
    "news": true,

@@ -1,19 +1,12 @@
 {
- "week": 6,
+ "week": 7,
  "checks": [
   {
-   "name": "Nicholas Singleton",
-   "team": "TEN",
-   "check": "non_injury_news",
-   "detail": "Coach's Decision",
-   "action": "left off the report"
-  },
-  {
-   "name": "Jalen Hurts",
-   "team": "PHI",
-   "check": "override",
-   "detail": "Official label says calf; it's a blood clot in the calf, not a strain",
-   "action": "hand correction applied"
+   "name": "Davante Adams",
+   "team": "LA",
+   "check": "non_injury",
+   "detail": "Not injury: Resting player",
+   "action": "no recovery note or re-injury risk"
   },
   {
    "name": "Michael Pittman",
@@ -21,6 +14,13 @@
    "check": "ir_longer_than_typical",
    "detail": "Foot usually 0\u20132 games",
    "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Jalen Hurts",
+   "team": "PHI",
+   "check": "override",
+   "detail": "Official label says calf; it's a blood clot in the calf, not a strain",
+   "action": "hand correction applied"
   },
   {
    "name": "Travis Etienne",

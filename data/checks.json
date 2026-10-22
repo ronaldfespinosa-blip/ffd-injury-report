@@ -2,6 +2,20 @@
  "week": 7,
  "checks": [
   {
+   "name": "Jonah Coleman",
+   "team": "DEN",
+   "check": "ir_longer_than_typical",
+   "detail": "Ankle usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Jordan Mason",
+   "team": "MIN",
+   "check": "ir_longer_than_typical",
+   "detail": "Thumb usually 0\u20131 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
    "name": "Davante Adams",
    "team": "LA",
    "check": "non_injury",
@@ -83,13 +97,6 @@
    "team": "PHI",
    "check": "ir_longer_than_typical",
    "detail": "Quadricep usually 0\u20132 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Jonah Coleman",
-   "team": "DEN",
-   "check": "ir_longer_than_typical",
-   "detail": "Ankle usually 0\u20133 games",
    "action": "note reworded to say the IR stint is longer than typical"
   }
  ]

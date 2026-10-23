@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 7,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-23T09:40:33Z",
+ "generated": "2026-10-23T12:47:31Z",
  "week_complete": false,
  "next_week": 7,
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
@@ -1078,6 +1078,39 @@
    "changed": "2026-10-23T02:47-04:00"
   },
   {
+   "name": "Zach Charbonnet",
+   "pos": "RB",
+   "team": "SEA",
+   "status": "Practicing",
+   "condition": "Good",
+   "injury": "Knee",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "FP"
+    },
+    {
+     "d": "Thu",
+     "s": "FP"
+    }
+   ],
+   "back": "Status due Fri",
+   "pickup": "George Holani",
+   "rank": 136,
+   "dyn_rank": null,
+   "source_date": "2026-10-22",
+   "source_label": "Thursday\u2019s practice report",
+   "typical": "0\u20133 games",
+   "reinjury": "Moderate",
+   "note": "'Knee' covers everything from a bruise to a torn ligament. Most MCL sprains cost 2-6 weeks; ACL tears go straight to IR.",
+   "evidence": "study",
+   "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
+   "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "changed": "2026-10-23T08:47-04:00"
+  },
+  {
    "name": "Tyler Shough",
    "pos": "QB",
    "team": "NO",
@@ -1782,39 +1815,6 @@
    "changed": null
   },
   {
-   "name": "Zach Charbonnet",
-   "pos": "RB",
-   "team": "SEA",
-   "status": "PUP",
-   "condition": "Critical",
-   "injury": "Knee",
-   "practice": "",
-   "practice_code": "",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "FP"
-    },
-    {
-     "d": "Thu",
-     "s": "FP"
-    }
-   ],
-   "back": "Eligible Week 5",
-   "pickup": "",
-   "rank": 136,
-   "dyn_rank": 138,
-   "source_date": null,
-   "source_label": "",
-   "typical": "PUP: 4+ games",
-   "reinjury": "Moderate",
-   "note": "'Knee' covers everything from a bruise to a torn ligament. Most MCL sprains cost 2-6 weeks; ACL tears go straight to IR.",
-   "evidence": "study",
-   "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
-   "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
-   "changed": null
-  },
-  {
    "name": "Jonathon Brooks",
    "pos": "RB",
    "team": "CAR",
@@ -2346,6 +2346,30 @@
    "changed": null
   },
   {
+   "name": "Elijah Arroyo",
+   "pos": "TE",
+   "team": "SEA",
+   "status": "IR",
+   "condition": "Critical",
+   "injury": "Undisclosed",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Eligible Week 11",
+   "pickup": "",
+   "rank": null,
+   "dyn_rank": 230,
+   "source_date": null,
+   "source_label": "",
+   "typical": "IR: 4+ games",
+   "reinjury": "Unknown",
+   "note": "The team hasn't said what the injury is.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-10-23T08:47-04:00"
+  },
+  {
    "name": "Jack Bech",
    "pos": "WR",
    "team": "LV",
@@ -2419,6 +2443,32 @@
   }
  ],
  "recent_changes": [
+  {
+   "at": "2026-10-23T08:47-04:00",
+   "name": "Zach Charbonnet",
+   "team": "SEA",
+   "pos": "RB",
+   "rank": 136,
+   "kind": "status",
+   "from": "PUP",
+   "to": "Practicing",
+   "injury": "Knee",
+   "news": false,
+   "week": 7
+  },
+  {
+   "at": "2026-10-23T08:47-04:00",
+   "name": "Elijah Arroyo",
+   "team": "SEA",
+   "pos": "TE",
+   "rank": null,
+   "kind": "added",
+   "from": null,
+   "to": "IR",
+   "injury": "Undisclosed",
+   "news": false,
+   "week": 7
+  },
   {
    "at": "2026-10-23T02:47-04:00",
    "name": "Puka Nacua",
@@ -3432,32 +3482,6 @@
    "from": "Practicing",
    "to": "Cleared",
    "injury": "Knee",
-   "news": false,
-   "week": 6
-  },
-  {
-   "at": "2026-10-17T02:44-04:00",
-   "name": "Chris Olave",
-   "team": "NO",
-   "pos": "WR",
-   "rank": 22,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Questionable",
-   "injury": "Illness",
-   "news": false,
-   "week": 6
-  },
-  {
-   "at": "2026-10-17T02:44-04:00",
-   "name": "DeVonta Smith",
-   "team": "PHI",
-   "pos": "WR",
-   "rank": 30,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Cleared",
-   "injury": "Hamstring",
    "news": false,
    "week": 6
   }

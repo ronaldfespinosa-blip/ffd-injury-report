@@ -23,6 +23,13 @@
    "action": "no recovery note or re-injury risk"
   },
   {
+   "name": "Christian Kirk",
+   "team": "SF",
+   "check": "ir_longer_than_typical",
+   "detail": "Calf usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
    "name": "Michael Pittman",
    "team": "PIT",
    "check": "ir_longer_than_typical",

@@ -16,6 +16,13 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
+   "name": "Tyjae Spears",
+   "team": "TEN",
+   "check": "non_injury",
+   "detail": "Not injury: Resting player",
+   "action": "no recovery note or re-injury risk"
+  },
+  {
    "name": "Davante Adams",
    "team": "LA",
    "check": "non_injury",

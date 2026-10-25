@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-10-24T09:18",
+ "fetched_et": "2026-10-25T07:20",
  "players": [
   {
    "id": "",
@@ -250,7 +250,7 @@
    "name": "Dontayvion Wicks",
    "pos": "WR",
    "team": "PHI",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Ankle"
   },
   {
@@ -259,7 +259,7 @@
    "name": "Brashard Smith",
    "pos": "RB",
    "team": "KC",
-   "status": "Out",
+   "status": "IR",
    "part": "Hamstring"
   },
   {
@@ -268,7 +268,7 @@
    "name": "Lamar Jackson",
    "pos": "QB",
    "team": "BAL",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Ankle"
   },
   {
@@ -399,15 +399,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "8408",
-   "name": "Jordan Mason",
-   "pos": "RB",
-   "team": "MIN",
-   "status": "IR",
-   "part": "Thumb"
-  },
-  {
-   "id": "",
    "sleeper_id": "7021",
    "name": "Rico Dowdle",
    "pos": "RB",
@@ -448,7 +439,7 @@
    "name": "Theo Johnson",
    "pos": "TE",
    "team": "NYG",
-   "status": "Doubtful",
+   "status": "Out",
    "part": "Neck"
   },
   {
@@ -457,7 +448,7 @@
    "name": "Tyler Badie",
    "pos": "RB",
    "team": "DEN",
-   "status": "Out",
+   "status": "IR",
    "part": "Thumb"
   },
   {
@@ -668,21 +659,12 @@
    "part": "Shoulder - AC Joint"
   },
   {
-   "id": "00-0034351",
-   "sleeper_id": "5022",
-   "name": "Dallas Goedert",
-   "pos": "TE",
-   "team": "PHI",
-   "status": "Questionable",
-   "part": "Knee"
-  },
-  {
    "id": "",
    "sleeper_id": "8917",
    "name": "KaVontae Turpin",
    "pos": "WR",
    "team": "DAL",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Ribs"
   },
   {
@@ -727,7 +709,7 @@
    "name": "DeVonta Smith",
    "pos": "WR",
    "team": "PHI",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Hamstring"
   },
   {
@@ -947,15 +929,6 @@
    "part": "Abdomen"
   },
   {
-   "id": "",
-   "sleeper_id": "12469",
-   "name": "Dylan Sampson",
-   "pos": "RB",
-   "team": "CLE",
-   "status": "IR",
-   "part": "Knee"
-  },
-  {
    "id": "00-0035659",
    "sleeper_id": "5927",
    "name": "Terry McLaurin",
@@ -963,15 +936,6 @@
    "team": "WAS",
    "status": "Out",
    "part": "Knee"
-  },
-  {
-   "id": "00-0034775",
-   "sleeper_id": "4950",
-   "name": "Christian Kirk",
-   "pos": "WR",
-   "team": "SF",
-   "status": "IR",
-   "part": "Calf"
   },
   {
    "id": "",
@@ -1132,7 +1096,7 @@
    "name": "Jonah Coleman",
    "pos": "RB",
    "team": "DEN",
-   "status": "IR",
+   "status": "Questionable",
    "part": "Ankle"
   },
   {
@@ -1188,15 +1152,6 @@
    "team": "ARI",
    "status": "PUP",
    "part": "Ankle"
-  },
-  {
-   "id": "",
-   "sleeper_id": "9502",
-   "name": "Tank Dell",
-   "pos": "WR",
-   "team": "HOU",
-   "status": "IR",
-   "part": "Knee - ACL + MCL"
   },
   {
    "id": "00-0032268",

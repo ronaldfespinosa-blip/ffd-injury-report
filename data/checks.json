@@ -2,20 +2,6 @@
  "week": 7,
  "checks": [
   {
-   "name": "Jonah Coleman",
-   "team": "DEN",
-   "check": "ir_longer_than_typical",
-   "detail": "Ankle usually 0\u20133 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Jordan Mason",
-   "team": "MIN",
-   "check": "ir_longer_than_typical",
-   "detail": "Thumb usually 0\u20131 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
    "name": "Tyjae Spears",
    "team": "TEN",
    "check": "non_injury",
@@ -28,13 +14,6 @@
    "check": "non_injury",
    "detail": "Not injury: Resting player",
    "action": "no recovery note or re-injury risk"
-  },
-  {
-   "name": "Christian Kirk",
-   "team": "SF",
-   "check": "ir_longer_than_typical",
-   "detail": "Calf usually 0\u20133 games",
-   "action": "note reworded to say the IR stint is longer than typical"
   },
   {
    "name": "Michael Pittman",

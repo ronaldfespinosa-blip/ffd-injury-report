@@ -2,6 +2,13 @@
  "week": 7,
  "checks": [
   {
+   "name": "Nicholas Singleton",
+   "team": "TEN",
+   "check": "non_injury_news",
+   "detail": "Coach's Decision",
+   "action": "left off the report"
+  },
+  {
    "name": "Tyjae Spears",
    "team": "TEN",
    "check": "non_injury",
@@ -91,6 +98,20 @@
    "check": "ir_longer_than_typical",
    "detail": "Quadricep usually 0\u20132 games",
    "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Woody Marks",
+   "team": "HOU",
+   "check": "unmatched_label",
+   "detail": "Leg",
+   "action": "generic note; add it to return-timelines.json"
+  },
+  {
+   "name": "Drake London",
+   "team": "ATL",
+   "check": "unmatched_label",
+   "detail": "Head",
+   "action": "generic note; add it to return-timelines.json"
   }
  ]
 }

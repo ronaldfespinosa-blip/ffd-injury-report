@@ -37,13 +37,6 @@
    "action": "hand correction applied"
   },
   {
-   "name": "Travis Etienne",
-   "team": "NO",
-   "check": "ir_longer_than_typical",
-   "detail": "Hamstring usually 0\u20133 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
    "name": "Malik Davis",
    "team": "DAL",
    "check": "ir_longer_than_typical",
@@ -86,20 +79,6 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
-   "name": "De'Zhaun Stribling",
-   "team": "SF",
-   "check": "ir_longer_than_typical",
-   "detail": "Ankle usually 0\u20133 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Eli Stowers",
-   "team": "PHI",
-   "check": "ir_longer_than_typical",
-   "detail": "Hamstring usually 0\u20133 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
    "name": "Woody Marks",
    "team": "HOU",
    "check": "unmatched_label",
@@ -107,11 +86,32 @@
    "action": "generic note; add it to return-timelines.json"
   },
   {
+   "name": "De'Zhaun Stribling",
+   "team": "SF",
+   "check": "ir_longer_than_typical",
+   "detail": "Ankle usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
    "name": "Drake London",
    "team": "ATL",
    "check": "unmatched_label",
    "detail": "Head",
    "action": "generic note; add it to return-timelines.json"
+  },
+  {
+   "name": "Jordyn Tyson",
+   "team": "NO",
+   "check": "ir_longer_than_typical",
+   "detail": "Hamstring usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Travis Etienne Jr.",
+   "team": "NO",
+   "check": "ir_longer_than_typical",
+   "detail": "Hamstring usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
   }
  ]
 }

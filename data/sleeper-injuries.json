@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-10-26T08:55",
+ "fetched_et": "2026-10-27T11:19",
  "players": [
   {
    "id": "",
@@ -291,15 +291,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "8177",
-   "name": "Grant Calcaterra",
-   "pos": "TE",
-   "team": "PHI",
-   "status": "IR",
-   "part": "Back"
-  },
-  {
-   "id": "",
    "sleeper_id": "8125",
    "name": "Calvin Austin III",
    "pos": "WR",
@@ -333,6 +324,15 @@
    "team": "NE",
    "status": "IR",
    "part": "Undisclosed"
+  },
+  {
+   "id": "",
+   "sleeper_id": "8414",
+   "name": "Britain Covey",
+   "pos": "WR",
+   "team": "PHI",
+   "status": "Out",
+   "part": "Knee"
   },
   {
    "id": "00-0028986",
@@ -369,15 +369,6 @@
    "team": "BAL",
    "status": "Out",
    "part": "Ankle"
-  },
-  {
-   "id": "",
-   "sleeper_id": "13349",
-   "name": "Eli Stowers",
-   "pos": "TE",
-   "team": "PHI",
-   "status": "IR",
-   "part": "Hamstring"
   },
   {
    "id": "",
@@ -651,6 +642,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "13335",
+   "name": "Cole Payton",
+   "pos": "QB",
+   "team": "PHI",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "12656",
    "name": "Robbie Ouzts",
    "pos": "RB",
@@ -728,7 +728,7 @@
    "pos": "RB",
    "team": "PHI",
    "status": "Questionable",
-   "part": "Hamstring"
+   "part": "Back"
   },
   {
    "id": "",
@@ -1056,11 +1056,29 @@
   },
   {
    "id": "",
+   "sleeper_id": "7547",
+   "name": "Amon-Ra St. Brown",
+   "pos": "WR",
+   "team": "DET",
+   "status": "Questionable",
+   "part": "Ankle"
+  },
+  {
+   "id": "",
    "sleeper_id": "9481",
    "name": "Luke Musgrave",
    "pos": "TE",
    "team": "GB",
    "status": "PUP",
+   "part": "Undisclosed"
+  },
+  {
+   "id": "",
+   "sleeper_id": "8129",
+   "name": "Dameon Pierce",
+   "pos": "RB",
+   "team": "PHI",
+   "status": "Questionable",
    "part": "Undisclosed"
   },
   {
@@ -1227,6 +1245,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "11646",
+   "name": "Jalen Coker",
+   "pos": "WR",
+   "team": "CAR",
+   "status": "Questionable",
+   "part": "Shoulder"
+  },
+  {
+   "id": "",
    "sleeper_id": "12481",
    "name": "Cam Skattebo",
    "pos": "RB",
@@ -1278,6 +1305,15 @@
    "team": "HOU",
    "status": "IR",
    "part": "Knee - ACL"
+  },
+  {
+   "id": "",
+   "sleeper_id": "11199",
+   "name": "Emari Demercado",
+   "pos": "RB",
+   "team": "DAL",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -1533,6 +1569,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "11034",
+   "name": "Jalen Brooks",
+   "pos": "WR",
+   "team": "ARI",
+   "status": "Out",
+   "part": "Wrist"
+  },
+  {
+   "id": "",
    "sleeper_id": "13306",
    "name": "Taylen Green",
    "pos": "QB",
@@ -1674,6 +1719,15 @@
    "team": "KC",
    "status": "IR",
    "part": "Ankle"
+  },
+  {
+   "id": "",
+   "sleeper_id": "12501",
+   "name": "Matthew Golden",
+   "pos": "WR",
+   "team": "GB",
+   "status": "Questionable",
+   "part": "Shoulder"
   },
   {
    "id": "",

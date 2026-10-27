@@ -2,9 +2,9 @@
  "season": 2026,
  "week": 7,
  "rank_source": "Doc's Top 200",
- "generated": "2026-10-27T00:24:15Z",
- "week_complete": false,
- "next_week": 7,
+ "generated": "2026-10-27T08:55:41Z",
+ "week_complete": true,
+ "next_week": 8,
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -68,7 +68,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 7",
+   "back": "Missed Week 7. Week 8 status TBD",
    "pickup": "Darius Cooper",
    "rank": 31,
    "dyn_rank": null,
@@ -80,6 +80,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-10-25T07:20-04:00"
   },
   {
@@ -406,7 +407,7 @@
     }
    ],
    "back": "Missed Week 7. Week 8 status TBD",
-   "pickup": "Khalil Herbert",
+   "pickup": "Trey Sermon",
    "rank": 143,
    "dyn_rank": null,
    "source_date": "2026-10-23",
@@ -444,7 +445,7 @@
     }
    ],
    "back": "Missed Week 7. Week 8 status TBD",
-   "pickup": "Jordan Watkins",
+   "pickup": "Christian Kirk",
    "rank": 154,
    "dyn_rank": null,
    "source_date": "2026-10-23",
@@ -481,7 +482,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 7",
+   "back": "Missed Week 7. Week 8 status TBD",
    "pickup": "Hollywood Brown",
    "rank": 158,
    "dyn_rank": null,
@@ -493,6 +494,7 @@
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
    "changed": "2026-10-25T07:20-04:00"
   },
   {
@@ -552,7 +554,7 @@
      "s": "FP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 7 game played. Week 8 status TBD",
    "pickup": "Dameon Pierce",
    "rank": 16,
    "dyn_rank": null,
@@ -564,6 +566,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-10-25T07:20-04:00"
   },
   {
@@ -704,7 +707,7 @@
     }
    ],
    "back": "Week 7 game played. Week 8 status TBD",
-   "pickup": "Demond Claiborne",
+   "pickup": "Aaron Jones Sr.",
    "rank": 124,
    "dyn_rank": null,
    "source_date": "2026-10-23",
@@ -780,7 +783,7 @@
     }
    ],
    "back": "Week 7 game played. Week 8 status TBD",
-   "pickup": "Tyler Badie",
+   "pickup": "RJ Harvey",
    "rank": 159,
    "dyn_rank": null,
    "source_date": "2026-10-23",
@@ -931,7 +934,7 @@
    "practice_code": "",
    "trail": [],
    "back": "Hurt Week 7. Week 8 status TBD",
-   "pickup": "Jordan Mason",
+   "pickup": "Demond Claiborne",
    "rank": 42,
    "dyn_rank": 175,
    "source_date": "2026-10-26",
@@ -1131,7 +1134,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 7",
    "pickup": "",
    "rank": 19,
    "dyn_rank": null,
@@ -1143,6 +1146,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-10-25T00:36-04:00"
   },
   {
@@ -1882,7 +1886,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 7",
    "pickup": "",
    "rank": 134,
    "dyn_rank": null,
@@ -1894,6 +1898,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-10-25T07:20-04:00"
   },
   {
@@ -2758,23 +2763,24 @@
    "team": "PHI",
    "status": "IR",
    "condition": "Critical",
-   "injury": "Quadricep",
+   "injury": "Hamstring",
    "practice": "",
    "practice_code": "",
    "trail": [],
-   "back": "Eligible Week 5",
+   "back": "Eligible Week 12",
    "pickup": "",
    "rank": null,
    "dyn_rank": 127,
-   "source_date": null,
-   "source_label": "",
+   "source_date": "2026-10-26",
+   "source_label": "Reported by Monday",
+   "news": true,
    "typical": "IR: 4+ games",
-   "reinjury": "Moderate",
-   "note": "He's on IR, so he's out at least four games. That's longer than a typical quadricep injury, so expect more than the routine version. Routine case: Thigh bruises usually cost little time; true quad strains behave more like hamstrings.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": null
+   "reinjury": "High",
+   "note": "He's on IR, so he's out at least four games. That's longer than a typical hamstring injury, so expect more than the routine version. Routine case: About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "evidence": "study",
+   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "changed": "2026-10-27T04:55-04:00"
   },
   {
    "name": "Ricky Pearsall",
@@ -2922,6 +2928,20 @@
   }
  ],
  "recent_changes": [
+  {
+   "at": "2026-10-27T04:55-04:00",
+   "name": "Eli Stowers",
+   "team": "PHI",
+   "pos": "TE",
+   "rank": null,
+   "kind": "injury",
+   "from": "IR",
+   "to": "IR",
+   "injury": "Hamstring",
+   "news": true,
+   "week": 7,
+   "was": "Quadricep"
+  },
   {
    "at": "2026-10-26T08:55-04:00",
    "name": "Christian McCaffrey",
@@ -3946,19 +3966,6 @@
    "from": null,
    "to": "Practicing",
    "injury": "Hamstring",
-   "news": false,
-   "week": 7
-  },
-  {
-   "at": "2026-10-22T02:48-04:00",
-   "name": "Emeka Egbuka",
-   "team": "TB",
-   "pos": "WR",
-   "rank": 40,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Concussion",
    "news": false,
    "week": 7
   }

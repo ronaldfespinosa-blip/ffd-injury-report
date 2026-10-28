@@ -1,20 +1,6 @@
 {
- "week": 7,
+ "week": 8,
  "checks": [
-  {
-   "name": "Nicholas Singleton",
-   "team": "TEN",
-   "check": "non_injury_news",
-   "detail": "Coach's Decision",
-   "action": "left off the report"
-  },
-  {
-   "name": "Tyjae Spears",
-   "team": "TEN",
-   "check": "non_injury",
-   "detail": "Not injury: Resting player",
-   "action": "no recovery note or re-injury risk"
-  },
   {
    "name": "Davante Adams",
    "team": "LA",
@@ -76,41 +62,6 @@
    "team": "LA",
    "check": "ir_longer_than_typical",
    "detail": "Ankle usually 0\u20133 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Woody Marks",
-   "team": "HOU",
-   "check": "unmatched_label",
-   "detail": "Leg",
-   "action": "generic note; add it to return-timelines.json"
-  },
-  {
-   "name": "De'Zhaun Stribling",
-   "team": "SF",
-   "check": "ir_longer_than_typical",
-   "detail": "Ankle usually 0\u20133 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Drake London",
-   "team": "ATL",
-   "check": "unmatched_label",
-   "detail": "Head",
-   "action": "generic note; add it to return-timelines.json"
-  },
-  {
-   "name": "Jordyn Tyson",
-   "team": "NO",
-   "check": "ir_longer_than_typical",
-   "detail": "Hamstring usually 0\u20133 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Travis Etienne Jr.",
-   "team": "NO",
-   "check": "ir_longer_than_typical",
-   "detail": "Hamstring usually 0\u20133 games",
    "action": "note reworded to say the IR stint is longer than typical"
   }
  ]

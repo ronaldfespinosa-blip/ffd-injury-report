@@ -2,11 +2,25 @@
  "week": 8,
  "checks": [
   {
+   "name": "Brenton Strange",
+   "team": "JAX",
+   "check": "unmatched_label",
+   "detail": "Eye",
+   "action": "generic note; add it to return-timelines.json"
+  },
+  {
    "name": "Davante Adams",
    "team": "LA",
    "check": "non_injury",
    "detail": "Not injury: Resting player",
    "action": "no recovery note or re-injury risk"
+  },
+  {
+   "name": "Terry McLaurin",
+   "team": "WAS",
+   "check": "ir_longer_than_typical",
+   "detail": "Hamstring usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
   },
   {
    "name": "Michael Pittman",

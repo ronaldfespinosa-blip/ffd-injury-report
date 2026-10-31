@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-10-30T13:58",
+ "fetched_et": "2026-10-31T08:20",
  "players": [
   {
    "id": "",
@@ -48,12 +48,12 @@
   },
   {
    "id": "",
-   "sleeper_id": "11610",
-   "name": "Malik Washington",
-   "pos": "WR",
-   "team": "MIA",
+   "sleeper_id": "12517",
+   "name": "Colston Loveland",
+   "pos": "TE",
+   "team": "CHI",
    "status": "Questionable",
-   "part": "Knee"
+   "part": "Neck"
   },
   {
    "id": "",
@@ -97,7 +97,7 @@
    "name": "Brenen Thompson",
    "pos": "WR",
    "team": "LAC",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Quadriceps"
   },
   {
@@ -129,30 +129,12 @@
   },
   {
    "id": "",
-   "sleeper_id": "11635",
-   "name": "Ladd McConkey",
-   "pos": "WR",
-   "team": "LAC",
-   "status": "Questionable",
-   "part": "Concussion"
-  },
-  {
-   "id": "",
    "sleeper_id": "8154",
    "name": "Brian Robinson Jr.",
    "pos": "RB",
    "team": "ATL",
    "status": "Out",
    "part": "Hamstring"
-  },
-  {
-   "id": "",
-   "sleeper_id": "10232",
-   "name": "Michael Wilson",
-   "pos": "WR",
-   "team": "ARI",
-   "status": "Questionable",
-   "part": "Ribs"
   },
   {
    "id": "00-0034419",
@@ -259,7 +241,7 @@
    "name": "Britain Covey",
    "pos": "WR",
    "team": "PHI",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Knee"
   },
   {
@@ -268,7 +250,7 @@
    "name": "Dontayvion Wicks",
    "pos": "WR",
    "team": "PHI",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Ankle"
   },
   {
@@ -326,15 +308,6 @@
    "part": "Undisclosed"
   },
   {
-   "id": "",
-   "sleeper_id": "12509",
-   "name": "Tre' Harris",
-   "pos": "WR",
-   "team": "LAC",
-   "status": "Questionable",
-   "part": "Hamstring"
-  },
-  {
    "id": "00-0034960",
    "sleeper_id": "5947",
    "name": "Jakobi Meyers",
@@ -351,15 +324,6 @@
    "team": "SF",
    "status": "PUP",
    "part": "Pectoral"
-  },
-  {
-   "id": "",
-   "sleeper_id": "12700",
-   "name": "Gavin Bartholomew",
-   "pos": "TE",
-   "team": "MIN",
-   "status": "Questionable",
-   "part": "Ankle"
   },
   {
    "id": "",
@@ -533,15 +497,6 @@
    "part": "Achilles"
   },
   {
-   "id": "",
-   "sleeper_id": "8132",
-   "name": "Tyler Allgeier",
-   "pos": "RB",
-   "team": "ARI",
-   "status": "Questionable",
-   "part": "Toe"
-  },
-  {
    "id": "00-0034611",
    "sleeper_id": "5288",
    "name": "Donnie Ernsberger",
@@ -565,7 +520,7 @@
    "name": "RJ Harvey",
    "pos": "RB",
    "team": "DEN",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Knee"
   },
   {
@@ -666,15 +621,6 @@
    "team": "NYG",
    "status": "IR",
    "part": "Achilles"
-  },
-  {
-   "id": "00-0034844",
-   "sleeper_id": "4866",
-   "name": "Saquon Barkley",
-   "pos": "RB",
-   "team": "PHI",
-   "status": "Questionable",
-   "part": "Back"
   },
   {
    "id": "",
@@ -781,7 +727,7 @@
    "name": "KaVontae Turpin",
    "pos": "WR",
    "team": "DAL",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Ribs"
   },
   {
@@ -791,15 +737,6 @@
    "pos": "RB",
    "team": "NYG",
    "status": "IR",
-   "part": "Hamstring"
-  },
-  {
-   "id": "",
-   "sleeper_id": "10229",
-   "name": "Rashee Rice",
-   "pos": "WR",
-   "team": "KC",
-   "status": "Questionable",
    "part": "Hamstring"
   },
   {
@@ -817,7 +754,7 @@
    "name": "Carnell Tate",
    "pos": "WR",
    "team": "TEN",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Shoulder"
   },
   {
@@ -831,20 +768,11 @@
   },
   {
    "id": "",
-   "sleeper_id": "13287",
-   "name": "Jeremiyah Love",
-   "pos": "RB",
-   "team": "ARI",
-   "status": "Questionable",
-   "part": "Ankle"
-  },
-  {
-   "id": "",
    "sleeper_id": "7525",
    "name": "DeVonta Smith",
    "pos": "WR",
    "team": "PHI",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Hamstring"
   },
   {
@@ -1024,7 +952,7 @@
    "name": "Tyjae Spears",
    "pos": "RB",
    "team": "TEN",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Knee"
   },
   {
@@ -1091,15 +1019,6 @@
    "part": "Knee"
   },
   {
-   "id": "00-0033293",
-   "sleeper_id": "4199",
-   "name": "Aaron Jones Sr.",
-   "pos": "RB",
-   "team": "MIN",
-   "status": "Questionable",
-   "part": "Undisclosed"
-  },
-  {
    "id": "",
    "sleeper_id": "12472",
    "name": "Raheim Sanders",
@@ -1118,13 +1037,13 @@
    "part": "Hamstring"
   },
   {
-   "id": "00-0034365",
-   "sleeper_id": "4995",
-   "name": "Ian Thomas",
-   "pos": "TE",
-   "team": "LV",
+   "id": "",
+   "sleeper_id": "11623",
+   "name": "Jordan Whittington",
+   "pos": "WR",
+   "team": "LAR",
    "status": "Questionable",
-   "part": "Shoulder"
+   "part": "Back"
   },
   {
    "id": "",
@@ -1240,26 +1159,8 @@
    "name": "Anthony Gould",
    "pos": "WR",
    "team": "IND",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Concussion"
-  },
-  {
-   "id": "",
-   "sleeper_id": "12544",
-   "name": "LeQuint Allen Jr.",
-   "pos": "RB",
-   "team": "JAX",
-   "status": "Questionable",
-   "part": "Hamstring"
-  },
-  {
-   "id": "",
-   "sleeper_id": "8172",
-   "name": "Greg Dulcich",
-   "pos": "TE",
-   "team": "MIA",
-   "status": "Questionable",
-   "part": "Ankle"
   },
   {
    "id": "00-0033858",
@@ -1335,15 +1236,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "13434",
-   "name": "Will Kacmarek",
-   "pos": "TE",
-   "team": "MIA",
-   "status": "Questionable",
-   "part": "Hamstring"
-  },
-  {
-   "id": "",
    "sleeper_id": "11716",
    "name": "Tip Reiman",
    "pos": "TE",
@@ -1359,24 +1251,6 @@
    "team": "DAL",
    "status": "Questionable",
    "part": "Groin"
-  },
-  {
-   "id": "",
-   "sleeper_id": "11056",
-   "name": "Jared Wayne",
-   "pos": "WR",
-   "team": "MIA",
-   "status": "Questionable",
-   "part": "Knee"
-  },
-  {
-   "id": "00-0030506",
-   "sleeper_id": "1466",
-   "name": "Travis Kelce",
-   "pos": "TE",
-   "team": "KC",
-   "status": "Questionable",
-   "part": "Ankle"
   },
   {
    "id": "",
@@ -1485,15 +1359,6 @@
    "team": "PIT",
    "status": "IR",
    "part": "Foot"
-  },
-  {
-   "id": "",
-   "sleeper_id": "11575",
-   "name": "Ray Davis",
-   "pos": "RB",
-   "team": "BUF",
-   "status": "Questionable",
-   "part": "Illness"
   },
   {
    "id": "",

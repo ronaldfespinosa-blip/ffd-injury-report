@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 8,
  "rank_source": "Doc's Top 200",
- "generated": "2026-11-01T05:57:36Z",
+ "generated": "2026-11-01T13:16:25Z",
  "week_complete": false,
  "next_week": 8,
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
@@ -119,37 +119,41 @@
    "changed": "2026-10-31T08:20-04:00"
   },
   {
-   "name": "RJ Harvey",
+   "name": "Kyle Monangai",
    "pos": "RB",
-   "team": "DEN",
+   "team": "CHI",
    "status": "Out",
    "condition": "Critical",
-   "injury": "Knee",
+   "injury": "Thumb",
    "practice": "Did Not Participate In Practice",
    "practice_code": "DNP",
    "trail": [
     {
      "d": "Thu",
-     "s": "LP"
+     "s": "DNP"
     },
     {
      "d": "Fri",
      "s": "DNP"
+    },
+    {
+     "d": "Sat",
+     "s": "DNP"
     }
    ],
    "back": "Out Week 8",
-   "pickup": "Tyler Badie",
-   "rank": 87,
+   "pickup": "Roschon Johnson",
+   "rank": 102,
    "dyn_rank": null,
-   "source_date": "2026-10-30",
-   "source_label": "Friday\u2019s final Week 8 report",
-   "typical": "1\u20133 games",
-   "reinjury": "Moderate",
-   "note": "'Knee' covers everything from a bruise to a torn ligament. Most MCL sprains cost 2-6 weeks; ACL tears go straight to IR.",
-   "evidence": "study",
-   "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
-   "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
-   "changed": "2026-10-31T08:20-04:00"
+   "source_date": "2026-10-31",
+   "source_label": "Saturday\u2019s final Week 8 report",
+   "typical": "1 game",
+   "reinjury": "Low",
+   "note": "Skill players usually play with a wrap or cast. It matters more for a QB's throwing hand.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-01T08:16-05:00"
   },
   {
    "name": "Tyjae Spears",
@@ -189,6 +193,39 @@
    "changed": "2026-10-31T08:20-04:00"
   },
   {
+   "name": "Rashid Shaheed",
+   "pos": "WR",
+   "team": "SEA",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Knee",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Fri",
+     "s": "DNP"
+    },
+    {
+     "d": "Sat",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 8",
+   "pickup": "Irv Charles",
+   "rank": 137,
+   "dyn_rank": null,
+   "source_date": "2026-10-31",
+   "source_label": "Saturday\u2019s final Week 8 report",
+   "typical": "1\u20133 games",
+   "reinjury": "Moderate",
+   "note": "'Knee' covers everything from a bruise to a torn ligament. Most MCL sprains cost 2-6 weeks; ACL tears go straight to IR.",
+   "evidence": "study",
+   "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
+   "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "changed": "2026-11-01T08:16-05:00"
+  },
+  {
    "name": "Brian Robinson",
    "pos": "RB",
    "team": "ATL",
@@ -212,7 +249,7 @@
     }
    ],
    "back": "Out Week 8",
-   "pickup": "Trey Sermon",
+   "pickup": "Khalil Herbert",
    "rank": 139,
    "dyn_rank": null,
    "source_date": "2026-10-30",
@@ -842,8 +879,8 @@
    "status": "Cleared",
    "condition": "Good",
    "injury": "Neck",
-   "practice": "Limited Participation in Practice",
-   "practice_code": "LP",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
    "trail": [
     {
      "d": "Fri",
@@ -851,7 +888,7 @@
     },
     {
      "d": "Sat",
-     "s": "LP"
+     "s": "FP"
     }
    ],
    "back": "Expected to play",
@@ -866,7 +903,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
-   "changed": "2026-11-01T01:57-04:00"
+   "changed": "2026-11-01T08:16-05:00"
   },
   {
    "name": "Rashee Rice",
@@ -1310,43 +1347,6 @@
    "changed": "2026-10-29T05:53-04:00"
   },
   {
-   "name": "Kyle Monangai",
-   "pos": "RB",
-   "team": "CHI",
-   "status": "Cleared",
-   "condition": "Serious",
-   "injury": "Thumb",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Thu",
-     "s": "DNP"
-    },
-    {
-     "d": "Fri",
-     "s": "DNP"
-    },
-    {
-     "d": "Sat",
-     "s": "DNP"
-    }
-   ],
-   "back": "Expected to play",
-   "pickup": "",
-   "rank": 102,
-   "dyn_rank": null,
-   "source_date": "2026-10-31",
-   "source_label": "Saturday\u2019s final Week 8 report",
-   "typical": "\u2014",
-   "reinjury": "Low",
-   "note": "Skill players usually play with a wrap or cast. It matters more for a QB's throwing hand.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-01T01:57-04:00"
-  },
-  {
    "name": "Travis Kelce",
    "pos": "TE",
    "team": "KC",
@@ -1575,8 +1575,8 @@
    "status": "Cleared",
    "condition": "Good",
    "injury": "Knee",
-   "practice": "Limited Participation in Practice",
-   "practice_code": "LP",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
    "trail": [
     {
      "d": "Fri",
@@ -1584,7 +1584,7 @@
     },
     {
      "d": "Sat",
-     "s": "LP"
+     "s": "FP"
     }
    ],
    "back": "Expected to play",
@@ -1599,40 +1599,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
-   "changed": "2026-11-01T01:57-04:00"
-  },
-  {
-   "name": "Rashid Shaheed",
-   "pos": "WR",
-   "team": "SEA",
-   "status": "Cleared",
-   "condition": "Serious",
-   "injury": "Knee",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Fri",
-     "s": "DNP"
-    },
-    {
-     "d": "Sat",
-     "s": "DNP"
-    }
-   ],
-   "back": "Expected to play",
-   "pickup": "",
-   "rank": 137,
-   "dyn_rank": null,
-   "source_date": "2026-10-31",
-   "source_label": "Saturday\u2019s final Week 8 report",
-   "typical": "\u2014",
-   "reinjury": "Moderate",
-   "note": "'Knee' covers everything from a bruise to a torn ligament. Most MCL sprains cost 2-6 weeks; ACL tears go straight to IR.",
-   "evidence": "study",
-   "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
-   "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
-   "changed": "2026-11-01T01:57-04:00"
+   "changed": "2026-11-01T08:16-05:00"
   },
   {
    "name": "Ray Davis",
@@ -2008,6 +1975,39 @@
    "source": "",
    "source_url": "",
    "changed": "2026-10-27T11:19-04:00"
+  },
+  {
+   "name": "RJ Harvey",
+   "pos": "RB",
+   "team": "DEN",
+   "status": "IR",
+   "condition": "Critical",
+   "injury": "Knee",
+   "practice": "",
+   "practice_code": "",
+   "trail": [
+    {
+     "d": "Thu",
+     "s": "LP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Eligible Week 12",
+   "pickup": "",
+   "rank": 87,
+   "dyn_rank": 115,
+   "source_date": null,
+   "source_label": "",
+   "typical": "IR: 4+ games",
+   "reinjury": "Moderate",
+   "note": "'Knee' covers everything from a bruise to a torn ligament. Most MCL sprains cost 2-6 weeks; ACL tears go straight to IR.",
+   "evidence": "study",
+   "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
+   "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "changed": "2026-11-01T08:16-05:00"
   },
   {
    "name": "Romeo Doubs",
@@ -2418,30 +2418,6 @@
    "changed": null
   },
   {
-   "name": "Jack Bech",
-   "pos": "WR",
-   "team": "LV",
-   "status": "IR",
-   "condition": "Critical",
-   "injury": "Forearm",
-   "practice": "",
-   "practice_code": "",
-   "trail": [],
-   "back": "Eligible Week 8",
-   "pickup": "",
-   "rank": null,
-   "dyn_rank": 227,
-   "source_date": null,
-   "source_label": "",
-   "typical": "IR: 4+ games",
-   "reinjury": "Low",
-   "note": "Elbow bruises and sprains are usually played through with a sleeve or brace. For a QB's throwing arm, watch for lost velocity even if he plays. A UCL tear or fracture means IR.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-10-29T14:26-04:00"
-  },
-  {
    "name": "Elijah Arroyo",
    "pos": "TE",
    "team": "SEA",
@@ -2515,6 +2491,58 @@
   }
  ],
  "recent_changes": [
+  {
+   "at": "2026-11-01T08:16-05:00",
+   "name": "RJ Harvey",
+   "team": "DEN",
+   "pos": "RB",
+   "rank": 87,
+   "kind": "status",
+   "from": "Out",
+   "to": "IR",
+   "injury": "Knee",
+   "news": false,
+   "week": 8
+  },
+  {
+   "at": "2026-11-01T08:16-05:00",
+   "name": "Kyle Monangai",
+   "team": "CHI",
+   "pos": "RB",
+   "rank": 102,
+   "kind": "status",
+   "from": "Cleared",
+   "to": "Out",
+   "injury": "Thumb",
+   "news": false,
+   "week": 8
+  },
+  {
+   "at": "2026-11-01T08:16-05:00",
+   "name": "Rashid Shaheed",
+   "team": "SEA",
+   "pos": "WR",
+   "rank": 137,
+   "kind": "status",
+   "from": "Cleared",
+   "to": "Out",
+   "injury": "Knee",
+   "news": false,
+   "week": 8
+  },
+  {
+   "at": "2026-11-01T08:16-05:00",
+   "name": "Jack Bech",
+   "team": "LV",
+   "pos": "WR",
+   "rank": null,
+   "kind": "off",
+   "from": "IR",
+   "to": null,
+   "injury": "Forearm",
+   "news": false,
+   "week": 8
+  },
   {
    "at": "2026-11-01T01:57-04:00",
    "name": "Colston Loveland",
@@ -3496,58 +3524,6 @@
    "team": "PHI",
    "pos": "WR",
    "rank": 31,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Hamstring",
-   "news": false,
-   "week": 8
-  },
-  {
-   "at": "2026-10-29T14:26-04:00",
-   "name": "Ladd McConkey",
-   "team": "LAC",
-   "pos": "WR",
-   "rank": 48,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Concussion",
-   "news": false,
-   "week": 8
-  },
-  {
-   "at": "2026-10-29T14:26-04:00",
-   "name": "Dallas Goedert",
-   "team": "PHI",
-   "pos": "TE",
-   "rank": 131,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Knee",
-   "news": false,
-   "week": 8
-  },
-  {
-   "at": "2026-10-29T14:26-04:00",
-   "name": "Dontayvion Wicks",
-   "team": "PHI",
-   "pos": "WR",
-   "rank": 155,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Ankle",
-   "news": false,
-   "week": 8
-  },
-  {
-   "at": "2026-10-29T14:26-04:00",
-   "name": "Tre Harris",
-   "team": "LAC",
-   "pos": "WR",
-   "rank": 179,
    "kind": "added",
    "from": null,
    "to": "Practicing",

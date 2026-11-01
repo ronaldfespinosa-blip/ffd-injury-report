@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-10-31T08:20",
+ "fetched_et": "2026-11-01T08:16",
  "players": [
   {
    "id": "",
@@ -45,15 +45,6 @@
    "team": "PHI",
    "status": "IR",
    "part": "Knee"
-  },
-  {
-   "id": "",
-   "sleeper_id": "12517",
-   "name": "Colston Loveland",
-   "pos": "TE",
-   "team": "CHI",
-   "status": "Questionable",
-   "part": "Neck"
   },
   {
    "id": "",
@@ -106,8 +97,8 @@
    "name": "TreVeyon Henderson",
    "pos": "RB",
    "team": "NE",
-   "status": "Questionable",
-   "part": "Ankle"
+   "status": "Out",
+   "part": "Illness"
   },
   {
    "id": "",
@@ -520,7 +511,7 @@
    "name": "RJ Harvey",
    "pos": "RB",
    "team": "DEN",
-   "status": "Out",
+   "status": "IR",
    "part": "Knee"
   },
   {
@@ -529,7 +520,7 @@
    "name": "Velus Jones Jr.",
    "pos": "WR",
    "team": "SEA",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Hamstring"
   },
   {
@@ -601,7 +592,7 @@
    "name": "A.J. Brown",
    "pos": "WR",
    "team": "NE",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Ankle"
   },
   {
@@ -682,7 +673,7 @@
    "name": "Rashid Shaheed",
    "pos": "WR",
    "team": "SEA",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Knee"
   },
   {
@@ -801,15 +792,6 @@
    "team": "LAC",
    "status": "IR",
    "part": "Groin"
-  },
-  {
-   "id": "",
-   "sleeper_id": "12483",
-   "name": "Jack Bech",
-   "pos": "WR",
-   "team": "LV",
-   "status": "IR",
-   "part": "Forearm"
   },
   {
    "id": "",
@@ -961,8 +943,8 @@
    "name": "Kyle Monangai",
    "pos": "RB",
    "team": "CHI",
-   "status": "Questionable",
-   "part": "Toe"
+   "status": "Out",
+   "part": "Thumb"
   },
   {
    "id": "",
@@ -1305,15 +1287,6 @@
    "team": "CLE",
    "status": "PUP",
    "part": "Personal"
-  },
-  {
-   "id": "",
-   "sleeper_id": "9753",
-   "name": "Zach Charbonnet",
-   "pos": "RB",
-   "team": "SEA",
-   "status": "Questionable",
-   "part": "Knee - ACL"
   },
   {
    "id": "00-0035544",

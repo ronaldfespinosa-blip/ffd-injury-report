@@ -77,6 +77,13 @@
    "check": "ir_longer_than_typical",
    "detail": "Ankle usually 0\u20133 games",
    "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Drake London",
+   "team": "ATL",
+   "check": "unmatched_label",
+   "detail": "Head",
+   "action": "generic note; add it to return-timelines.json"
   }
  ]
 }

@@ -2,9 +2,9 @@
  "season": 2026,
  "week": 8,
  "rank_source": "Doc's Top 200",
- "generated": "2026-11-02T21:41:27Z",
- "week_complete": false,
- "next_week": 8,
+ "generated": "2026-11-03T06:43:17Z",
+ "week_complete": true,
+ "next_week": 9,
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -144,7 +144,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 8",
+   "back": "Missed Week 8. Week 9 status TBD",
    "pickup": "Roschon Johnson",
    "rank": 102,
    "dyn_rank": null,
@@ -156,6 +156,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-01T08:16-05:00"
   },
   {
@@ -215,7 +216,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 8",
+   "back": "Missed Week 8. Week 9 status TBD",
    "pickup": "Irv Charles",
    "rank": 137,
    "dyn_rank": null,
@@ -227,6 +228,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-01T08:16-05:00"
   },
   {
@@ -1061,7 +1063,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 8",
    "pickup": "",
    "rank": 32,
    "dyn_rank": null,
@@ -1073,6 +1075,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-01T08:16-05:00"
   },
   {
@@ -1774,7 +1777,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 8",
    "pickup": "",
    "rank": 133,
    "dyn_rank": null,
@@ -1786,6 +1789,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-01T08:16-05:00"
   },
   {

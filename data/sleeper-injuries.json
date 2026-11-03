@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-11-02T16:41",
+ "fetched_et": "2026-11-03T11:59",
  "players": [
   {
    "id": "",
@@ -34,7 +34,7 @@
    "name": "Drew Lock",
    "pos": "QB",
    "team": "SEA",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Elbow"
   },
   {
@@ -56,6 +56,15 @@
    "part": "Coach's Decision"
   },
   {
+   "id": "00-0026498",
+   "sleeper_id": "421",
+   "name": "Matthew Stafford",
+   "pos": "QB",
+   "team": "LAR",
+   "status": "Questionable",
+   "part": "Arm"
+  },
+  {
    "id": "",
    "sleeper_id": "11636",
    "name": "Johnny Wilson",
@@ -63,6 +72,15 @@
    "team": "PHI",
    "status": "IR",
    "part": "Knee"
+  },
+  {
+   "id": "00-0034975",
+   "sleeper_id": "5995",
+   "name": "Justice Hill",
+   "pos": "RB",
+   "team": "BAL",
+   "status": "Questionable",
+   "part": "Groin"
   },
   {
    "id": "",
@@ -362,6 +380,15 @@
    "part": "Knee"
   },
   {
+   "id": "00-0028986",
+   "sleeper_id": "1737",
+   "name": "Case Keenum",
+   "pos": "QB",
+   "team": "CHI",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
    "id": "",
    "sleeper_id": "9486",
    "name": "Dontayvion Wicks",
@@ -441,6 +468,15 @@
    "team": "GB",
    "status": "Questionable",
    "part": "Undisclosed"
+  },
+  {
+   "id": "00-0034960",
+   "sleeper_id": "5947",
+   "name": "Jakobi Meyers",
+   "pos": "WR",
+   "team": "JAX",
+   "status": "Questionable",
+   "part": "Hamstring"
   },
   {
    "id": "",
@@ -849,6 +885,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "10219",
+   "name": "Chris Rodriguez Jr.",
+   "pos": "RB",
+   "team": "JAX",
+   "status": "Questionable",
+   "part": "Hand"
+  },
+  {
+   "id": "",
    "sleeper_id": "13277",
    "name": "CJ Donaldson",
    "pos": "RB",
@@ -945,6 +990,15 @@
    "team": "PIT",
    "status": "Out",
    "part": "Coach's Decision"
+  },
+  {
+   "id": "",
+   "sleeper_id": "12490",
+   "name": "Bhayshul Tuten",
+   "pos": "RB",
+   "team": "JAX",
+   "status": "Questionable",
+   "part": "Ankle"
   },
   {
    "id": "",
@@ -1422,6 +1476,15 @@
    "team": "TEN",
    "status": "Out",
    "part": "Coach's Decision"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13315",
+   "name": "Dean Connors",
+   "pos": "RB",
+   "team": "LAR",
+   "status": "Questionable",
+   "part": "Hand"
   },
   {
    "id": "00-0033858",

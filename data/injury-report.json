@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 8,
  "rank_source": "Doc's Top 200",
- "generated": "2026-11-03T06:43:17Z",
+ "generated": "2026-11-03T16:59:55Z",
  "week_complete": true,
  "next_week": 9,
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
@@ -217,7 +217,7 @@
     }
    ],
    "back": "Missed Week 8. Week 9 status TBD",
-   "pickup": "Irv Charles",
+   "pickup": "Montorie Foster Jr.",
    "rank": 137,
    "dyn_rank": null,
    "source_date": "2026-10-31",
@@ -255,7 +255,7 @@
     }
    ],
    "back": "Missed Week 8. Week 9 status TBD",
-   "pickup": "Khalil Herbert",
+   "pickup": "Trey Sermon",
    "rank": 139,
    "dyn_rank": null,
    "source_date": "2026-10-30",
@@ -755,6 +755,56 @@
    "changed": "2026-10-30T13:59-04:00"
   },
   {
+   "name": "Bhayshul Tuten",
+   "pos": "RB",
+   "team": "JAX",
+   "status": "Practicing",
+   "condition": "Fair",
+   "injury": "Ankle",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 8. Week 9 status TBD",
+   "pickup": "Ameer Abdullah",
+   "rank": 50,
+   "dyn_rank": 66,
+   "source_date": "2026-11-03",
+   "source_label": "Reported by Tuesday",
+   "news": true,
+   "typical": "0\u20133 games",
+   "reinjury": "Moderate",
+   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
+   "evidence": "study",
+   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "changed": "2026-11-03T11:59-05:00"
+  },
+  {
+   "name": "Chris Rodriguez Jr.",
+   "pos": "RB",
+   "team": "JAX",
+   "status": "Practicing",
+   "condition": "Fair",
+   "injury": "Hand",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 8. Week 9 status TBD",
+   "pickup": "Ameer Abdullah",
+   "rank": 101,
+   "dyn_rank": 183,
+   "source_date": "2026-11-03",
+   "source_label": "Reported by Tuesday",
+   "news": true,
+   "typical": "0\u20131 games",
+   "reinjury": "Low",
+   "note": "Skill players usually play with a wrap or cast. It matters more for a QB's throwing hand.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-03T11:59-05:00"
+  },
+  {
    "name": "Kyler Murray",
    "pos": "QB",
    "team": "MIN",
@@ -790,7 +840,7 @@
    "practice_code": "",
    "trail": [],
    "back": "Hurt Week 8. Week 9 status TBD",
-   "pickup": "James Mitchell",
+   "pickup": "Princeton Fant",
    "rank": 140,
    "dyn_rank": 122,
    "source_date": "2026-11-02",
@@ -1381,6 +1431,40 @@
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
    "game_played": true,
    "changed": "2026-10-31T01:35-04:00"
+  },
+  {
+   "name": "Jadarian Price",
+   "pos": "RB",
+   "team": "SEA",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Chest",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Fri",
+     "s": "FP"
+    },
+    {
+     "d": "Sat",
+     "s": "FP"
+    }
+   ],
+   "back": "Cleared for Week 8",
+   "pickup": "",
+   "rank": 65,
+   "dyn_rank": null,
+   "source_date": "2026-10-31",
+   "source_label": "Saturday\u2019s final Week 8 report",
+   "typical": "\u2014",
+   "reinjury": "Low",
+   "note": "Rib injuries are painful but often played through with a flak jacket. Pec tears go to IR.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "game_played": true,
+   "changed": "2026-11-03T11:59-05:00"
   },
   {
    "name": "Drake Maye",
@@ -2119,39 +2203,6 @@
    "changed": "2026-10-31T08:20-04:00"
   },
   {
-   "name": "Jadarian Price",
-   "pos": "RB",
-   "team": "SEA",
-   "status": "IR",
-   "condition": "Critical",
-   "injury": "Chest",
-   "practice": "",
-   "practice_code": "",
-   "trail": [
-    {
-     "d": "Fri",
-     "s": "FP"
-    },
-    {
-     "d": "Sat",
-     "s": "FP"
-    }
-   ],
-   "back": "Eligible Week 8",
-   "pickup": "",
-   "rank": 65,
-   "dyn_rank": 72,
-   "source_date": null,
-   "source_label": "",
-   "typical": "IR: 4+ games",
-   "reinjury": "Low",
-   "note": "Rib injuries are painful but often played through with a flak jacket. Pec tears go to IR.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": null
-  },
-  {
    "name": "Jacory Croskey-Merritt",
    "pos": "RB",
    "team": "WAS",
@@ -2690,6 +2741,45 @@
   }
  ],
  "recent_changes": [
+  {
+   "at": "2026-11-03T11:59-05:00",
+   "name": "Bhayshul Tuten",
+   "team": "JAX",
+   "pos": "RB",
+   "rank": 50,
+   "kind": "added",
+   "from": null,
+   "to": "Practicing",
+   "injury": "Ankle",
+   "news": true,
+   "week": 8
+  },
+  {
+   "at": "2026-11-03T11:59-05:00",
+   "name": "Jadarian Price",
+   "team": "SEA",
+   "pos": "RB",
+   "rank": 65,
+   "kind": "status",
+   "from": "IR",
+   "to": "Cleared",
+   "injury": "Chest",
+   "news": false,
+   "week": 8
+  },
+  {
+   "at": "2026-11-03T11:59-05:00",
+   "name": "Chris Rodriguez Jr.",
+   "team": "JAX",
+   "pos": "RB",
+   "rank": 101,
+   "kind": "added",
+   "from": null,
+   "to": "Practicing",
+   "injury": "Hand",
+   "news": true,
+   "week": 8
+  },
   {
    "at": "2026-11-02T16:41-05:00",
    "name": "James Cook III",
@@ -3689,45 +3779,6 @@
    "to": "Cleared",
    "injury": "Thumb",
    "news": false,
-   "week": 8
-  },
-  {
-   "at": "2026-10-31T01:35-04:00",
-   "name": "Malik Washington",
-   "team": "MIA",
-   "pos": "WR",
-   "rank": 174,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Cleared",
-   "injury": "Knee",
-   "news": false,
-   "week": 8
-  },
-  {
-   "at": "2026-10-31T01:35-04:00",
-   "name": "Tre Harris",
-   "team": "LAC",
-   "pos": "WR",
-   "rank": 179,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Cleared",
-   "injury": "Hamstring",
-   "news": false,
-   "week": 8
-  },
-  {
-   "at": "2026-10-30T13:59-04:00",
-   "name": "Christian Watson",
-   "team": "GB",
-   "pos": "WR",
-   "rank": 47,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Undisclosed",
-   "news": true,
    "week": 8
   }
  ]

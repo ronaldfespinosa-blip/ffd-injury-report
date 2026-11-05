@@ -2,6 +2,27 @@
  "week": 9,
  "checks": [
   {
+   "name": "Pat Bryant",
+   "team": "DEN",
+   "check": "ir_longer_than_typical",
+   "detail": "Ankle usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Terrance Ferguson",
+   "team": "LA",
+   "check": "ir_longer_than_typical",
+   "detail": "Ankle usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Jordyn Tyson",
+   "team": "NO",
+   "check": "ir_longer_than_typical",
+   "detail": "Hamstring usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
    "name": "Davante Adams",
    "team": "LA",
    "check": "non_injury",
@@ -16,18 +37,18 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
-   "name": "Michael Pittman",
-   "team": "PIT",
-   "check": "ir_longer_than_typical",
-   "detail": "Foot usually 0\u20132 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
    "name": "Jalen Hurts",
    "team": "PHI",
    "check": "override",
    "detail": "Official label says calf; it's a blood clot in the calf, not a strain",
    "action": "hand correction applied"
+  },
+  {
+   "name": "Travis Etienne",
+   "team": "NO",
+   "check": "ir_longer_than_typical",
+   "detail": "Hamstring usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
   },
   {
    "name": "Malik Davis",
@@ -51,22 +72,15 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
-   "name": "Roman Wilson",
-   "team": "PIT",
-   "check": "ir_longer_than_typical",
-   "detail": "Finger usually 0\u20131 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Pat Bryant",
-   "team": "DEN",
+   "name": "Jeremiyah Love",
+   "team": "ARI",
    "check": "ir_longer_than_typical",
    "detail": "Ankle usually 0\u20133 games",
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
-   "name": "Terrance Ferguson",
-   "team": "LA",
+   "name": "De'Zhaun Stribling",
+   "team": "SF",
    "check": "ir_longer_than_typical",
    "detail": "Ankle usually 0\u20133 games",
    "action": "note reworded to say the IR stint is longer than typical"

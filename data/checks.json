@@ -2,10 +2,10 @@
  "week": 9,
  "checks": [
   {
-   "name": "Pat Bryant",
-   "team": "DEN",
+   "name": "Brian Robinson",
+   "team": "ATL",
    "check": "ir_longer_than_typical",
-   "detail": "Ankle usually 0\u20133 games",
+   "detail": "Hamstring usually 0\u20133 games",
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
@@ -13,13 +13,6 @@
    "team": "LA",
    "check": "ir_longer_than_typical",
    "detail": "Ankle usually 0\u20133 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Jordyn Tyson",
-   "team": "NO",
-   "check": "ir_longer_than_typical",
-   "detail": "Hamstring usually 0\u20133 games",
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
@@ -84,6 +77,13 @@
    "check": "ir_longer_than_typical",
    "detail": "Ankle usually 0\u20133 games",
    "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "KC Concepcion Jr.",
+   "team": "CLE",
+   "check": "unmatched_label",
+   "detail": "Leg",
+   "action": "generic note; add it to return-timelines.json"
   }
  ]
 }

@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 9,
  "rank_source": "Doc's Top 200",
- "generated": "2026-11-08T21:59:38Z",
+ "generated": "2026-11-09T19:45:49Z",
  "week_complete": false,
  "next_week": 9,
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
@@ -30,7 +30,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 9",
+   "back": "Missed Week 9. Week 10 status TBD",
    "pickup": "Isaiah Williams",
    "rank": 37,
    "dyn_rank": null,
@@ -42,6 +42,7 @@
    "evidence": "study",
    "source": "Return to Full Participation Following Concussion in the NFL, 2015-2020 (Clin J Sport Med 2022)",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/36315827/",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -67,7 +68,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 9",
+   "back": "Missed Week 9. Week 10 status TBD",
    "pickup": "Darius Cooper",
    "rank": 51,
    "dyn_rank": null,
@@ -79,6 +80,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -104,7 +106,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 9",
+   "back": "Missed Week 9. Week 10 status TBD",
    "pickup": "Efton Chism III",
    "rank": 61,
    "dyn_rank": null,
@@ -116,6 +118,7 @@
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -141,7 +144,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 9",
+   "back": "Missed Week 9. Week 10 status TBD",
    "pickup": "Jordan Watkins",
    "rank": 64,
    "dyn_rank": null,
@@ -153,6 +156,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -212,7 +216,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 9",
+   "back": "Missed Week 9. Week 10 status TBD",
    "pickup": "Dare Ogunbowale",
    "rank": 70,
    "dyn_rank": null,
@@ -224,6 +228,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-08T12:54-05:00"
   },
   {
@@ -286,7 +291,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 9",
+   "back": "Missed Week 9. Week 10 status TBD",
    "pickup": "Corey Kiner",
    "rank": 144,
    "dyn_rank": null,
@@ -298,6 +303,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -319,7 +325,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 9",
+   "back": "Missed Week 9. Week 10 status TBD",
    "pickup": "Irv Charles",
    "rank": 148,
    "dyn_rank": null,
@@ -331,6 +337,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -356,7 +363,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 9",
+   "back": "Missed Week 9. Week 10 status TBD",
    "pickup": "Brandin Cooks",
    "rank": 150,
    "dyn_rank": null,
@@ -368,43 +375,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
-   "changed": "2026-11-07T07:55-05:00"
-  },
-  {
-   "name": "Brian Robinson",
-   "pos": "RB",
-   "team": "ATL",
-   "status": "Out",
-   "condition": "Critical",
-   "injury": "Hamstring",
-   "practice": "Limited Participation in Practice",
-   "practice_code": "LP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "LP"
-    },
-    {
-     "d": "Thu",
-     "s": "LP"
-    },
-    {
-     "d": "Fri",
-     "s": "LP"
-    }
-   ],
-   "back": "Out Week 9",
-   "pickup": "Trey Sermon",
-   "rank": 154,
-   "dyn_rank": null,
-   "source_date": "2026-11-06",
-   "source_label": "Friday\u2019s final Week 9 report",
-   "typical": "1\u20133 games",
-   "reinjury": "High",
-   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
-   "evidence": "study",
-   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
-   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -430,7 +401,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 9",
+   "back": "Missed Week 9. Week 10 status TBD",
    "pickup": "Hollywood Brown",
    "rank": 164,
    "dyn_rank": null,
@@ -442,6 +413,7 @@
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -463,7 +435,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 9",
+   "back": "Missed Week 9. Week 10 status TBD",
    "pickup": "Drew Lock",
    "rank": 186,
    "dyn_rank": null,
@@ -475,6 +447,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -500,7 +473,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 9",
+   "back": "Missed Week 9. Week 10 status TBD",
    "pickup": "",
    "rank": 191,
    "dyn_rank": null,
@@ -512,6 +485,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -537,7 +511,7 @@
      "s": "LP"
     }
    ],
-   "back": "Unlikely Week 9",
+   "back": "Week 9 game played. Week 10 status TBD",
    "pickup": "Devin Singletary",
    "rank": 44,
    "dyn_rank": null,
@@ -549,6 +523,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -574,7 +549,7 @@
      "s": "LP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 9 game played. Week 10 status TBD",
    "pickup": "Tay Martin",
    "rank": 6,
    "dyn_rank": null,
@@ -586,6 +561,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -611,7 +587,7 @@
      "s": "LP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 9 game played. Week 10 status TBD",
    "pickup": "Jonathan Mingo",
    "rank": 18,
    "dyn_rank": null,
@@ -623,6 +599,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -648,7 +625,7 @@
      "s": "FP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 9 game played. Week 10 status TBD",
    "pickup": "Tez Johnson",
    "rank": 48,
    "dyn_rank": null,
@@ -660,6 +637,7 @@
    "evidence": "study",
    "source": "Midfoot sprains in the National Football League (Am J Sports Med 2014)",
    "source_url": "https://vivo.weill.cornell.edu/display/pubid25490010",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -719,7 +697,7 @@
      "s": "LP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 9 game played. Week 10 status TBD",
    "pickup": "Kaytron Allen",
    "rank": 55,
    "dyn_rank": null,
@@ -731,6 +709,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -752,8 +731,8 @@
      "s": "LP"
     }
    ],
-   "back": "Game-time call",
-   "pickup": "Pierre Strong Jr.",
+   "back": "Week 9 game played. Week 10 status TBD",
+   "pickup": "Kaleb Johnson",
    "rank": 105,
    "dyn_rank": null,
    "source_date": "2026-11-06",
@@ -764,6 +743,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -785,7 +765,7 @@
      "s": "LP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 9 game played. Week 10 status TBD",
    "pickup": "Roschon Johnson",
    "rank": 110,
    "dyn_rank": null,
@@ -797,6 +777,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -822,7 +803,7 @@
      "s": "LP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 9 game played. Week 10 status TBD",
    "pickup": "Brevyn Spann-Ford",
    "rank": 146,
    "dyn_rank": null,
@@ -834,7 +815,46 @@
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
+  },
+  {
+   "name": "Jordyn Tyson",
+   "pos": "WR",
+   "team": "NO",
+   "status": "Questionable",
+   "condition": "Fair",
+   "injury": "Hamstring",
+   "practice": "Limited Participation in Practice",
+   "practice_code": "LP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "LP"
+    },
+    {
+     "d": "Thu",
+     "s": "LP"
+    },
+    {
+     "d": "Fri",
+     "s": "LP"
+    }
+   ],
+   "back": "Week 9 game played. Week 10 status TBD",
+   "pickup": "",
+   "rank": 151,
+   "dyn_rank": null,
+   "source_date": "2026-11-06",
+   "source_label": "Friday\u2019s final Week 9 report",
+   "typical": "0\u20133 games",
+   "reinjury": "High",
+   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "evidence": "study",
+   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
+   "changed": "2026-11-09T14:45-05:00"
   },
   {
    "name": "Hunter Henry",
@@ -859,7 +879,7 @@
      "s": "LP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 9 game played. Week 10 status TBD",
    "pickup": "Eli Raridon",
    "rank": 155,
    "dyn_rank": null,
@@ -871,7 +891,46 @@
    "evidence": "study",
    "source": "Midfoot sprains in the National Football League (Am J Sports Med 2014)",
    "source_url": "https://vivo.weill.cornell.edu/display/pubid25490010",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
+  },
+  {
+   "name": "Pat Bryant",
+   "pos": "WR",
+   "team": "DEN",
+   "status": "Questionable",
+   "condition": "Good",
+   "injury": "Ankle",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "FP"
+    },
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Week 9 game played. Week 10 status TBD",
+   "pickup": "Lil'Jordan Humphrey",
+   "rank": 177,
+   "dyn_rank": null,
+   "source_date": "2026-11-06",
+   "source_label": "Friday\u2019s final Week 9 report",
+   "typical": "0\u20133 games",
+   "reinjury": "Moderate",
+   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
+   "evidence": "study",
+   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
+   "changed": "2026-11-09T14:45-05:00"
   },
   {
    "name": "Tanner McKee",
@@ -896,7 +955,7 @@
      "s": "LP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 9 game played. Week 10 status TBD",
    "pickup": "Cole Payton",
    "rank": 194,
    "dyn_rank": null,
@@ -908,7 +967,183 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
+  },
+  {
+   "name": "Rhamondre Stevenson",
+   "pos": "RB",
+   "team": "NE",
+   "status": "Practicing",
+   "condition": "Serious",
+   "injury": "Knee",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 9. Week 10 status TBD",
+   "pickup": "Lan Larison",
+   "rank": 30,
+   "dyn_rank": 120,
+   "source_date": "2026-11-09",
+   "source_label": "Reported by Monday",
+   "news": true,
+   "typical": "0\u20133 games",
+   "reinjury": "Moderate",
+   "note": "'Knee' covers everything from a bruise to a torn ligament. Most MCL sprains cost 2-6 weeks; ACL tears go straight to IR.",
+   "evidence": "study",
+   "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
+   "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "changed": "2026-11-09T14:45-05:00"
+  },
+  {
+   "name": "Josh Jacobs",
+   "pos": "RB",
+   "team": "GB",
+   "status": "Practicing",
+   "condition": "Fair",
+   "injury": "Hand",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 9. Week 10 status TBD",
+   "pickup": "MarShawn Lloyd",
+   "rank": 39,
+   "dyn_rank": 109,
+   "source_date": "2026-11-09",
+   "source_label": "Reported by Monday",
+   "news": true,
+   "typical": "0\u20131 games",
+   "reinjury": "Low",
+   "note": "Skill players usually play with a wrap or cast. It matters more for a QB's throwing hand.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-09T14:45-05:00"
+  },
+  {
+   "name": "Luther Burden III",
+   "pos": "WR",
+   "team": "CHI",
+   "status": "Practicing",
+   "condition": "Fair",
+   "injury": "Undisclosed",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 9. Week 10 status TBD",
+   "pickup": "Zavion Thomas",
+   "rank": 42,
+   "dyn_rank": 26,
+   "source_date": "2026-11-09",
+   "source_label": "Reported by Monday",
+   "news": true,
+   "typical": "0\u20132 games",
+   "reinjury": "Unknown",
+   "note": "The team hasn't said what the injury is.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-09T14:45-05:00"
+  },
+  {
+   "name": "Ladd McConkey",
+   "pos": "WR",
+   "team": "LAC",
+   "status": "Practicing",
+   "condition": "Fair",
+   "injury": "Back",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 9. Week 10 status TBD",
+   "pickup": "KeAndre Lambert-Smith",
+   "rank": 46,
+   "dyn_rank": 43,
+   "source_date": "2026-11-09",
+   "source_label": "Reported by Monday",
+   "news": true,
+   "typical": "0\u20132 games",
+   "reinjury": "Moderate",
+   "note": "Trunk and hip injuries are usually played through, but they can cap snaps.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-09T14:45-05:00"
+  },
+  {
+   "name": "Justin Herbert",
+   "pos": "QB",
+   "team": "LAC",
+   "status": "Practicing",
+   "condition": "Fair",
+   "injury": "Finger",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 9. Week 10 status TBD",
+   "pickup": "",
+   "rank": 82,
+   "dyn_rank": 91,
+   "source_date": "2026-11-09",
+   "source_label": "Reported by Monday",
+   "news": true,
+   "typical": "0\u20132 games",
+   "reinjury": "Low",
+   "note": "Skill players usually play with a wrap or cast. It matters more for a QB's throwing hand.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-09T14:45-05:00"
+  },
+  {
+   "name": "KC Concepcion Jr.",
+   "pos": "WR",
+   "team": "CLE",
+   "status": "Practicing",
+   "condition": "Fair",
+   "injury": "Leg",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 9. Week 10 status TBD",
+   "pickup": "Tylan Wallace",
+   "rank": 99,
+   "dyn_rank": 58,
+   "source_date": "2026-11-09",
+   "source_label": "Reported by Monday",
+   "news": true,
+   "typical": "0\u20132 games",
+   "reinjury": "Unknown",
+   "note": "The team listed leg without more detail. We don't have a typical timeline for that one yet.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-09T14:45-05:00"
+  },
+  {
+   "name": "Xavier Worthy",
+   "pos": "WR",
+   "team": "KC",
+   "status": "Practicing",
+   "condition": "Serious",
+   "injury": "Hamstring",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 9. Week 10 status TBD",
+   "pickup": "Jalen Royals",
+   "rank": 138,
+   "dyn_rank": 113,
+   "source_date": "2026-11-09",
+   "source_label": "Reported by Monday",
+   "news": true,
+   "typical": "0\u20133 games",
+   "reinjury": "High",
+   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "evidence": "study",
+   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "changed": "2026-11-09T14:45-05:00"
   },
   {
    "name": "Christian McCaffrey",
@@ -933,7 +1168,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 7,
    "dyn_rank": null,
@@ -945,6 +1180,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -970,7 +1206,7 @@
      "s": "LP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 16,
    "dyn_rank": null,
@@ -982,6 +1218,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1003,7 +1240,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 24,
    "dyn_rank": null,
@@ -1015,6 +1252,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -1040,7 +1278,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 33,
    "dyn_rank": null,
@@ -1052,6 +1290,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1077,7 +1316,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 36,
    "dyn_rank": null,
@@ -1089,6 +1328,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1114,7 +1354,7 @@
      "s": "LP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 45,
    "dyn_rank": null,
@@ -1126,6 +1366,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1188,7 +1429,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 60,
    "dyn_rank": null,
@@ -1200,6 +1441,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1225,7 +1467,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 67,
    "dyn_rank": null,
@@ -1237,6 +1479,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1262,7 +1505,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 75,
    "dyn_rank": null,
@@ -1274,6 +1517,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1295,7 +1539,7 @@
      "s": "LP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 83,
    "dyn_rank": null,
@@ -1307,6 +1551,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1332,7 +1577,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 98,
    "dyn_rank": null,
@@ -1344,6 +1589,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1440,7 +1686,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 106,
    "dyn_rank": null,
@@ -1452,6 +1698,7 @@
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1477,7 +1724,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 107,
    "dyn_rank": null,
@@ -1489,6 +1736,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1548,7 +1796,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 117,
    "dyn_rank": null,
@@ -1560,6 +1808,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1619,7 +1868,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 127,
    "dyn_rank": null,
@@ -1631,6 +1880,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1656,7 +1906,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 128,
    "dyn_rank": null,
@@ -1668,6 +1918,7 @@
    "evidence": "study",
    "source": "Acute Gastrocnemius-Soleus Complex Injuries in NFL Athletes (PMC5298443)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5298443/",
+   "game_played": true,
    "changed": "2026-11-07T07:55-05:00"
   },
   {
@@ -1693,7 +1944,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 129,
    "dyn_rank": null,
@@ -1705,6 +1956,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1730,7 +1982,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 170,
    "dyn_rank": null,
@@ -1742,6 +1994,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1767,7 +2020,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 9",
    "pickup": "",
    "rank": 192,
    "dyn_rank": null,
@@ -1779,6 +2032,7 @@
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
    "changed": "2026-11-07T00:54-05:00"
   },
   {
@@ -1950,9 +2204,9 @@
    "changed": null
   },
   {
-   "name": "Jordyn Tyson",
-   "pos": "WR",
-   "team": "NO",
+   "name": "Brian Robinson",
+   "pos": "RB",
+   "team": "ATL",
    "status": "IR",
    "condition": "Critical",
    "injury": "Hamstring",
@@ -1972,10 +2226,10 @@
      "s": "LP"
     }
    ],
-   "back": "Eligible Week 5",
+   "back": "Eligible Week 13",
    "pickup": "",
-   "rank": 151,
-   "dyn_rank": 57,
+   "rank": 154,
+   "dyn_rank": 199,
    "source_date": null,
    "source_label": "",
    "typical": "IR: 4+ games",
@@ -1984,7 +2238,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
-   "changed": null
+   "changed": "2026-11-09T14:45-05:00"
   },
   {
    "name": "Tank Bigsby",
@@ -2189,43 +2443,6 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
-   "changed": null
-  },
-  {
-   "name": "Pat Bryant",
-   "pos": "WR",
-   "team": "DEN",
-   "status": "IR",
-   "condition": "Critical",
-   "injury": "Ankle",
-   "practice": "",
-   "practice_code": "",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "FP"
-    },
-    {
-     "d": "Thu",
-     "s": "FP"
-    },
-    {
-     "d": "Fri",
-     "s": "FP"
-    }
-   ],
-   "back": "Eligible Week 9",
-   "pickup": "",
-   "rank": 177,
-   "dyn_rank": 173,
-   "source_date": null,
-   "source_label": "",
-   "typical": "IR: 4+ games",
-   "reinjury": "Moderate",
-   "note": "He's on IR, so he's out at least four games. That's longer than a typical ankle injury, so expect more than the routine version. Routine case: Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
-   "evidence": "study",
-   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
-   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
    "changed": null
   },
   {
@@ -2467,9 +2684,176 @@
    "source": "",
    "source_url": "",
    "changed": null
+  },
+  {
+   "name": "Christian Kirk",
+   "pos": "WR",
+   "team": "SF",
+   "status": "IR",
+   "condition": "Critical",
+   "injury": "Knee",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Eligible Week 13",
+   "pickup": "",
+   "rank": null,
+   "dyn_rank": 360,
+   "source_date": null,
+   "source_label": "",
+   "typical": "IR: 4+ games",
+   "reinjury": "Moderate",
+   "note": "'Knee' covers everything from a bruise to a torn ligament. Most MCL sprains cost 2-6 weeks; ACL tears go straight to IR.",
+   "evidence": "study",
+   "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
+   "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "changed": "2026-11-09T14:45-05:00"
   }
  ],
  "recent_changes": [
+  {
+   "at": "2026-11-09T14:45-05:00",
+   "name": "Rhamondre Stevenson",
+   "team": "NE",
+   "pos": "RB",
+   "rank": 30,
+   "kind": "added",
+   "from": null,
+   "to": "Practicing",
+   "injury": "Knee",
+   "news": true,
+   "week": 9
+  },
+  {
+   "at": "2026-11-09T14:45-05:00",
+   "name": "Josh Jacobs",
+   "team": "GB",
+   "pos": "RB",
+   "rank": 39,
+   "kind": "added",
+   "from": null,
+   "to": "Practicing",
+   "injury": "Hand",
+   "news": true,
+   "week": 9
+  },
+  {
+   "at": "2026-11-09T14:45-05:00",
+   "name": "Luther Burden III",
+   "team": "CHI",
+   "pos": "WR",
+   "rank": 42,
+   "kind": "added",
+   "from": null,
+   "to": "Practicing",
+   "injury": "Undisclosed",
+   "news": true,
+   "week": 9
+  },
+  {
+   "at": "2026-11-09T14:45-05:00",
+   "name": "Ladd McConkey",
+   "team": "LAC",
+   "pos": "WR",
+   "rank": 46,
+   "kind": "added",
+   "from": null,
+   "to": "Practicing",
+   "injury": "Back",
+   "news": true,
+   "week": 9
+  },
+  {
+   "at": "2026-11-09T14:45-05:00",
+   "name": "Justin Herbert",
+   "team": "LAC",
+   "pos": "QB",
+   "rank": 82,
+   "kind": "added",
+   "from": null,
+   "to": "Practicing",
+   "injury": "Finger",
+   "news": true,
+   "week": 9
+  },
+  {
+   "at": "2026-11-09T14:45-05:00",
+   "name": "KC Concepcion Jr.",
+   "team": "CLE",
+   "pos": "WR",
+   "rank": 99,
+   "kind": "added",
+   "from": null,
+   "to": "Practicing",
+   "injury": "Leg",
+   "news": true,
+   "week": 9
+  },
+  {
+   "at": "2026-11-09T14:45-05:00",
+   "name": "Xavier Worthy",
+   "team": "KC",
+   "pos": "WR",
+   "rank": 138,
+   "kind": "added",
+   "from": null,
+   "to": "Practicing",
+   "injury": "Hamstring",
+   "news": true,
+   "week": 9
+  },
+  {
+   "at": "2026-11-09T14:45-05:00",
+   "name": "Jordyn Tyson",
+   "team": "NO",
+   "pos": "WR",
+   "rank": 151,
+   "kind": "status",
+   "from": "IR",
+   "to": "Questionable",
+   "injury": "Hamstring",
+   "news": false,
+   "week": 9
+  },
+  {
+   "at": "2026-11-09T14:45-05:00",
+   "name": "Brian Robinson",
+   "team": "ATL",
+   "pos": "RB",
+   "rank": 154,
+   "kind": "status",
+   "from": "Out",
+   "to": "IR",
+   "injury": "Hamstring",
+   "news": false,
+   "week": 9
+  },
+  {
+   "at": "2026-11-09T14:45-05:00",
+   "name": "Pat Bryant",
+   "team": "DEN",
+   "pos": "WR",
+   "rank": 177,
+   "kind": "status",
+   "from": "IR",
+   "to": "Questionable",
+   "injury": "Ankle",
+   "news": false,
+   "week": 9
+  },
+  {
+   "at": "2026-11-09T14:45-05:00",
+   "name": "Christian Kirk",
+   "team": "SF",
+   "pos": "WR",
+   "rank": null,
+   "kind": "added",
+   "from": null,
+   "to": "IR",
+   "injury": "Knee",
+   "news": false,
+   "week": 9
+  },
   {
    "at": "2026-11-08T12:54-05:00",
    "name": "DJ Moore",
@@ -3364,150 +3748,6 @@
    "from": null,
    "to": "Practicing",
    "injury": "Groin",
-   "news": false,
-   "week": 9
-  },
-  {
-   "at": "2026-11-06T11:44-05:00",
-   "name": "Dalton Kincaid",
-   "team": "BUF",
-   "pos": "TE",
-   "rank": 104,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Chest",
-   "news": false,
-   "week": 9
-  },
-  {
-   "at": "2026-11-06T11:44-05:00",
-   "name": "MarShawn Lloyd",
-   "team": "GB",
-   "pos": "RB",
-   "rank": 105,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Knee",
-   "news": false,
-   "week": 9
-  },
-  {
-   "at": "2026-11-06T11:44-05:00",
-   "name": "Kyle Monangai",
-   "team": "CHI",
-   "pos": "RB",
-   "rank": 110,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Thumb",
-   "news": false,
-   "week": 9
-  },
-  {
-   "at": "2026-11-06T11:44-05:00",
-   "name": "Kyler Murray",
-   "team": "MIN",
-   "pos": "QB",
-   "rank": 132,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Hamstring",
-   "news": false,
-   "week": 9
-  },
-  {
-   "at": "2026-11-06T11:44-05:00",
-   "name": "Rashid Shaheed",
-   "team": "SEA",
-   "pos": "WR",
-   "rank": 148,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Knee",
-   "news": false,
-   "week": 9
-  },
-  {
-   "at": "2026-11-06T11:44-05:00",
-   "name": "Sam Darnold",
-   "team": "SEA",
-   "pos": "QB",
-   "rank": 186,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Quadricep",
-   "news": false,
-   "week": 9
-  },
-  {
-   "at": "2026-11-06T11:44-05:00",
-   "name": "Tanner McKee",
-   "team": "PHI",
-   "pos": "QB",
-   "rank": 194,
-   "kind": "injury",
-   "from": "Practicing",
-   "to": "Practicing",
-   "injury": "Rib",
-   "news": false,
-   "week": 9,
-   "was": "Chest"
-  },
-  {
-   "at": "2026-11-06T01:36-05:00",
-   "name": "Elijah Arroyo",
-   "team": "SEA",
-   "pos": "TE",
-   "rank": null,
-   "kind": "off",
-   "from": "IR",
-   "to": null,
-   "injury": "Undisclosed",
-   "news": false,
-   "week": 9
-  },
-  {
-   "at": "2026-11-06T01:36-05:00",
-   "name": "James Conner",
-   "team": "ARI",
-   "pos": "RB",
-   "rank": null,
-   "kind": "off",
-   "from": "IR",
-   "to": null,
-   "injury": "Undisclosed",
-   "news": false,
-   "week": 9
-  },
-  {
-   "at": "2026-11-05T12:22-05:00",
-   "name": "Amon-Ra St. Brown",
-   "team": "DET",
-   "pos": "WR",
-   "rank": 6,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Rib",
-   "news": false,
-   "week": 9
-  },
-  {
-   "at": "2026-11-05T12:22-05:00",
-   "name": "Christian McCaffrey",
-   "team": "SF",
-   "pos": "RB",
-   "rank": 7,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Hamstring",
    "news": false,
    "week": 9
   }

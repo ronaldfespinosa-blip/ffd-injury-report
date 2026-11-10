@@ -9,6 +9,13 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
+   "name": "Lamar Jackson",
+   "team": "BAL",
+   "check": "ir_longer_than_typical",
+   "detail": "Thumb usually 0\u20131 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
    "name": "Terrance Ferguson",
    "team": "LA",
    "check": "ir_longer_than_typical",
@@ -30,11 +37,11 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
-   "name": "Jalen Hurts",
-   "team": "PHI",
-   "check": "override",
-   "detail": "Official label says calf; it's a blood clot in the calf, not a strain",
-   "action": "hand correction applied"
+   "name": "Michael Pittman",
+   "team": "PIT",
+   "check": "ir_longer_than_typical",
+   "detail": "Foot usually 0\u20132 games",
+   "action": "note reworded to say the IR stint is longer than typical"
   },
   {
    "name": "Travis Etienne",
@@ -58,10 +65,10 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
-   "name": "Tank Bigsby",
-   "team": "PHI",
+   "name": "Roman Wilson",
+   "team": "PIT",
    "check": "ir_longer_than_typical",
-   "detail": "Abdomen usually 0\u20132 games",
+   "detail": "Finger usually 0\u20131 games",
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
@@ -76,6 +83,20 @@
    "team": "SF",
    "check": "ir_longer_than_typical",
    "detail": "Ankle usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Jalen Hurts",
+   "team": "PHI",
+   "check": "override",
+   "detail": "Official label says calf; it's a blood clot in the calf, not a strain",
+   "action": "hand correction applied"
+  },
+  {
+   "name": "Tank Bigsby",
+   "team": "PHI",
+   "check": "ir_longer_than_typical",
+   "detail": "Abdomen usually 0\u20132 games",
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {

@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-11-09T14:45",
+ "fetched_et": "2026-11-10T09:49",
  "players": [
   {
    "id": "",
@@ -81,6 +81,15 @@
    "team": "SEA",
    "status": "Out",
    "part": "Quadriceps"
+  },
+  {
+   "id": "",
+   "sleeper_id": "10228",
+   "name": "Charlie Jones",
+   "pos": "WR",
+   "team": "NYG",
+   "status": "Questionable",
+   "part": "Thumb"
   },
   {
    "id": "00-0027973",
@@ -205,7 +214,7 @@
    "name": "Demond Claiborne",
    "pos": "RB",
    "team": "MIN",
-   "status": "Out",
+   "status": "IR",
    "part": "Knee"
   },
   {
@@ -234,6 +243,15 @@
    "team": "DEN",
    "status": "Out",
    "part": "Coach's Decision"
+  },
+  {
+   "id": "",
+   "sleeper_id": "10232",
+   "name": "Michael Wilson",
+   "pos": "WR",
+   "team": "ARI",
+   "status": "Out",
+   "part": "Neck"
   },
   {
    "id": "00-0034419",
@@ -295,7 +313,7 @@
    "name": "Jake Ferguson",
    "pos": "TE",
    "team": "DAL",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Knee"
   },
   {
@@ -970,7 +988,7 @@
    "name": "Tyler Goodson",
    "pos": "RB",
    "team": "DAL",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Knee"
   },
   {
@@ -1026,6 +1044,15 @@
    "team": "LAC",
    "status": "IR",
    "part": "Groin"
+  },
+  {
+   "id": "",
+   "sleeper_id": "7090",
+   "name": "Darnell Mooney",
+   "pos": "WR",
+   "team": "NYG",
+   "status": "Questionable",
+   "part": "Chest"
   },
   {
    "id": "",
@@ -1294,7 +1321,7 @@
    "name": "Joshua Palmer",
    "pos": "WR",
    "team": "BUF",
-   "status": "Out",
+   "status": "IR",
    "part": "Hamstring"
   },
   {
@@ -1361,6 +1388,15 @@
    "part": "Knee"
   },
   {
+   "id": "00-0035289",
+   "sleeper_id": "6011",
+   "name": "Gardner Minshew II",
+   "pos": "QB",
+   "team": "ARI",
+   "status": "Questionable",
+   "part": "Elbow"
+  },
+  {
    "id": "",
    "sleeper_id": "11626",
    "name": "Xavier Legette",
@@ -1404,6 +1440,15 @@
    "team": "KC",
    "status": "Out",
    "part": "Coach's Decision"
+  },
+  {
+   "id": "",
+   "sleeper_id": "11942",
+   "name": "Colson Yankoff",
+   "pos": "TE",
+   "team": "WAS",
+   "status": "Questionable",
+   "part": "Knee"
   },
   {
    "id": "",
@@ -1494,6 +1539,15 @@
    "team": "DAL",
    "status": "IR",
    "part": "Knee - ACL + MCL"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13402",
+   "name": "Skyler Bell",
+   "pos": "WR",
+   "team": "BUF",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -1596,6 +1650,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "8210",
+   "name": "Chig Okonkwo",
+   "pos": "TE",
+   "team": "WAS",
+   "status": "Questionable",
+   "part": "Hip"
+  },
+  {
+   "id": "",
    "sleeper_id": "13306",
    "name": "Taylen Green",
    "pos": "QB",
@@ -1618,8 +1681,8 @@
    "name": "Josh Jacobs",
    "pos": "RB",
    "team": "GB",
-   "status": "Questionable",
-   "part": "Hand"
+   "status": "Out",
+   "part": "Finger"
   },
   {
    "id": "",

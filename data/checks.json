@@ -1,12 +1,12 @@
 {
- "week": 9,
+ "week": 10,
  "checks": [
   {
-   "name": "Brian Robinson",
-   "team": "ATL",
-   "check": "ir_longer_than_typical",
-   "detail": "Hamstring usually 0\u20133 games",
-   "action": "note reworded to say the IR stint is longer than typical"
+   "name": "Davante Adams",
+   "team": "LA",
+   "check": "non_injury",
+   "detail": "Not injury: Resting player",
+   "action": "no recovery note or re-injury risk"
   },
   {
    "name": "Lamar Jackson",
@@ -14,20 +14,6 @@
    "check": "ir_longer_than_typical",
    "detail": "Thumb usually 0\u20131 games",
    "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Terrance Ferguson",
-   "team": "LA",
-   "check": "ir_longer_than_typical",
-   "detail": "Ankle usually 0\u20133 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Davante Adams",
-   "team": "LA",
-   "check": "non_injury",
-   "detail": "Not injury: Resting player",
-   "action": "no recovery note or re-injury risk"
   },
   {
    "name": "Terry McLaurin",
@@ -65,10 +51,24 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
+   "name": "Brian Robinson",
+   "team": "ATL",
+   "check": "ir_longer_than_typical",
+   "detail": "Hamstring usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
    "name": "Roman Wilson",
    "team": "PIT",
    "check": "ir_longer_than_typical",
    "detail": "Finger usually 0\u20131 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Terrance Ferguson",
+   "team": "LA",
+   "check": "ir_longer_than_typical",
+   "detail": "Ankle usually 0\u20133 games",
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
@@ -84,27 +84,6 @@
    "check": "ir_longer_than_typical",
    "detail": "Ankle usually 0\u20133 games",
    "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Jalen Hurts",
-   "team": "PHI",
-   "check": "override",
-   "detail": "Official label says calf; it's a blood clot in the calf, not a strain",
-   "action": "hand correction applied"
-  },
-  {
-   "name": "Tank Bigsby",
-   "team": "PHI",
-   "check": "ir_longer_than_typical",
-   "detail": "Abdomen usually 0\u20132 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "KC Concepcion Jr.",
-   "team": "CLE",
-   "check": "unmatched_label",
-   "detail": "Leg",
-   "action": "generic note; add it to return-timelines.json"
   }
  ]
 }

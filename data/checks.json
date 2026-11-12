@@ -2,6 +2,20 @@
  "week": 10,
  "checks": [
   {
+   "name": "Terrance Ferguson",
+   "team": "LA",
+   "check": "ir_longer_than_typical",
+   "detail": "Ankle usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
+   "name": "Travis Etienne",
+   "team": "NO",
+   "check": "ir_longer_than_typical",
+   "detail": "Hamstring usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
    "name": "Davante Adams",
    "team": "LA",
    "check": "non_injury",
@@ -30,13 +44,6 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
-   "name": "Travis Etienne",
-   "team": "NO",
-   "check": "ir_longer_than_typical",
-   "detail": "Hamstring usually 0\u20133 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
    "name": "Malik Davis",
    "team": "DAL",
    "check": "ir_longer_than_typical",
@@ -58,17 +65,17 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
+   "name": "Michael Wilson",
+   "team": "ARI",
+   "check": "non_injury",
+   "detail": "Not injury: Resting player",
+   "action": "no recovery note or re-injury risk"
+  },
+  {
    "name": "Roman Wilson",
    "team": "PIT",
    "check": "ir_longer_than_typical",
    "detail": "Finger usually 0\u20131 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Terrance Ferguson",
-   "team": "LA",
-   "check": "ir_longer_than_typical",
-   "detail": "Ankle usually 0\u20133 games",
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {

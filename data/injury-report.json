@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 10,
  "rank_source": "Doc's Top 200",
- "generated": "2026-11-15T10:46:44Z",
+ "generated": "2026-11-15T18:47:37Z",
  "week_complete": false,
  "next_week": 10,
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
@@ -191,43 +191,6 @@
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
    "changed": "2026-11-14T08:35-05:00"
-  },
-  {
-   "name": "TreVeyon Henderson",
-   "pos": "RB",
-   "team": "NE",
-   "status": "Out",
-   "condition": "Critical",
-   "injury": "Illness",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "DNP"
-    },
-    {
-     "d": "Thu",
-     "s": "DNP"
-    },
-    {
-     "d": "Fri",
-     "s": "DNP"
-    }
-   ],
-   "back": "Out Week 10",
-   "pickup": "Myles Montgomery",
-   "rank": 180,
-   "dyn_rank": null,
-   "source_date": "2026-11-13",
-   "source_label": "Friday\u2019s final Week 10 report",
-   "typical": "1 game",
-   "reinjury": "Low",
-   "note": "Most illnesses cost a practice or two, rarely a game.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-12T02:05-05:00"
   },
   {
    "name": "T.J. Hockenson",
@@ -689,6 +652,43 @@
    "source": "Return to Full Participation Following Concussion in the NFL, 2015-2020 (Clin J Sport Med 2022)",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/36315827/",
    "changed": "2026-11-14T08:35-05:00"
+  },
+  {
+   "name": "Travis Etienne",
+   "pos": "RB",
+   "team": "NO",
+   "status": "Questionable",
+   "condition": "Good",
+   "injury": "Hamstring",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "LP"
+    },
+    {
+     "d": "Thu",
+     "s": "LP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Game-time call",
+   "pickup": "Alvin Kamara",
+   "rank": 94,
+   "dyn_rank": null,
+   "source_date": "2026-11-13",
+   "source_label": "Friday\u2019s final Week 10 report",
+   "typical": "0\u20133 games",
+   "reinjury": "High",
+   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "evidence": "study",
+   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "changed": "2026-11-15T13:47-05:00"
   },
   {
    "name": "Denzel Boston",
@@ -1928,43 +1928,6 @@
    "changed": "2026-11-12T02:05-05:00"
   },
   {
-   "name": "Travis Etienne",
-   "pos": "RB",
-   "team": "NO",
-   "status": "IR",
-   "condition": "Critical",
-   "injury": "Hamstring",
-   "practice": "",
-   "practice_code": "",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "LP"
-    },
-    {
-     "d": "Thu",
-     "s": "LP"
-    },
-    {
-     "d": "Fri",
-     "s": "FP"
-    }
-   ],
-   "back": "Eligible Week 8",
-   "pickup": "",
-   "rank": 94,
-   "dyn_rank": 87,
-   "source_date": null,
-   "source_label": "",
-   "typical": "IR: 4+ games",
-   "reinjury": "High",
-   "note": "He's on IR, so he's out at least four games. That's longer than a typical hamstring injury, so expect more than the routine version. Routine case: About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
-   "evidence": "study",
-   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
-   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
-   "changed": null
-  },
-  {
    "name": "Romeo Doubs",
    "pos": "WR",
    "team": "NE",
@@ -2327,6 +2290,43 @@
    "changed": null
   },
   {
+   "name": "TreVeyon Henderson",
+   "pos": "RB",
+   "team": "NE",
+   "status": "IR",
+   "condition": "Critical",
+   "injury": "Illness",
+   "practice": "",
+   "practice_code": "",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Eligible Week 14",
+   "pickup": "",
+   "rank": 180,
+   "dyn_rank": 68,
+   "source_date": null,
+   "source_label": "",
+   "typical": "IR: 4+ games",
+   "reinjury": "Low",
+   "note": "He's on IR, so he's out at least four games. That's longer than a typical illness injury, so expect more than the routine version. Routine case: Most illnesses cost a practice or two, rarely a game.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-15T13:47-05:00"
+  },
+  {
    "name": "Jaylin Noel",
    "pos": "WR",
    "team": "HOU",
@@ -2544,6 +2544,32 @@
   }
  ],
  "recent_changes": [
+  {
+   "at": "2026-11-15T13:47-05:00",
+   "name": "Travis Etienne",
+   "team": "NO",
+   "pos": "RB",
+   "rank": 94,
+   "kind": "status",
+   "from": "IR",
+   "to": "Questionable",
+   "injury": "Hamstring",
+   "news": false,
+   "week": 10
+  },
+  {
+   "at": "2026-11-15T13:47-05:00",
+   "name": "TreVeyon Henderson",
+   "team": "NE",
+   "pos": "RB",
+   "rank": 180,
+   "kind": "status",
+   "from": "Out",
+   "to": "IR",
+   "injury": "Illness",
+   "news": false,
+   "week": 10
+  },
   {
    "at": "2026-11-15T05:46-05:00",
    "name": "Ladd McConkey",
@@ -3555,32 +3581,6 @@
    "from": "Practicing",
    "to": "Cleared",
    "injury": "Hamstring",
-   "news": false,
-   "week": 10
-  },
-  {
-   "at": "2026-11-12T02:05-05:00",
-   "name": "Bhayshul Tuten",
-   "team": "JAX",
-   "pos": "RB",
-   "rank": 49,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Ankle",
-   "news": false,
-   "week": 10
-  },
-  {
-   "at": "2026-11-12T02:05-05:00",
-   "name": "Jaylen Wright",
-   "team": "MIA",
-   "pos": "RB",
-   "rank": 55,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Quadricep",
    "news": false,
    "week": 10
   }

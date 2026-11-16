@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 10,
  "rank_source": "Doc's Top 200",
- "generated": "2026-11-16T00:59:03Z",
+ "generated": "2026-11-16T11:08:01Z",
  "week_complete": false,
  "next_week": 10,
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
@@ -30,7 +30,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 10",
+   "back": "Missed Week 10. Week 11 status TBD",
    "pickup": "Demarcus Robinson",
    "rank": 60,
    "dyn_rank": null,
@@ -42,6 +42,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -67,7 +68,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 10",
+   "back": "Missed Week 10. Week 11 status TBD",
    "pickup": "",
    "rank": 64,
    "dyn_rank": null,
@@ -79,6 +80,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -104,7 +106,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 10",
+   "back": "Missed Week 10. Week 11 status TBD",
    "pickup": "MarShawn Lloyd",
    "rank": 88,
    "dyn_rank": null,
@@ -116,6 +118,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -141,7 +144,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 10",
+   "back": "Missed Week 10. Week 11 status TBD",
    "pickup": "Elic Ayomanor",
    "rank": 89,
    "dyn_rank": null,
@@ -153,6 +156,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -178,7 +182,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 10",
+   "back": "Missed Week 10. Week 11 status TBD",
    "pickup": "Carson Wentz",
    "rank": 131,
    "dyn_rank": null,
@@ -190,6 +194,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -215,7 +220,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 10",
+   "back": "Missed Week 10. Week 11 status TBD",
    "pickup": "Ben Yurosek",
    "rank": 181,
    "dyn_rank": null,
@@ -227,6 +232,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -252,7 +258,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 10",
+   "back": "Missed Week 10. Week 11 status TBD",
    "pickup": "Drew Lock",
    "rank": 187,
    "dyn_rank": null,
@@ -264,6 +270,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -289,7 +296,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 10",
+   "back": "Missed Week 10. Week 11 status TBD",
    "pickup": "Brevyn Spann-Ford",
    "rank": 190,
    "dyn_rank": null,
@@ -301,6 +308,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -326,7 +334,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Out Week 10",
+   "back": "Missed Week 10. Week 11 status TBD",
    "pickup": "",
    "rank": 191,
    "dyn_rank": null,
@@ -338,6 +346,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -363,7 +372,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Unlikely Week 10",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "Jared Wayne",
    "rank": 157,
    "dyn_rank": null,
@@ -375,6 +384,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -400,7 +410,7 @@
      "s": "LP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "Tay Martin",
    "rank": 6,
    "dyn_rank": null,
@@ -412,6 +422,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -429,7 +440,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "Emmett Johnson",
    "rank": 8,
    "dyn_rank": null,
@@ -441,6 +452,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -499,7 +511,7 @@
      "s": "LP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "Efton Chism III",
    "rank": 57,
    "dyn_rank": null,
@@ -511,6 +523,7 @@
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
    "changed": "2026-11-13T12:10-05:00"
   },
   {
@@ -536,7 +549,7 @@
      "s": "LP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "Corey Kiner",
    "rank": 61,
    "dyn_rank": null,
@@ -548,6 +561,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-13T12:10-05:00"
   },
   {
@@ -573,7 +587,7 @@
      "s": "FP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "Emari Demercado",
    "rank": 66,
    "dyn_rank": null,
@@ -585,6 +599,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -602,7 +617,7 @@
      "s": "LP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "Tai Felton",
    "rank": 85,
    "dyn_rank": null,
@@ -614,6 +629,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -639,7 +655,7 @@
      "s": "FP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "Isaiah Williams",
    "rank": 91,
    "dyn_rank": null,
@@ -651,6 +667,7 @@
    "evidence": "study",
    "source": "Return to Full Participation Following Concussion in the NFL, 2015-2020 (Clin J Sport Med 2022)",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/36315827/",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -676,7 +693,7 @@
      "s": "FP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "Alvin Kamara",
    "rank": 94,
    "dyn_rank": null,
@@ -688,6 +705,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-15T13:47-05:00"
   },
   {
@@ -713,7 +731,7 @@
      "s": "LP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "Tylan Wallace",
    "rank": 127,
    "dyn_rank": null,
@@ -725,6 +743,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -750,7 +769,7 @@
      "s": "FP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "Nicholas Singleton",
    "rank": 137,
    "dyn_rank": null,
@@ -762,6 +781,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -779,7 +799,7 @@
      "s": "FP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "Tim Patrick",
    "rank": 140,
    "dyn_rank": null,
@@ -791,6 +811,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -816,7 +837,7 @@
      "s": "FP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "Malik McClain",
    "rank": 195,
    "dyn_rank": null,
@@ -828,7 +849,33 @@
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
+  },
+  {
+   "name": "Pat Freiermuth",
+   "pos": "TE",
+   "team": "PIT",
+   "status": "Practicing",
+   "condition": "Fair",
+   "injury": "Illness",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 10. Week 11 status TBD",
+   "pickup": "",
+   "rank": 186,
+   "dyn_rank": 201,
+   "source_date": "2026-11-15",
+   "source_label": "Reported by Sunday",
+   "news": true,
+   "typical": "0\u20131 games",
+   "reinjury": "Low",
+   "note": "Most illnesses cost a practice or two, rarely a game.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-16T06:08-05:00"
   },
   {
    "name": "Malik Nabers",
@@ -887,7 +934,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 32,
    "dyn_rank": null,
@@ -899,6 +946,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-14T01:14-05:00"
   },
   {
@@ -924,7 +972,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 38,
    "dyn_rank": null,
@@ -936,6 +984,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -995,7 +1044,7 @@
      "s": "LP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 45,
    "dyn_rank": null,
@@ -1007,6 +1056,7 @@
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -1032,7 +1082,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 51,
    "dyn_rank": null,
@@ -1044,6 +1094,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T01:14-05:00"
   },
   {
@@ -1103,7 +1154,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 69,
    "dyn_rank": null,
@@ -1115,6 +1166,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -1140,7 +1192,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 72,
    "dyn_rank": null,
@@ -1152,6 +1204,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-12T02:05-05:00"
   },
   {
@@ -1177,7 +1230,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 75,
    "dyn_rank": null,
@@ -1189,6 +1242,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -1214,7 +1268,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 80,
    "dyn_rank": null,
@@ -1226,6 +1280,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -1251,7 +1306,7 @@
      "s": "LP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 99,
    "dyn_rank": null,
@@ -1263,6 +1318,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T01:14-05:00"
   },
   {
@@ -1288,7 +1344,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 102,
    "dyn_rank": null,
@@ -1300,6 +1356,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-13T12:10-05:00"
   },
   {
@@ -1325,7 +1382,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 103,
    "dyn_rank": null,
@@ -1337,6 +1394,7 @@
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -1362,7 +1420,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 105,
    "dyn_rank": null,
@@ -1374,6 +1432,7 @@
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
    "changed": "2026-11-14T01:14-05:00"
   },
   {
@@ -1399,7 +1458,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 106,
    "dyn_rank": null,
@@ -1411,6 +1470,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T01:14-05:00"
   },
   {
@@ -1436,7 +1496,7 @@
      "s": "LP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 116,
    "dyn_rank": null,
@@ -1448,6 +1508,7 @@
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
    "changed": "2026-11-14T01:14-05:00"
   },
   {
@@ -1473,7 +1534,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 117,
    "dyn_rank": null,
@@ -1485,6 +1546,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T01:14-05:00"
   },
   {
@@ -1543,7 +1605,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 138,
    "dyn_rank": null,
@@ -1555,6 +1617,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-14T01:14-05:00"
   },
   {
@@ -1580,7 +1643,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 147,
    "dyn_rank": null,
@@ -1592,6 +1655,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-14T01:14-05:00"
   },
   {
@@ -1651,7 +1715,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 149,
    "dyn_rank": null,
@@ -1663,6 +1727,7 @@
    "evidence": "study",
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "game_played": true,
    "changed": "2026-11-14T08:35-05:00"
   },
   {
@@ -1688,7 +1753,7 @@
      "s": "LP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 153,
    "dyn_rank": null,
@@ -1700,6 +1765,7 @@
    "evidence": "study",
    "source": "Midfoot sprains in the National Football League (Am J Sports Med 2014)",
    "source_url": "https://vivo.weill.cornell.edu/display/pubid25490010",
+   "game_played": true,
    "changed": "2026-11-12T02:05-05:00"
   },
   {
@@ -1725,7 +1791,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 161,
    "dyn_rank": null,
@@ -1737,6 +1803,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T01:14-05:00"
   },
   {
@@ -1828,7 +1895,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 198,
    "dyn_rank": null,
@@ -1840,6 +1907,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-14T01:14-05:00"
   },
   {
@@ -2544,6 +2612,19 @@
   }
  ],
  "recent_changes": [
+  {
+   "at": "2026-11-16T06:08-05:00",
+   "name": "Pat Freiermuth",
+   "team": "PIT",
+   "pos": "TE",
+   "rank": 186,
+   "kind": "added",
+   "from": null,
+   "to": "Practicing",
+   "injury": "Illness",
+   "news": true,
+   "week": 10
+  },
   {
    "at": "2026-11-15T13:47-05:00",
    "name": "Travis Etienne",
@@ -3568,19 +3649,6 @@
    "from": null,
    "to": "Practicing",
    "injury": "Finger",
-   "news": false,
-   "week": 10
-  },
-  {
-   "at": "2026-11-12T02:05-05:00",
-   "name": "Cam Skattebo",
-   "team": "NYG",
-   "pos": "RB",
-   "rank": 44,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Cleared",
-   "injury": "Hamstring",
    "news": false,
    "week": 10
   }

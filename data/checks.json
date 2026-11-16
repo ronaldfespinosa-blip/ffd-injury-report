@@ -2,6 +2,13 @@
  "week": 10,
  "checks": [
   {
+   "name": "Nicholas Singleton",
+   "team": "TEN",
+   "check": "non_injury_news",
+   "detail": "Coach's Decision",
+   "action": "left off the report"
+  },
+  {
    "name": "Terrance Ferguson",
    "team": "LA",
    "check": "ir_longer_than_typical",

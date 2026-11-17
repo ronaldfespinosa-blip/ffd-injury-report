@@ -2,9 +2,9 @@
  "season": 2026,
  "week": 10,
  "rank_source": "Doc's Top 200",
- "generated": "2026-11-16T21:57:50Z",
- "week_complete": false,
- "next_week": 10,
+ "generated": "2026-11-17T07:50:33Z",
+ "week_complete": true,
+ "next_week": 11,
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -107,7 +107,7 @@
     }
    ],
    "back": "Missed Week 10. Week 11 status TBD",
-   "pickup": "MarShawn Lloyd",
+   "pickup": "Kaleb Johnson",
    "rank": 88,
    "dyn_rank": null,
    "source_date": "2026-11-13",
@@ -145,7 +145,7 @@
     }
    ],
    "back": "Missed Week 10. Week 11 status TBD",
-   "pickup": "Elic Ayomanor",
+   "pickup": "Chimere Dike",
    "rank": 89,
    "dyn_rank": null,
    "source_date": "2026-11-13",
@@ -221,7 +221,7 @@
     }
    ],
    "back": "Missed Week 10. Week 11 status TBD",
-   "pickup": "Ben Yurosek",
+   "pickup": "Gavin Bartholomew",
    "rank": 181,
    "dyn_rank": null,
    "source_date": "2026-11-13",
@@ -474,7 +474,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 10 game played. Week 11 status TBD",
    "pickup": "KeAndre Lambert-Smith",
    "rank": 42,
    "dyn_rank": null,
@@ -486,6 +486,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-15T05:46-05:00"
   },
   {
@@ -588,7 +589,7 @@
     }
    ],
    "back": "Week 10 game played. Week 11 status TBD",
-   "pickup": "Emari Demercado",
+   "pickup": "Woody Marks",
    "rank": 66,
    "dyn_rank": null,
    "source_date": "2026-11-13",
@@ -888,7 +889,7 @@
    "practice_code": "",
    "trail": [],
    "back": "Hurt Week 10. Week 11 status TBD",
-   "pickup": "Carter Runyon",
+   "pickup": "",
    "rank": 18,
    "dyn_rank": 11,
    "source_date": "2026-11-16",
@@ -913,7 +914,7 @@
    "practice_code": "",
    "trail": [],
    "back": "Hurt Week 10. Week 11 status TBD",
-   "pickup": "Elic Ayomanor",
+   "pickup": "Chimere Dike",
    "rank": 112,
    "dyn_rank": 104,
    "source_date": "2026-11-16",
@@ -1643,7 +1644,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 122,
    "dyn_rank": null,
@@ -1655,6 +1656,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-15T05:46-05:00"
   },
   {
@@ -1900,7 +1902,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 177,
    "dyn_rank": null,
@@ -1912,6 +1914,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-15T05:46-05:00"
   },
   {
@@ -1933,7 +1936,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 10",
    "pickup": "",
    "rank": 179,
    "dyn_rank": null,
@@ -1945,6 +1948,7 @@
    "evidence": "study",
    "source": "Acute Gastrocnemius-Soleus Complex Injuries in NFL Athletes (PMC5298443)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5298443/",
+   "game_played": true,
    "changed": "2026-11-15T05:46-05:00"
   },
   {

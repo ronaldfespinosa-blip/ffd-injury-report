@@ -9,27 +9,6 @@
    "action": "left off the report"
   },
   {
-   "name": "Terrance Ferguson",
-   "team": "LA",
-   "check": "ir_longer_than_typical",
-   "detail": "Ankle usually 0\u20133 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "TreVeyon Henderson",
-   "team": "NE",
-   "check": "ir_longer_than_typical",
-   "detail": "Illness usually 0\u20131 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Davante Adams",
-   "team": "LA",
-   "check": "non_injury",
-   "detail": "Not injury: Resting player",
-   "action": "no recovery note or re-injury risk"
-  },
-  {
    "name": "Lamar Jackson",
    "team": "BAL",
    "check": "ir_longer_than_typical",
@@ -51,6 +30,13 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
+   "name": "Jalen Hurts",
+   "team": "PHI",
+   "check": "override",
+   "detail": "Official label says calf; it's a blood clot in the calf, not a strain",
+   "action": "hand correction applied"
+  },
+  {
    "name": "Malik Davis",
    "team": "DAL",
    "check": "ir_longer_than_typical",
@@ -65,10 +51,10 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
-   "name": "Brian Robinson",
-   "team": "ATL",
+   "name": "Tank Bigsby",
+   "team": "PHI",
    "check": "ir_longer_than_typical",
-   "detail": "Hamstring usually 0\u20133 games",
+   "detail": "Abdomen usually 0\u20132 games",
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
@@ -100,11 +86,25 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
+   "name": "Brian Robinson Jr.",
+   "team": "ATL",
+   "check": "ir_longer_than_typical",
+   "detail": "Hamstring usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
    "name": "Drake London",
    "team": "ATL",
    "check": "unmatched_label",
    "detail": "Head",
    "action": "generic note; add it to return-timelines.json"
+  },
+  {
+   "name": "Romeo Doubs",
+   "team": "NE",
+   "check": "ir_longer_than_typical",
+   "detail": "Shoulder usually 0\u20132 games",
+   "action": "note reworded to say the IR stint is longer than typical"
   }
  ]
 }

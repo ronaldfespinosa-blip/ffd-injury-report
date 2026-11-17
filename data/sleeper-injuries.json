@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-11-16T16:57",
+ "fetched_et": "2026-11-17T13:31",
  "players": [
   {
    "id": "",
@@ -18,6 +18,15 @@
    "team": "NE",
    "status": "Out",
    "part": "Coach's Decision"
+  },
+  {
+   "id": "",
+   "sleeper_id": "12493",
+   "name": "Oronde Gadsden",
+   "pos": "TE",
+   "team": "LAC",
+   "status": "Questionable",
+   "part": "Eye"
   },
   {
    "id": "00-0033217",
@@ -133,7 +142,7 @@
    "name": "Brenen Thompson",
    "pos": "WR",
    "team": "LAC",
-   "status": "Doubtful",
+   "status": "Out",
    "part": "Hamstring"
   },
   {
@@ -171,6 +180,15 @@
    "team": "NE",
    "status": "IR",
    "part": "Illness"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13268",
+   "name": "Elijah Sarratt",
+   "pos": "WR",
+   "team": "BAL",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "00-0030565",
@@ -774,6 +792,15 @@
    "team": "IND",
    "status": "IR",
    "part": "Heel"
+  },
+  {
+   "id": "",
+   "sleeper_id": "11648",
+   "name": "Kedon Slovis",
+   "pos": "QB",
+   "team": "BAL",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -1425,6 +1452,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "11762",
+   "name": "Anthony Gould",
+   "pos": "WR",
+   "team": "IND",
+   "status": "Questionable",
+   "part": "Toe"
+  },
+  {
+   "id": "",
    "sleeper_id": "13315",
    "name": "Dean Connors",
    "pos": "RB",
@@ -1656,15 +1692,6 @@
    "team": "MIN",
    "status": "Out",
    "part": "Thumb"
-  },
-  {
-   "id": "00-0033885",
-   "sleeper_id": "4033",
-   "name": "David Njoku",
-   "pos": "TE",
-   "team": "LAC",
-   "status": "Questionable",
-   "part": "Lower Leg"
   },
   {
    "id": "00-0035228",

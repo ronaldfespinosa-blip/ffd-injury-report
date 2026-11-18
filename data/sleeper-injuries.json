@@ -1,15 +1,6 @@
 {
- "fetched_et": "2026-11-17T13:31",
+ "fetched_et": "2026-11-18T15:27",
  "players": [
-  {
-   "id": "",
-   "sleeper_id": "13302",
-   "name": "Adam Randall",
-   "pos": "RB",
-   "team": "BAL",
-   "status": "IR",
-   "part": "Undisclosed"
-  },
   {
    "id": "",
    "sleeper_id": "13295",
@@ -18,15 +9,6 @@
    "team": "NE",
    "status": "Out",
    "part": "Coach's Decision"
-  },
-  {
-   "id": "",
-   "sleeper_id": "12493",
-   "name": "Oronde Gadsden",
-   "pos": "TE",
-   "team": "LAC",
-   "status": "Questionable",
-   "part": "Eye"
   },
   {
    "id": "00-0033217",
@@ -79,7 +61,7 @@
    "name": "Jauan Jennings",
    "pos": "WR",
    "team": "MIN",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Calf"
   },
   {
@@ -111,21 +93,12 @@
   },
   {
    "id": "",
-   "sleeper_id": "13554",
-   "name": "CJ Williams",
-   "pos": "WR",
-   "team": "JAX",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
-   "id": "",
    "sleeper_id": "7526",
    "name": "Jaylen Waddle",
    "pos": "WR",
    "team": "DEN",
-   "status": "Out",
-   "part": "Head"
+   "status": "Questionable",
+   "part": "Concussion"
   },
   {
    "id": "",
@@ -142,26 +115,8 @@
    "name": "Brenen Thompson",
    "pos": "WR",
    "team": "LAC",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Hamstring"
-  },
-  {
-   "id": "",
-   "sleeper_id": "13400",
-   "name": "Justin Joly",
-   "pos": "TE",
-   "team": "MIA",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
-   "id": "00-0031236",
-   "sleeper_id": "2197",
-   "name": "Brandin Cooks",
-   "pos": "WR",
-   "team": "SF",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "00-0035229",
@@ -169,7 +124,7 @@
    "name": "T.J. Hockenson",
    "pos": "TE",
    "team": "MIN",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Wrist"
   },
   {
@@ -182,21 +137,12 @@
    "part": "Illness"
   },
   {
-   "id": "",
-   "sleeper_id": "13268",
-   "name": "Elijah Sarratt",
-   "pos": "WR",
-   "team": "BAL",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
    "id": "00-0030565",
    "sleeper_id": "1373",
    "name": "Geno Smith",
    "pos": "QB",
    "team": "NYJ",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Ankle"
   },
   {
@@ -210,20 +156,11 @@
   },
   {
    "id": "",
-   "sleeper_id": "7538",
-   "name": "Zach Wilson",
-   "pos": "QB",
-   "team": "NO",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
-   "id": "",
    "sleeper_id": "11635",
    "name": "Ladd McConkey",
    "pos": "WR",
    "team": "LAC",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Back"
   },
   {
@@ -243,24 +180,6 @@
    "team": "ATL",
    "status": "IR",
    "part": "Hamstring"
-  },
-  {
-   "id": "",
-   "sleeper_id": "11273",
-   "name": "Ben VanSumeren",
-   "pos": "RB",
-   "team": "KC",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
-   "id": "",
-   "sleeper_id": "7583",
-   "name": "Sam Ehlinger",
-   "pos": "QB",
-   "team": "DEN",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -297,15 +216,6 @@
    "team": "CIN",
    "status": "IR",
    "part": "Knee - ACL"
-  },
-  {
-   "id": "",
-   "sleeper_id": "13557",
-   "name": "Athan Kaliakmanis",
-   "pos": "QB",
-   "team": "WAS",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -363,6 +273,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "11608",
+   "name": "Isaiah Williams",
+   "pos": "WR",
+   "team": "NYJ",
+   "status": "Questionable",
+   "part": "Ribs"
+  },
+  {
+   "id": "",
    "sleeper_id": "8125",
    "name": "Calvin Austin III",
    "pos": "WR",
@@ -403,26 +322,8 @@
    "name": "Britain Covey",
    "pos": "WR",
    "team": "PHI",
-   "status": "Out",
-   "part": "Knee"
-  },
-  {
-   "id": "00-0028986",
-   "sleeper_id": "1737",
-   "name": "Case Keenum",
-   "pos": "QB",
-   "team": "CHI",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
-   "id": "",
-   "sleeper_id": "12519",
-   "name": "Luther Burden III",
-   "pos": "WR",
-   "team": "CHI",
    "status": "Questionable",
-   "part": "Undisclosed"
+   "part": "Knee"
   },
   {
    "id": "",
@@ -430,7 +331,7 @@
    "name": "Dontayvion Wicks",
    "pos": "WR",
    "team": "PHI",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Ankle"
   },
   {
@@ -450,15 +351,6 @@
    "team": "BAL",
    "status": "IR",
    "part": "Thumb"
-  },
-  {
-   "id": "",
-   "sleeper_id": "13428",
-   "name": "Joey Aguilar",
-   "pos": "QB",
-   "team": "ARI",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -583,7 +475,7 @@
    "name": "Chris Bell",
    "pos": "WR",
    "team": "MIA",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Knee"
   },
   {
@@ -596,21 +488,12 @@
    "part": "Thumb"
   },
   {
-   "id": "00-0035406",
-   "sleeper_id": "5938",
-   "name": "Lil'Jordan Humphrey",
-   "pos": "WR",
-   "team": "DEN",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
    "id": "",
    "sleeper_id": "12474",
    "name": "Woody Marks",
    "pos": "RB",
    "team": "HOU",
-   "status": "Out",
+   "status": "Doubtful",
    "part": "Concussion"
   },
   {
@@ -632,21 +515,12 @@
    "part": "Hamstring"
   },
   {
-   "id": "",
-   "sleeper_id": "13415",
-   "name": "Haynes King",
-   "pos": "QB",
-   "team": "CAR",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
    "id": "00-0031408",
    "sleeper_id": "2216",
    "name": "Mike Evans",
    "pos": "WR",
    "team": "SF",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Achilles"
   },
   {
@@ -675,24 +549,6 @@
    "team": "DEN",
    "status": "IR",
    "part": "Knee"
-  },
-  {
-   "id": "",
-   "sleeper_id": "13423",
-   "name": "Eli Heidenreich",
-   "pos": "RB",
-   "team": "PIT",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
-   "id": "00-0033375",
-   "sleeper_id": "4351",
-   "name": "Tim Patrick",
-   "pos": "WR",
-   "team": "NYJ",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -795,15 +651,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "11648",
-   "name": "Kedon Slovis",
-   "pos": "QB",
-   "team": "BAL",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
-   "id": "",
    "sleeper_id": "12508",
    "name": "Jaxson Dart",
    "pos": "QB",
@@ -835,17 +682,8 @@
    "name": "Jonathan Mingo",
    "pos": "WR",
    "team": "DAL",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Ankle"
-  },
-  {
-   "id": "",
-   "sleeper_id": "12470",
-   "name": "Riley Leonard",
-   "pos": "QB",
-   "team": "IND",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -853,7 +691,7 @@
    "name": "CJ Donaldson",
    "pos": "RB",
    "team": "NO",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Shoulder"
   },
   {
@@ -864,15 +702,6 @@
    "team": "NYG",
    "status": "IR",
    "part": "Hamstring"
-  },
-  {
-   "id": "",
-   "sleeper_id": "12775",
-   "name": "Max Brosmer",
-   "pos": "QB",
-   "team": "MIN",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -889,7 +718,7 @@
    "name": "Carnell Tate",
    "pos": "WR",
    "team": "TEN",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Shoulder"
   },
   {
@@ -916,26 +745,8 @@
    "name": "DeVonta Smith",
    "pos": "WR",
    "team": "PHI",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Hamstring"
-  },
-  {
-   "id": "",
-   "sleeper_id": "12511",
-   "name": "Will Howard",
-   "pos": "QB",
-   "team": "PIT",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
-   "id": "",
-   "sleeper_id": "8002",
-   "name": "Shane Buechele",
-   "pos": "QB",
-   "team": "BUF",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -966,15 +777,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "12715",
-   "name": "Thomas Fidone II",
-   "pos": "TE",
-   "team": "NYG",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
-   "id": "",
    "sleeper_id": "11299",
    "name": "Zavier Scott",
    "pos": "RB",
@@ -997,8 +799,8 @@
    "name": "Brevin Jordan",
    "pos": "TE",
    "team": "HOU",
-   "status": "Out",
-   "part": "Finger"
+   "status": "Questionable",
+   "part": "Foot"
   },
   {
    "id": "",
@@ -1015,17 +817,8 @@
    "name": "Marvin Harrison Jr.",
    "pos": "WR",
    "team": "HOU",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Hamstring"
-  },
-  {
-   "id": "",
-   "sleeper_id": "12477",
-   "name": "Kurtis Rourke",
-   "pos": "QB",
-   "team": "SF",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -1078,7 +871,7 @@
    "name": "Dont'e Thornton Jr.",
    "pos": "WR",
    "team": "LV",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Back"
   },
   {
@@ -1087,7 +880,7 @@
    "name": "Kenneth Walker III",
    "pos": "RB",
    "team": "KC",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Groin"
   },
   {
@@ -1105,7 +898,7 @@
    "name": "Jaydn Ott",
    "pos": "RB",
    "team": "KC",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Hamstring"
   },
   {
@@ -1141,7 +934,7 @@
    "name": "Omar Cooper Jr.",
    "pos": "WR",
    "team": "NYJ",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Ankle"
   },
   {
@@ -1159,7 +952,7 @@
    "name": "Kyle Monangai",
    "pos": "RB",
    "team": "CHI",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Toe"
   },
   {
@@ -1181,15 +974,6 @@
    "part": "Undisclosed"
   },
   {
-   "id": "00-0035685",
-   "sleeper_id": "5892",
-   "name": "David Montgomery",
-   "pos": "RB",
-   "team": "HOU",
-   "status": "Out",
-   "part": "Groin"
-  },
-  {
    "id": "",
    "sleeper_id": "11583",
    "name": "Jonathon Brooks",
@@ -1197,24 +981,6 @@
    "team": "CAR",
    "status": "IR",
    "part": "Abdomen"
-  },
-  {
-   "id": "",
-   "sleeper_id": "8219",
-   "name": "Jelani Woods",
-   "pos": "TE",
-   "team": "NYJ",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
-   "id": "",
-   "sleeper_id": "13577",
-   "name": "Dallen Bentley",
-   "pos": "TE",
-   "team": "DEN",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "00-0035659",
@@ -1251,15 +1017,6 @@
    "team": "ARI",
    "status": "IR",
    "part": "Lower Leg"
-  },
-  {
-   "id": "",
-   "sleeper_id": "10218",
-   "name": "Xavier Hutchinson",
-   "pos": "WR",
-   "team": "HOU",
-   "status": "Questionable",
-   "part": "Concussion"
   },
   {
    "id": "",
@@ -1389,39 +1146,12 @@
   },
   {
    "id": "",
-   "sleeper_id": "13404",
-   "name": "Garrett Nussmeier",
-   "pos": "QB",
-   "team": "KC",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
-   "id": "",
    "sleeper_id": "11942",
    "name": "Colson Yankoff",
    "pos": "TE",
    "team": "WAS",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Knee"
-  },
-  {
-   "id": "",
-   "sleeper_id": "11377",
-   "name": "Tyrell Shavers",
-   "pos": "WR",
-   "team": "BUF",
-   "status": "PUP",
-   "part": "Knee - ACL"
-  },
-  {
-   "id": "",
-   "sleeper_id": "11600",
-   "name": "Ja'Tavion Sanders",
-   "pos": "TE",
-   "team": "CAR",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "00-0034798",
@@ -1431,15 +1161,6 @@
    "team": "BAL",
    "status": "IR",
    "part": "Achilles"
-  },
-  {
-   "id": "",
-   "sleeper_id": "13288",
-   "name": "Nicholas Singleton",
-   "pos": "RB",
-   "team": "TEN",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "00-0035045",
@@ -1474,7 +1195,7 @@
    "name": "Wan'Dale Robinson",
    "pos": "WR",
    "team": "TEN",
-   "status": "Questionable",
+   "status": "IR",
    "part": "Ankle"
   },
   {
@@ -1546,17 +1267,8 @@
    "name": "Jared Wayne",
    "pos": "WR",
    "team": "MIA",
-   "status": "Out",
-   "part": "Quadriceps"
-  },
-  {
-   "id": "00-0030506",
-   "sleeper_id": "1466",
-   "name": "Travis Kelce",
-   "pos": "TE",
-   "team": "KC",
    "status": "Questionable",
-   "part": "Ankle"
+   "part": "Quadriceps"
   },
   {
    "id": "",
@@ -1569,21 +1281,21 @@
   },
   {
    "id": "",
-   "sleeper_id": "13329",
-   "name": "Malik Benson",
-   "pos": "WR",
-   "team": "LV",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
-   "id": "",
    "sleeper_id": "11588",
    "name": "Jawhar Jordan",
    "pos": "RB",
    "team": "HOU",
    "status": "Out",
    "part": "Undisclosed"
+  },
+  {
+   "id": "00-0031610",
+   "sleeper_id": "2505",
+   "name": "Darren Waller",
+   "pos": "TE",
+   "team": "CAR",
+   "status": "Questionable",
+   "part": "Knee"
   },
   {
    "id": "",
@@ -1602,15 +1314,6 @@
    "team": "ARI",
    "status": "IR",
    "part": "Wrist"
-  },
-  {
-   "id": "",
-   "sleeper_id": "8210",
-   "name": "Chig Okonkwo",
-   "pos": "TE",
-   "team": "WAS",
-   "status": "Questionable",
-   "part": "Back"
   },
   {
    "id": "",
@@ -1650,20 +1353,11 @@
   },
   {
    "id": "",
-   "sleeper_id": "13289",
-   "name": "Drew Allar",
-   "pos": "QB",
-   "team": "PIT",
-   "status": "Out",
-   "part": "Coach's Decision"
-  },
-  {
-   "id": "",
    "sleeper_id": "11604",
    "name": "Brock Bowers",
    "pos": "TE",
    "team": "LV",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Ankle"
   },
   {
@@ -1731,15 +1425,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "13200",
-   "name": "Max Hurleman",
-   "pos": "WR",
-   "team": "PIT",
-   "status": "Out",
-   "part": "Undisclosed"
-  },
-  {
-   "id": "",
    "sleeper_id": "11564",
    "name": "Drake Maye",
    "pos": "QB",
@@ -1755,15 +1440,6 @@
    "team": "CIN",
    "status": "Out",
    "part": "Undisclosed"
-  },
-  {
-   "id": "",
-   "sleeper_id": "6828",
-   "name": "AJ Dillon",
-   "pos": "RB",
-   "team": "CAR",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "",

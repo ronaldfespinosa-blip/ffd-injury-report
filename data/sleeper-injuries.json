@@ -1,6 +1,15 @@
 {
- "fetched_et": "2026-11-19T15:30",
+ "fetched_et": "2026-11-20T15:09",
  "players": [
+  {
+   "id": "",
+   "sleeper_id": "9504",
+   "name": "Kayshon Boutte",
+   "pos": "WR",
+   "team": "HOU",
+   "status": "Questionable",
+   "part": "Hip"
+  },
   {
    "id": "",
    "sleeper_id": "13295",
@@ -27,15 +36,6 @@
    "team": "SF",
    "status": "IR",
    "part": "Knee"
-  },
-  {
-   "id": "",
-   "sleeper_id": "8116",
-   "name": "Pierre Strong Jr.",
-   "pos": "RB",
-   "team": "GB",
-   "status": "Out",
-   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -108,15 +108,6 @@
    "team": "LAC",
    "status": "Questionable",
    "part": "Hamstring"
-  },
-  {
-   "id": "00-0035229",
-   "sleeper_id": "5844",
-   "name": "T.J. Hockenson",
-   "pos": "TE",
-   "team": "MIN",
-   "status": "Questionable",
-   "part": "Wrist"
   },
   {
    "id": "",
@@ -264,11 +255,20 @@
   },
   {
    "id": "",
+   "sleeper_id": "8131",
+   "name": "Isaiah Likely",
+   "pos": "TE",
+   "team": "NYG",
+   "status": "Questionable",
+   "part": "Undisclosed"
+  },
+  {
+   "id": "",
    "sleeper_id": "11608",
    "name": "Isaiah Williams",
    "pos": "WR",
    "team": "NYJ",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Ribs"
   },
   {
@@ -405,6 +405,15 @@
    "team": "SF",
    "status": "PUP",
    "part": "Pectoral"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13272",
+   "name": "Carson Beck",
+   "pos": "QB",
+   "team": "ARI",
+   "status": "Questionable",
+   "part": "Back"
   },
   {
    "id": "",
@@ -570,6 +579,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "13424",
+   "name": "Seth McGowan",
+   "pos": "RB",
+   "team": "IND",
+   "status": "Out",
+   "part": "Hamstring"
+  },
+  {
+   "id": "",
    "sleeper_id": "12656",
    "name": "Robbie Ouzts",
    "pos": "RB",
@@ -705,6 +723,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "12470",
+   "name": "Riley Leonard",
+   "pos": "QB",
+   "team": "IND",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "10219",
    "name": "Chris Rodriguez Jr.",
    "pos": "RB",
@@ -756,15 +783,6 @@
    "team": "ARI",
    "status": "IR",
    "part": "Ankle"
-  },
-  {
-   "id": "",
-   "sleeper_id": "7525",
-   "name": "DeVonta Smith",
-   "pos": "WR",
-   "team": "PHI",
-   "status": "Questionable",
-   "part": "Hamstring"
   },
   {
    "id": "",
@@ -907,7 +925,7 @@
    "name": "Dalton Kincaid",
    "pos": "TE",
    "team": "BUF",
-   "status": "Questionable",
+   "status": "Doubtful",
    "part": "Thumb"
   },
   {
@@ -918,15 +936,6 @@
    "team": "GB",
    "status": "PUP",
    "part": "Undisclosed"
-  },
-  {
-   "id": "",
-   "sleeper_id": "13281",
-   "name": "Jordyn Tyson",
-   "pos": "WR",
-   "team": "NO",
-   "status": "Questionable",
-   "part": "Chest"
   },
   {
    "id": "",
@@ -961,7 +970,7 @@
    "name": "Omar Cooper Jr.",
    "pos": "WR",
    "team": "NYJ",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Ankle"
   },
   {
@@ -1055,6 +1064,15 @@
    "part": "Back"
   },
   {
+   "id": "00-0034365",
+   "sleeper_id": "4995",
+   "name": "Ian Thomas",
+   "pos": "TE",
+   "team": "LV",
+   "status": "Questionable",
+   "part": "Calf"
+  },
+  {
    "id": "",
    "sleeper_id": "9225",
    "name": "Tank Bigsby",
@@ -1062,6 +1080,15 @@
    "team": "PHI",
    "status": "IR",
    "part": "Abdomen"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13411",
+   "name": "Zavion Thomas",
+   "pos": "WR",
+   "team": "CHI",
+   "status": "Questionable",
+   "part": "Ankle"
   },
   {
    "id": "",
@@ -1181,15 +1208,6 @@
    "part": "Knee - ACL"
   },
   {
-   "id": "",
-   "sleeper_id": "11942",
-   "name": "Colson Yankoff",
-   "pos": "TE",
-   "team": "WAS",
-   "status": "Questionable",
-   "part": "Knee"
-  },
-  {
    "id": "00-0034798",
    "sleeper_id": "5008",
    "name": "Durham Smythe",
@@ -1209,12 +1227,12 @@
   },
   {
    "id": "",
-   "sleeper_id": "11762",
-   "name": "Anthony Gould",
-   "pos": "WR",
-   "team": "IND",
+   "sleeper_id": "12467",
+   "name": "Jordan James",
+   "pos": "RB",
+   "team": "SF",
    "status": "Questionable",
-   "part": "Toe"
+   "part": "Calf"
   },
   {
    "id": "",
@@ -1308,6 +1326,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "10871",
+   "name": "Luke Schoonmaker",
+   "pos": "TE",
+   "team": "DAL",
+   "status": "Questionable",
+   "part": "Illness"
+  },
+  {
+   "id": "",
    "sleeper_id": "11435",
    "name": "Emanuel Wilson",
    "pos": "RB",
@@ -1377,15 +1404,6 @@
    "team": "CLE",
    "status": "Out",
    "part": "Coach's Decision"
-  },
-  {
-   "id": "",
-   "sleeper_id": "11911",
-   "name": "Jeshaun Jones",
-   "pos": "WR",
-   "team": "MIN",
-   "status": "Questionable",
-   "part": "Shoulder"
   },
   {
    "id": "",

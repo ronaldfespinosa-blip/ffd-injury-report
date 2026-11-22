@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 11,
  "rank_source": "Doc's Top 200",
- "generated": "2026-11-22T01:14:46Z",
+ "generated": "2026-11-22T11:14:50Z",
  "week_complete": false,
  "next_week": 11,
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
@@ -210,7 +210,7 @@
     }
    ],
    "back": "Out Week 11",
-   "pickup": "Elijah Moore",
+   "pickup": "",
    "rank": 161,
    "dyn_rank": null,
    "source_date": "2026-11-20",
@@ -483,6 +483,39 @@
    "changed": "2026-11-21T05:56-05:00"
   },
   {
+   "name": "Rachaad White",
+   "pos": "RB",
+   "team": "WAS",
+   "status": "Questionable",
+   "condition": "Serious",
+   "injury": "Heel",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Fri",
+     "s": "LP"
+    },
+    {
+     "d": "Sat",
+     "s": "DNP"
+    }
+   ],
+   "back": "Game-time call",
+   "pickup": "Austin Ekeler",
+   "rank": 99,
+   "dyn_rank": null,
+   "source_date": "2026-11-21",
+   "source_label": "Saturday\u2019s final Week 11 report",
+   "typical": "0\u20132 games",
+   "reinjury": "Moderate",
+   "note": "Turf toe and heel issues often linger and sap burst even when the player suits up.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-22T06:14-05:00"
+  },
+  {
    "name": "Tyjae Spears",
    "pos": "RB",
    "team": "TEN",
@@ -506,7 +539,7 @@
     }
    ],
    "back": "Game-time call",
-   "pickup": "Nicholas Singleton",
+   "pickup": "",
    "rank": 144,
    "dyn_rank": null,
    "source_date": "2026-11-20",
@@ -557,134 +590,6 @@
    "changed": "2026-11-21T05:56-05:00"
   },
   {
-   "name": "Tee Higgins",
-   "pos": "WR",
-   "team": "CIN",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Knee",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Thu",
-     "s": "FP"
-    },
-    {
-     "d": "Fri",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Sat",
-   "pickup": "Mitchell Tinsley",
-   "rank": 24,
-   "dyn_rank": null,
-   "source_date": "2026-11-20",
-   "source_label": "Friday\u2019s practice report",
-   "typical": "0\u20133 games",
-   "reinjury": "Moderate",
-   "note": "'Knee' covers everything from a bruise to a torn ligament. Most MCL sprains cost 2-6 weeks; ACL tears go straight to IR.",
-   "evidence": "study",
-   "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
-   "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
-   "changed": "2026-11-20T06:29-05:00"
-  },
-  {
-   "name": "Joe Burrow",
-   "pos": "QB",
-   "team": "CIN",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Illness",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Thu",
-     "s": "FP"
-    },
-    {
-     "d": "Fri",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Sat",
-   "pickup": "Joe Flacco",
-   "rank": 55,
-   "dyn_rank": null,
-   "source_date": "2026-11-20",
-   "source_label": "Friday\u2019s practice report",
-   "typical": "0\u20131 games",
-   "reinjury": "Low",
-   "note": "Most illnesses cost a practice or two, rarely a game.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-20T06:29-05:00"
-  },
-  {
-   "name": "Jayden Daniels",
-   "pos": "QB",
-   "team": "WAS",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Elbow",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Thu",
-     "s": "FP"
-    },
-    {
-     "d": "Fri",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Sat",
-   "pickup": "Marcus Mariota",
-   "rank": 56,
-   "dyn_rank": null,
-   "source_date": "2026-11-20",
-   "source_label": "Friday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Low",
-   "note": "Elbow bruises and sprains are usually played through with a sleeve or brace. For a QB's throwing arm, watch for lost velocity even if he plays. A UCL tear or fracture means IR.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-20T06:29-05:00"
-  },
-  {
-   "name": "Rachaad White",
-   "pos": "RB",
-   "team": "WAS",
-   "status": "Practicing",
-   "condition": "Fair",
-   "injury": "Heel",
-   "practice": "Limited Participation in Practice",
-   "practice_code": "LP",
-   "trail": [
-    {
-     "d": "Fri",
-     "s": "LP"
-    }
-   ],
-   "back": "Status due Sat",
-   "pickup": "Austin Ekeler",
-   "rank": 99,
-   "dyn_rank": null,
-   "source_date": "2026-11-20",
-   "source_label": "Friday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Moderate",
-   "note": "Turf toe and heel issues often linger and sap burst even when the player suits up.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-21T05:56-05:00"
-  },
-  {
    "name": "Kayshon Boutte",
    "pos": "WR",
    "team": "HOU",
@@ -708,39 +613,6 @@
    "source": "",
    "source_url": "",
    "changed": "2026-11-20T15:09-05:00"
-  },
-  {
-   "name": "Chig Okonkwo",
-   "pos": "TE",
-   "team": "WAS",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Back",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Thu",
-     "s": "FP"
-    },
-    {
-     "d": "Fri",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Sat",
-   "pickup": "Ben Sinnott",
-   "rank": 147,
-   "dyn_rank": null,
-   "source_date": "2026-11-20",
-   "source_label": "Friday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Moderate",
-   "note": "Trunk and hip injuries are usually played through, but they can cap snaps.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-20T06:29-05:00"
   },
   {
    "name": "Seth McGowan",
@@ -803,6 +675,43 @@
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
    "changed": "2026-11-21T05:56-05:00"
+  },
+  {
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "team": "CIN",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Knee",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    },
+    {
+     "d": "Sat",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 24,
+   "dyn_rank": null,
+   "source_date": "2026-11-21",
+   "source_label": "Saturday\u2019s final Week 11 report",
+   "typical": "\u2014",
+   "reinjury": "Moderate",
+   "note": "'Knee' covers everything from a bruise to a torn ligament. Most MCL sprains cost 2-6 weeks; ACL tears go straight to IR.",
+   "evidence": "study",
+   "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
+   "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "changed": "2026-11-22T06:14-05:00"
   },
   {
    "name": "Jaylen Waddle",
@@ -1025,6 +934,80 @@
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
    "changed": "2026-11-21T05:56-05:00"
+  },
+  {
+   "name": "Joe Burrow",
+   "pos": "QB",
+   "team": "CIN",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Illness",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    },
+    {
+     "d": "Sat",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 55,
+   "dyn_rank": null,
+   "source_date": "2026-11-21",
+   "source_label": "Saturday\u2019s final Week 11 report",
+   "typical": "\u2014",
+   "reinjury": "Low",
+   "note": "Most illnesses cost a practice or two, rarely a game.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-22T06:14-05:00"
+  },
+  {
+   "name": "Jayden Daniels",
+   "pos": "QB",
+   "team": "WAS",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Elbow",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    },
+    {
+     "d": "Sat",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 56,
+   "dyn_rank": null,
+   "source_date": "2026-11-21",
+   "source_label": "Saturday\u2019s final Week 11 report",
+   "typical": "\u2014",
+   "reinjury": "Low",
+   "note": "Elbow bruises and sprains are usually played through with a sleeve or brace. For a QB's throwing arm, watch for lost velocity even if he plays. A UCL tear or fracture means IR.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-22T06:14-05:00"
   },
   {
    "name": "David Montgomery",
@@ -1349,6 +1332,43 @@
    "changed": "2026-11-21T05:56-05:00"
   },
   {
+   "name": "Chig Okonkwo",
+   "pos": "TE",
+   "team": "WAS",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Back",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    },
+    {
+     "d": "Sat",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 147,
+   "dyn_rank": null,
+   "source_date": "2026-11-21",
+   "source_label": "Saturday\u2019s final Week 11 report",
+   "typical": "\u2014",
+   "reinjury": "Moderate",
+   "note": "Trunk and hip injuries are usually played through, but they can cap snaps.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-22T06:14-05:00"
+  },
+  {
    "name": "Caleb Douglas",
    "pos": "WR",
    "team": "MIA",
@@ -1583,6 +1603,10 @@
     },
     {
      "d": "Fri",
+     "s": "FP"
+    },
+    {
+     "d": "Sat",
      "s": "FP"
     }
    ],
@@ -2228,6 +2252,71 @@
   }
  ],
  "recent_changes": [
+  {
+   "at": "2026-11-22T06:14-05:00",
+   "name": "Tee Higgins",
+   "team": "CIN",
+   "pos": "WR",
+   "rank": 24,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Knee",
+   "news": false,
+   "week": 11
+  },
+  {
+   "at": "2026-11-22T06:14-05:00",
+   "name": "Joe Burrow",
+   "team": "CIN",
+   "pos": "QB",
+   "rank": 55,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Illness",
+   "news": false,
+   "week": 11
+  },
+  {
+   "at": "2026-11-22T06:14-05:00",
+   "name": "Jayden Daniels",
+   "team": "WAS",
+   "pos": "QB",
+   "rank": 56,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Elbow",
+   "news": false,
+   "week": 11
+  },
+  {
+   "at": "2026-11-22T06:14-05:00",
+   "name": "Rachaad White",
+   "team": "WAS",
+   "pos": "RB",
+   "rank": 99,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Questionable",
+   "injury": "Heel",
+   "news": false,
+   "week": 11
+  },
+  {
+   "at": "2026-11-22T06:14-05:00",
+   "name": "Chig Okonkwo",
+   "team": "WAS",
+   "pos": "TE",
+   "rank": 147,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Back",
+   "news": false,
+   "week": 11
+  },
   {
    "at": "2026-11-21T05:56-05:00",
    "name": "Kenneth Walker III",
@@ -3202,73 +3291,6 @@
    "injury": "Ankle",
    "news": false,
    "week": 11
-  },
-  {
-   "at": "2026-11-19T06:33-05:00",
-   "name": "Tank Dell",
-   "team": "HOU",
-   "pos": "WR",
-   "rank": 196,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Cleared",
-   "injury": "Hand",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-19T06:33-05:00",
-   "name": "Roman Wilson",
-   "team": "PIT",
-   "pos": "WR",
-   "rank": null,
-   "kind": "injury",
-   "from": "IR",
-   "to": "IR",
-   "injury": "Hand",
-   "news": false,
-   "week": 11,
-   "was": "Finger"
-  },
-  {
-   "at": "2026-11-18T06:34-05:00",
-   "name": "Wan'Dale Robinson",
-   "team": "TEN",
-   "pos": "WR",
-   "rank": 112,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "IR",
-   "injury": "Undisclosed",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-17T13:31-05:00",
-   "name": "Puka Nacua",
-   "team": "LA",
-   "pos": "WR",
-   "rank": 41,
-   "kind": "status",
-   "from": "IR",
-   "to": "Cleared",
-   "injury": "Knee",
-   "news": false,
-   "week": 10
-  },
-  {
-   "at": "2026-11-17T13:31-05:00",
-   "name": "Romeo Doubs",
-   "team": "NE",
-   "pos": "WR",
-   "rank": 113,
-   "kind": "injury",
-   "from": "IR",
-   "to": "IR",
-   "injury": "Shoulder",
-   "news": true,
-   "week": 10,
-   "was": "Undisclosed"
   }
  ]
 }

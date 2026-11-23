@@ -2,6 +2,20 @@
  "week": 11,
  "checks": [
   {
+   "name": "Nicholas Singleton",
+   "team": "TEN",
+   "check": "non_injury_news",
+   "detail": "Coach's Decision",
+   "action": "left off the report"
+  },
+  {
+   "name": "Dontayvion Wicks",
+   "team": "PHI",
+   "check": "ir_longer_than_typical",
+   "detail": "Ankle usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
    "name": "Michael Pittman",
    "team": "PIT",
    "check": "ir_longer_than_typical",
@@ -56,13 +70,6 @@
    "check": "non_injury",
    "detail": "Not injury: Resting player",
    "action": "no recovery note or re-injury risk"
-  },
-  {
-   "name": "Roman Wilson",
-   "team": "PIT",
-   "check": "ir_longer_than_typical",
-   "detail": "Hand usually 0\u20131 games",
-   "action": "note reworded to say the IR stint is longer than typical"
   },
   {
    "name": "Jeremiyah Love",

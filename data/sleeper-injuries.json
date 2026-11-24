@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-11-23T07:26",
+ "fetched_et": "2026-11-24T08:36",
  "players": [
   {
    "id": "",
@@ -84,12 +84,12 @@
   },
   {
    "id": "",
-   "sleeper_id": "8136",
-   "name": "Rachaad White",
+   "sleeper_id": "13418",
+   "name": "Robert Henry Jr.",
    "pos": "RB",
    "team": "WAS",
-   "status": "Questionable",
-   "part": "Heel"
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "00-0034869",
@@ -264,6 +264,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "13557",
+   "name": "Athan Kaliakmanis",
+   "pos": "QB",
+   "team": "WAS",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "10220",
    "name": "Will Mallory",
    "pos": "TE",
@@ -369,6 +378,15 @@
    "team": "LAC",
    "status": "Questionable",
    "part": "Concussion"
+  },
+  {
+   "id": "",
+   "sleeper_id": "10859",
+   "name": "Sam LaPorta",
+   "pos": "TE",
+   "team": "DET",
+   "status": "Questionable",
+   "part": "Ankle"
   },
   {
    "id": "",
@@ -713,6 +731,15 @@
    "part": "Ankle"
   },
   {
+   "id": "",
+   "sleeper_id": "11577",
+   "name": "Will Shipley",
+   "pos": "RB",
+   "team": "PHI",
+   "status": "Questionable",
+   "part": "Illness"
+  },
+  {
    "id": "00-0035676",
    "sleeper_id": "5859",
    "name": "A.J. Brown",
@@ -745,8 +772,8 @@
    "name": "George Holani",
    "pos": "RB",
    "team": "SEA",
-   "status": "Out",
-   "part": "Knee"
+   "status": "IR",
+   "part": "Knee - MCL"
   },
   {
    "id": "",
@@ -795,15 +822,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "12533",
-   "name": "Jacory Croskey-Merritt",
-   "pos": "RB",
-   "team": "WAS",
-   "status": "IR",
-   "part": "Groin"
-  },
-  {
-   "id": "",
    "sleeper_id": "13392",
    "name": "Jeff Caldwell",
    "pos": "WR",
@@ -837,6 +855,15 @@
    "team": "BUF",
    "status": "Questionable",
    "part": "Knee"
+  },
+  {
+   "id": "00-0034351",
+   "sleeper_id": "5022",
+   "name": "Dallas Goedert",
+   "pos": "TE",
+   "team": "PHI",
+   "status": "Questionable",
+   "part": "Shin"
   },
   {
    "id": "",
@@ -900,6 +927,15 @@
    "team": "DAL",
    "status": "IR",
    "part": "Knee - ACL + MCL"
+  },
+  {
+   "id": "",
+   "sleeper_id": "12490",
+   "name": "Bhayshul Tuten",
+   "pos": "RB",
+   "team": "JAX",
+   "status": "Questionable",
+   "part": "Undisclosed"
   },
   {
    "id": "",
@@ -1053,6 +1089,15 @@
    "team": "BUF",
    "status": "Out",
    "part": "Thumb"
+  },
+  {
+   "id": "",
+   "sleeper_id": "12062",
+   "name": "Cam Grandy",
+   "pos": "TE",
+   "team": "CIN",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -1368,6 +1413,15 @@
    "team": "CAR",
    "status": "Out",
    "part": "Coach's Decision"
+  },
+  {
+   "id": "",
+   "sleeper_id": "9230",
+   "name": "Tanner McKee",
+   "pos": "QB",
+   "team": "PHI",
+   "status": "Questionable",
+   "part": "Ribs"
   },
   {
    "id": "00-0034798",
@@ -1699,7 +1753,7 @@
    "name": "Josh Kattus",
    "pos": "TE",
    "team": "CIN",
-   "status": "Out",
+   "status": "Questionable",
    "part": "Undisclosed"
   },
   {

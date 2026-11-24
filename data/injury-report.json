@@ -2,9 +2,9 @@
  "season": 2026,
  "week": 11,
  "rank_source": "Doc's Top 200",
- "generated": "2026-11-24T02:10:24Z",
- "week_complete": false,
- "next_week": 11,
+ "generated": "2026-11-24T13:36:56Z",
+ "week_complete": true,
+ "next_week": 12,
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
  "players": [
   {
@@ -251,7 +251,7 @@
     }
    ],
    "back": "Missed Week 11. Week 12 status TBD",
-   "pickup": "Sterling Shepard",
+   "pickup": "Malik McClain",
    "rank": 193,
    "dyn_rank": null,
    "source_date": "2026-11-20",
@@ -474,7 +474,7 @@
      "s": "DNP"
     }
    ],
-   "back": "Game-time call",
+   "back": "Week 11 game played. Week 12 status TBD",
    "pickup": "Austin Ekeler",
    "rank": 99,
    "dyn_rank": null,
@@ -486,6 +486,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-22T06:14-05:00"
   },
   {
@@ -575,6 +576,31 @@
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
    "changed": "2026-11-23T07:26-05:00"
+  },
+  {
+   "name": "Sam LaPorta",
+   "pos": "TE",
+   "team": "DET",
+   "status": "Practicing",
+   "condition": "Fair",
+   "injury": "Ankle",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 11. Week 12 status TBD",
+   "pickup": "",
+   "rank": 64,
+   "dyn_rank": 64,
+   "source_date": "2026-11-24",
+   "source_label": "Reported by Tuesday",
+   "news": true,
+   "typical": "0\u20133 games",
+   "reinjury": "Moderate",
+   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
+   "evidence": "study",
+   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "changed": "2026-11-24T08:36-05:00"
   },
   {
    "name": "Justin Herbert",
@@ -675,6 +701,31 @@
    "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
    "changed": "2026-11-23T07:26-05:00"
+  },
+  {
+   "name": "Dallas Goedert",
+   "pos": "TE",
+   "team": "PHI",
+   "status": "Practicing",
+   "condition": "Fair",
+   "injury": "Shin",
+   "practice": "",
+   "practice_code": "",
+   "trail": [],
+   "back": "Hurt Week 11. Week 12 status TBD",
+   "pickup": "Johnny Mundt",
+   "rank": 128,
+   "dyn_rank": 115,
+   "source_date": "2026-11-24",
+   "source_label": "Reported by Tuesday",
+   "news": true,
+   "typical": "0\u20132 games",
+   "reinjury": "Moderate",
+   "note": "Lower-leg injuries run from a shin bruise that costs nothing to a fibula fracture that means IR.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-24T08:36-05:00"
   },
   {
    "name": "Kayshon Boutte",
@@ -787,7 +838,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 11",
    "pickup": "",
    "rank": 24,
    "dyn_rank": null,
@@ -799,6 +850,7 @@
    "evidence": "study",
    "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "game_played": true,
    "changed": "2026-11-22T06:14-05:00"
   },
   {
@@ -1052,7 +1104,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 11",
    "pickup": "",
    "rank": 55,
    "dyn_rank": null,
@@ -1064,6 +1116,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-22T06:14-05:00"
   },
   {
@@ -1089,7 +1142,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 11",
    "pickup": "",
    "rank": 56,
    "dyn_rank": null,
@@ -1101,6 +1154,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-22T06:14-05:00"
   },
   {
@@ -1456,7 +1510,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 11",
    "pickup": "",
    "rank": 147,
    "dyn_rank": null,
@@ -1468,6 +1522,7 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
+   "game_played": true,
    "changed": "2026-11-22T06:14-05:00"
   },
   {
@@ -1717,7 +1772,7 @@
      "s": "FP"
     }
    ],
-   "back": "Eligible Week 12",
+   "back": "Eligible Week 16",
    "pickup": "",
    "rank": 76,
    "dyn_rank": 151,
@@ -2577,6 +2632,32 @@
   }
  ],
  "recent_changes": [
+  {
+   "at": "2026-11-24T08:36-05:00",
+   "name": "Sam LaPorta",
+   "team": "DET",
+   "pos": "TE",
+   "rank": 64,
+   "kind": "added",
+   "from": null,
+   "to": "Practicing",
+   "injury": "Ankle",
+   "news": true,
+   "week": 11
+  },
+  {
+   "at": "2026-11-24T08:36-05:00",
+   "name": "Dallas Goedert",
+   "team": "PHI",
+   "pos": "TE",
+   "rank": 128,
+   "kind": "added",
+   "from": null,
+   "to": "Practicing",
+   "injury": "Shin",
+   "news": true,
+   "week": 11
+  },
   {
    "at": "2026-11-23T07:26-05:00",
    "name": "Derrick Henry",
@@ -3588,32 +3669,6 @@
    "from": null,
    "to": "Practicing",
    "injury": "Hamstring",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-19T06:33-05:00",
-   "name": "Kyler Murray",
-   "team": "MIN",
-   "pos": "QB",
-   "rank": 143,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Hamstring",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-19T06:33-05:00",
-   "name": "Tyjae Spears",
-   "team": "TEN",
-   "pos": "RB",
-   "rank": 144,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Knee",
    "news": false,
    "week": 11
   }

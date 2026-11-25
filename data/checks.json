@@ -1,16 +1,9 @@
 {
- "week": 11,
+ "week": 12,
  "checks": [
   {
-   "name": "Nicholas Singleton",
-   "team": "TEN",
-   "check": "non_injury_news",
-   "detail": "Coach's Decision",
-   "action": "left off the report"
-  },
-  {
-   "name": "Dontayvion Wicks",
-   "team": "PHI",
+   "name": "Terrance Ferguson",
+   "team": "LA",
    "check": "ir_longer_than_typical",
    "detail": "Ankle usually 0\u20133 games",
    "action": "note reworded to say the IR stint is longer than typical"
@@ -72,6 +65,13 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
+   "name": "Dontayvion Wicks",
+   "team": "PHI",
+   "check": "ir_longer_than_typical",
+   "detail": "Ankle usually 0\u20133 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
    "name": "Tank Bigsby",
    "team": "PHI",
    "check": "ir_longer_than_typical",
@@ -90,13 +90,6 @@
    "team": "NE",
    "check": "ir_longer_than_typical",
    "detail": "Illness usually 0\u20131 games",
-   "action": "note reworded to say the IR stint is longer than typical"
-  },
-  {
-   "name": "Terrance Ferguson",
-   "team": "LA",
-   "check": "ir_longer_than_typical",
-   "detail": "Ankle usually 0\u20133 games",
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {

@@ -9,6 +9,13 @@
    "action": "note reworded to say the IR stint is longer than typical"
   },
   {
+   "name": "Romeo Doubs",
+   "team": "NE",
+   "check": "ir_longer_than_typical",
+   "detail": "Shoulder usually 0\u20132 games",
+   "action": "note reworded to say the IR stint is longer than typical"
+  },
+  {
    "name": "Michael Pittman",
    "team": "PIT",
    "check": "ir_longer_than_typical",

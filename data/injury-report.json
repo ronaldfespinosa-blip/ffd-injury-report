@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 12,
  "rank_source": "Doc's Top 200",
- "generated": "2026-11-27T12:09:23Z",
+ "generated": "2026-11-27T21:12:21Z",
  "week_complete": false,
  "next_week": 12,
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
@@ -1648,6 +1648,39 @@
    "changed": "2026-11-26T11:49-05:00"
   },
   {
+   "name": "Michael Pittman",
+   "pos": "WR",
+   "team": "PIT",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Foot",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Tue",
+     "s": "FP"
+    },
+    {
+     "d": "Wed",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 140,
+   "dyn_rank": null,
+   "source_date": "2026-11-25",
+   "source_label": "Wednesday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Moderate",
+   "note": "Mild midfoot sprains cost NFL players about 3 days; moderate ones about 5 weeks.",
+   "evidence": "study",
+   "source": "Midfoot sprains in the National Football League (Am J Sports Med 2014)",
+   "source_url": "https://vivo.weill.cornell.edu/display/pubid25490010",
+   "changed": "2026-11-27T16:12-05:00"
+  },
+  {
    "name": "Pat Bryant",
    "pos": "WR",
    "team": "DEN",
@@ -1918,39 +1951,6 @@
    "evidence": "estimate",
    "source": "",
    "source_url": "",
-   "changed": null
-  },
-  {
-   "name": "Michael Pittman",
-   "pos": "WR",
-   "team": "PIT",
-   "status": "IR",
-   "condition": "Critical",
-   "injury": "Foot",
-   "practice": "",
-   "practice_code": "",
-   "trail": [
-    {
-     "d": "Tue",
-     "s": "FP"
-    },
-    {
-     "d": "Wed",
-     "s": "FP"
-    }
-   ],
-   "back": "Eligible Week 9",
-   "pickup": "",
-   "rank": 140,
-   "dyn_rank": 108,
-   "source_date": null,
-   "source_label": "",
-   "typical": "IR: 4+ games",
-   "reinjury": "Moderate",
-   "note": "He's on IR, so he's out at least four games. That's longer than a typical foot injury, so expect more than the routine version. Routine case: Mild midfoot sprains cost NFL players about 3 days; moderate ones about 5 weeks.",
-   "evidence": "study",
-   "source": "Midfoot sprains in the National Football League (Am J Sports Med 2014)",
-   "source_url": "https://vivo.weill.cornell.edu/display/pubid25490010",
    "changed": null
   },
   {
@@ -2541,6 +2541,19 @@
   }
  ],
  "recent_changes": [
+  {
+   "at": "2026-11-27T16:12-05:00",
+   "name": "Michael Pittman",
+   "team": "PIT",
+   "pos": "WR",
+   "rank": 140,
+   "kind": "status",
+   "from": "IR",
+   "to": "Cleared",
+   "injury": "Foot",
+   "news": false,
+   "week": 12
+  },
   {
    "at": "2026-11-27T07:09-05:00",
    "name": "Colston Loveland",
@@ -3566,19 +3579,6 @@
    "from": "Practicing",
    "to": "Cleared",
    "injury": "Concussion",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-21T05:56-05:00",
-   "name": "Rashee Rice",
-   "team": "KC",
-   "pos": "WR",
-   "rank": 32,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Cleared",
-   "injury": "Knee",
    "news": false,
    "week": 11
   }

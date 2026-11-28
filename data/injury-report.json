@@ -2,7 +2,7 @@
  "season": 2026,
  "week": 12,
  "rank_source": "Doc's Top 200",
- "generated": "2026-11-28T03:23:53Z",
+ "generated": "2026-11-28T15:27:14Z",
  "week_complete": false,
  "next_week": 12,
  "sources": "Official NFL injury reports, rosters, depth charts and schedule via nflverse; post-game injury news via Sleeper; FantasyPros consensus rankings via DynastyProcess; return timelines from data/return-timelines.json",
@@ -42,6 +42,409 @@
    "changed": "2026-11-26T11:49-05:00"
   },
   {
+   "name": "Bhayshul Tuten",
+   "pos": "RB",
+   "team": "JAX",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Ankle",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 12",
+   "pickup": "Chris Rodriguez Jr.",
+   "rank": 44,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "1\u20133 games",
+   "reinjury": "Moderate",
+   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
+   "evidence": "study",
+   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Parker Washington",
+   "pos": "WR",
+   "team": "JAX",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Shoulder",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Thu",
+     "s": "LP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 12",
+   "pickup": "Josh Cameron",
+   "rank": 53,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "1\u20132 games",
+   "reinjury": "Moderate",
+   "note": "AC sprains are often played through with padding. Dislocations tend to recur.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "A.J. Brown",
+   "pos": "WR",
+   "team": "NE",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Hamstring",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 12",
+   "pickup": "Efton Chism III",
+   "rank": 66,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "1\u20133 games",
+   "reinjury": "High",
+   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "evidence": "study",
+   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Drake Maye",
+   "pos": "QB",
+   "team": "NE",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Fibula",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 12",
+   "pickup": "",
+   "rank": 71,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "1\u20132 games",
+   "reinjury": "Moderate",
+   "note": "Lower-leg injuries run from a shin bruise that costs nothing to a fibula fracture that means IR.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Justin Herbert",
+   "pos": "QB",
+   "team": "LAC",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Concussion",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 12",
+   "pickup": "DJ Uiagalelei",
+   "rank": 78,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "1\u20132 games",
+   "reinjury": "Low",
+   "note": "NFL players missed a median of 9 days after a concussion. 59% missed at least one game, and only 38% concussed on a Sunday played the next Sunday.",
+   "evidence": "study",
+   "source": "Return to Full Participation Following Concussion in the NFL, 2015-2020 (Clin J Sport Med 2022)",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/36315827/",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Jordan Addison",
+   "pos": "WR",
+   "team": "MIN",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Thumb",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 12",
+   "pickup": "Myles Price",
+   "rank": 83,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "1 game",
+   "reinjury": "Low",
+   "note": "Skill players usually play with a wrap or cast. It matters more for a QB's throwing hand.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Brock Purdy",
+   "pos": "QB",
+   "team": "SF",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Ankle",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 12",
+   "pickup": "Mac Jones",
+   "rank": 90,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "1\u20133 games",
+   "reinjury": "Moderate",
+   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
+   "evidence": "study",
+   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Keaton Mitchell",
+   "pos": "RB",
+   "team": "LAC",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Knee",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 12",
+   "pickup": "Kimani Vidal",
+   "rank": 122,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "1\u20133 games",
+   "reinjury": "Moderate",
+   "note": "'Knee' covers everything from a bruise to a torn ligament. Most MCL sprains cost 2-6 weeks; ACL tears go straight to IR.",
+   "evidence": "study",
+   "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
+   "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Juwan Johnson",
+   "pos": "TE",
+   "team": "NO",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Hamstring",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 12",
+   "pickup": "Noah Fant",
+   "rank": 125,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "1\u20133 games",
+   "reinjury": "High",
+   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "evidence": "study",
+   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Kayshon Boutte",
+   "pos": "WR",
+   "team": "HOU",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Hip",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 12",
+   "pickup": "Nikko Remigio",
+   "rank": 130,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "1\u20132 games",
+   "reinjury": "Moderate",
+   "note": "Trunk and hip injuries are usually played through, but they can cap snaps.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Seth McGowan",
+   "pos": "RB",
+   "team": "IND",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Hamstring",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 12",
+   "pickup": "DJ Giddens",
+   "rank": 175,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "1\u20133 games",
+   "reinjury": "High",
+   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "evidence": "study",
+   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
    "name": "Jake Ferguson",
    "pos": "TE",
    "team": "DAL",
@@ -74,6 +477,183 @@
    "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
    "game_played": true,
    "changed": "2026-11-26T11:49-05:00"
+  },
+  {
+   "name": "Omar Cooper Jr.",
+   "pos": "WR",
+   "team": "NYJ",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Ankle",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 12",
+   "pickup": "Malik McClain",
+   "rank": 193,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "1\u20133 games",
+   "reinjury": "Moderate",
+   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
+   "evidence": "study",
+   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Zachariah Branch",
+   "pos": "WR",
+   "team": "ATL",
+   "status": "Out",
+   "condition": "Critical",
+   "injury": "Hamstring",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Out Week 12",
+   "pickup": "",
+   "rank": 198,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "1\u20133 games",
+   "reinjury": "High",
+   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "evidence": "study",
+   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "team": "LV",
+   "status": "Questionable",
+   "condition": "Serious",
+   "injury": "Ankle",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "LP"
+    },
+    {
+     "d": "Thu",
+     "s": "LP"
+    },
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Game-time call",
+   "pickup": "Michael Mayer",
+   "rank": 17,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "0\u20133 games",
+   "reinjury": "Moderate",
+   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
+   "evidence": "study",
+   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "team": "CIN",
+   "status": "Questionable",
+   "condition": "Serious",
+   "injury": "Hamstring",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
+   "trail": [
+    {
+     "d": "Fri",
+     "s": "DNP"
+    }
+   ],
+   "back": "Game-time call",
+   "pickup": "Mitchell Tinsley",
+   "rank": 24,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "0\u20133 games",
+   "reinjury": "High",
+   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "evidence": "study",
+   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Mike Evans",
+   "pos": "WR",
+   "team": "SF",
+   "status": "Questionable",
+   "condition": "Fair",
+   "injury": "Achilles",
+   "practice": "Limited Participation in Practice",
+   "practice_code": "LP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "DNP"
+    },
+    {
+     "d": "Thu",
+     "s": "LP"
+    },
+    {
+     "d": "Fri",
+     "s": "LP"
+    }
+   ],
+   "back": "Game-time call",
+   "pickup": "Jordan Watkins",
+   "rank": 59,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "0\u20131 games",
+   "reinjury": "Moderate",
+   "note": "On a weekly report this is usually soreness or tendinitis. A tear ends the season.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
   },
   {
    "name": "Josh Jacobs",
@@ -140,103 +720,41 @@
    "changed": "2026-11-26T11:49-05:00"
   },
   {
-   "name": "Jaxon Smith-Njigba",
+   "name": "Denzel Boston",
    "pos": "WR",
-   "team": "SEA",
-   "status": "Practicing",
-   "condition": "Fair",
-   "injury": "Ankle",
-   "practice": "Limited Participation in Practice",
-   "practice_code": "LP",
+   "team": "CLE",
+   "status": "Questionable",
+   "condition": "Serious",
+   "injury": "Quadricep",
+   "practice": "Did Not Participate In Practice",
+   "practice_code": "DNP",
    "trail": [
     {
      "d": "Wed",
-     "s": "LP"
+     "s": "DNP"
     },
     {
      "d": "Thu",
-     "s": "LP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Tory Horton",
-   "rank": 5,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20133 games",
-   "reinjury": "Moderate",
-   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
-   "evidence": "study",
-   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
-   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
-   "changed": "2026-11-26T20:41-05:00"
-  },
-  {
-   "name": "Derrick Henry",
-   "pos": "RB",
-   "team": "BAL",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Concussion",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "LP"
+     "s": "DNP"
     },
     {
-     "d": "Thu",
-     "s": "FP"
+     "d": "Fri",
+     "s": "DNP"
     }
    ],
-   "back": "Status due Fri",
-   "pickup": "Justice Hill",
-   "rank": 11,
+   "back": "Game-time call",
+   "pickup": "Malachi Corley",
+   "rank": 128,
    "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
    "typical": "0\u20132 games",
-   "reinjury": "Low",
-   "note": "NFL players missed a median of 9 days after a concussion. 59% missed at least one game, and only 38% concussed on a Sunday played the next Sunday.",
-   "evidence": "study",
-   "source": "Return to Full Participation Following Concussion in the NFL, 2015-2020 (Clin J Sport Med 2022)",
-   "source_url": "https://pubmed.ncbi.nlm.nih.gov/36315827/",
-   "changed": "2026-11-27T07:09-05:00"
-  },
-  {
-   "name": "Brock Bowers",
-   "pos": "TE",
-   "team": "LV",
-   "status": "Practicing",
-   "condition": "Fair",
-   "injury": "Ankle",
-   "practice": "Limited Participation in Practice",
-   "practice_code": "LP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "LP"
-    },
-    {
-     "d": "Thu",
-     "s": "LP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Michael Mayer",
-   "rank": 17,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20133 games",
    "reinjury": "Moderate",
-   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
-   "evidence": "study",
-   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
-   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
-   "changed": "2026-11-26T11:49-05:00"
+   "note": "Thigh bruises usually cost little time; true quad strains behave more like hamstrings.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
   },
   {
    "name": "Colston Loveland",
@@ -268,62 +786,33 @@
    "pos": "WR",
    "team": "CAR",
    "status": "Practicing",
-   "condition": "Serious",
+   "condition": "Fair",
    "injury": "Foot",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
+   "practice": "Limited Participation in Practice",
+   "practice_code": "LP",
    "trail": [
     {
      "d": "Thu",
      "s": "DNP"
+    },
+    {
+     "d": "Fri",
+     "s": "LP"
     }
    ],
    "back": "Status due Sat",
    "pickup": "Brycen Tremayne",
    "rank": 30,
    "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s practice report",
    "typical": "0\u20132 games",
    "reinjury": "Moderate",
    "note": "Mild midfoot sprains cost NFL players about 3 days; moderate ones about 5 weeks.",
    "evidence": "study",
    "source": "Midfoot sprains in the National Football League (Am J Sports Med 2014)",
    "source_url": "https://vivo.weill.cornell.edu/display/pubid25490010",
-   "changed": "2026-11-27T07:09-05:00"
-  },
-  {
-   "name": "Zay Flowers",
-   "pos": "WR",
-   "team": "BAL",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Ankle",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "LP"
-    },
-    {
-     "d": "Thu",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Devontez Walker",
-   "rank": 34,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20133 games",
-   "reinjury": "Moderate",
-   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
-   "evidence": "study",
-   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
-   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
-   "changed": "2026-11-27T07:09-05:00"
+   "changed": "2026-11-28T10:27-05:00"
   },
   {
    "name": "Christian Watson",
@@ -351,559 +840,6 @@
    "changed": "2026-11-26T11:49-05:00"
   },
   {
-   "name": "Bhayshul Tuten",
-   "pos": "RB",
-   "team": "JAX",
-   "status": "Practicing",
-   "condition": "Serious",
-   "injury": "Ankle",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "DNP"
-    },
-    {
-     "d": "Thu",
-     "s": "DNP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Chris Rodriguez Jr.",
-   "rank": 44,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20133 games",
-   "reinjury": "Moderate",
-   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
-   "evidence": "study",
-   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
-   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Marvin Harrison Jr.",
-   "pos": "WR",
-   "team": "HOU",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Hamstring",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "LP"
-    },
-    {
-     "d": "Thu",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "",
-   "rank": 52,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20133 games",
-   "reinjury": "High",
-   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
-   "evidence": "study",
-   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
-   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
-   "changed": "2026-11-27T07:09-05:00"
-  },
-  {
-   "name": "Parker Washington",
-   "pos": "WR",
-   "team": "JAX",
-   "status": "Practicing",
-   "condition": "Fair",
-   "injury": "Shoulder",
-   "practice": "Limited Participation in Practice",
-   "practice_code": "LP",
-   "trail": [
-    {
-     "d": "Thu",
-     "s": "LP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Josh Cameron",
-   "rank": 53,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Moderate",
-   "note": "AC sprains are often played through with padding. Dislocations tend to recur.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-27T07:09-05:00"
-  },
-  {
-   "name": "Jayden Daniels",
-   "pos": "QB",
-   "team": "WAS",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Elbow",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "FP"
-    },
-    {
-     "d": "Thu",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Marcus Mariota",
-   "rank": 56,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Low",
-   "note": "Elbow bruises and sprains are usually played through with a sleeve or brace. For a QB's throwing arm, watch for lost velocity even if he plays. A UCL tear or fracture means IR.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Mike Evans",
-   "pos": "WR",
-   "team": "SF",
-   "status": "Practicing",
-   "condition": "Fair",
-   "injury": "Achilles",
-   "practice": "Limited Participation in Practice",
-   "practice_code": "LP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "DNP"
-    },
-    {
-     "d": "Thu",
-     "s": "LP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Jordan Watkins",
-   "rank": 59,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20131 games",
-   "reinjury": "Moderate",
-   "note": "On a weekly report this is usually soreness or tendinitis. A tear ends the season.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-27T07:09-05:00"
-  },
-  {
-   "name": "A.J. Brown",
-   "pos": "WR",
-   "team": "NE",
-   "status": "Practicing",
-   "condition": "Serious",
-   "injury": "Hamstring",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "DNP"
-    },
-    {
-     "d": "Thu",
-     "s": "DNP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Efton Chism III",
-   "rank": 66,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20133 games",
-   "reinjury": "High",
-   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
-   "evidence": "study",
-   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
-   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Drake Maye",
-   "pos": "QB",
-   "team": "NE",
-   "status": "Practicing",
-   "condition": "Serious",
-   "injury": "Fibula",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "DNP"
-    },
-    {
-     "d": "Thu",
-     "s": "DNP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "",
-   "rank": 71,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Moderate",
-   "note": "Lower-leg injuries run from a shin bruise that costs nothing to a fibula fracture that means IR.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Woody Marks",
-   "pos": "RB",
-   "team": "HOU",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Concussion",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "FP"
-    },
-    {
-     "d": "Thu",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Emari Demercado",
-   "rank": 74,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Low",
-   "note": "NFL players missed a median of 9 days after a concussion. 59% missed at least one game, and only 38% concussed on a Sunday played the next Sunday.",
-   "evidence": "study",
-   "source": "Return to Full Participation Following Concussion in the NFL, 2015-2020 (Clin J Sport Med 2022)",
-   "source_url": "https://pubmed.ncbi.nlm.nih.gov/36315827/",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Justin Herbert",
-   "pos": "QB",
-   "team": "LAC",
-   "status": "Practicing",
-   "condition": "Serious",
-   "injury": "Concussion",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "DNP"
-    },
-    {
-     "d": "Thu",
-     "s": "DNP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "DJ Uiagalelei",
-   "rank": 78,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Low",
-   "note": "NFL players missed a median of 9 days after a concussion. 59% missed at least one game, and only 38% concussed on a Sunday played the next Sunday.",
-   "evidence": "study",
-   "source": "Return to Full Participation Following Concussion in the NFL, 2015-2020 (Clin J Sport Med 2022)",
-   "source_url": "https://pubmed.ncbi.nlm.nih.gov/36315827/",
-   "changed": "2026-11-26T20:41-05:00"
-  },
-  {
-   "name": "Harold Fannin Jr.",
-   "pos": "TE",
-   "team": "CLE",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Groin",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "LP"
-    },
-    {
-     "d": "Thu",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Blake Whiteheart",
-   "rank": 79,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Moderate",
-   "note": "Groin strains often limit cutting for a week or two. Core muscle surgery usually means IR.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-27T07:09-05:00"
-  },
-  {
-   "name": "Jordan Addison",
-   "pos": "WR",
-   "team": "MIN",
-   "status": "Practicing",
-   "condition": "Serious",
-   "injury": "Thumb",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "DNP"
-    },
-    {
-     "d": "Thu",
-     "s": "DNP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Myles Price",
-   "rank": 83,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20131 games",
-   "reinjury": "Low",
-   "note": "Skill players usually play with a wrap or cast. It matters more for a QB's throwing hand.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Carnell Tate",
-   "pos": "WR",
-   "team": "TEN",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Shoulder",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "FP"
-    },
-    {
-     "d": "Thu",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Calvin Ridley",
-   "rank": 87,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Moderate",
-   "note": "AC sprains are often played through with padding. Dislocations tend to recur.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Brock Purdy",
-   "pos": "QB",
-   "team": "SF",
-   "status": "Practicing",
-   "condition": "Serious",
-   "injury": "Ankle",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "DNP"
-    },
-    {
-     "d": "Thu",
-     "s": "DNP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Mac Jones",
-   "rank": 90,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20133 games",
-   "reinjury": "Moderate",
-   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
-   "evidence": "study",
-   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
-   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
-   "changed": "2026-11-26T20:41-05:00"
-  },
-  {
-   "name": "Isaiah Likely",
-   "pos": "TE",
-   "team": "NYG",
-   "status": "Practicing",
-   "condition": "Fair",
-   "injury": "Groin",
-   "practice": "Limited Participation in Practice",
-   "practice_code": "LP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "LP"
-    },
-    {
-     "d": "Thu",
-     "s": "LP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Theo Johnson",
-   "rank": 91,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Moderate",
-   "note": "Groin strains often limit cutting for a week or two. Core muscle surgery usually means IR.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Chris Rodriguez Jr.",
-   "pos": "RB",
-   "team": "JAX",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Hand",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "FP"
-    },
-    {
-     "d": "Thu",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "LeQuint Allen Jr.",
-   "rank": 98,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20131 games",
-   "reinjury": "Low",
-   "note": "Skill players usually play with a wrap or cast. It matters more for a QB's throwing hand.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Rachaad White",
-   "pos": "RB",
-   "team": "WAS",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Heel",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "FP"
-    },
-    {
-     "d": "Thu",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Austin Ekeler",
-   "rank": 99,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Moderate",
-   "note": "Turf toe and heel issues often linger and sap burst even when the player suits up.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Dalton Schultz",
-   "pos": "TE",
-   "team": "HOU",
-   "status": "Practicing",
-   "condition": "Fair",
-   "injury": "Illness",
-   "practice": "Limited Participation in Practice",
-   "practice_code": "LP",
-   "trail": [
-    {
-     "d": "Thu",
-     "s": "LP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Foster Moreau",
-   "rank": 106,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20131 games",
-   "reinjury": "Low",
-   "note": "Most illnesses cost a practice or two, rarely a game.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-27T07:09-05:00"
-  },
-  {
    "name": "Caleb Williams",
    "pos": "QB",
    "team": "CHI",
@@ -929,204 +865,6 @@
    "changed": "2026-11-27T07:09-05:00"
   },
   {
-   "name": "Jakobi Meyers",
-   "pos": "WR",
-   "team": "JAX",
-   "status": "Practicing",
-   "condition": "Fair",
-   "injury": "Ankle",
-   "practice": "Limited Participation in Practice",
-   "practice_code": "LP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "LP"
-    },
-    {
-     "d": "Thu",
-     "s": "LP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Travis Hunter",
-   "rank": 116,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20133 games",
-   "reinjury": "Moderate",
-   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
-   "evidence": "study",
-   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
-   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Keaton Mitchell",
-   "pos": "RB",
-   "team": "LAC",
-   "status": "Practicing",
-   "condition": "Serious",
-   "injury": "Knee",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "DNP"
-    },
-    {
-     "d": "Thu",
-     "s": "DNP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Kimani Vidal",
-   "rank": 122,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20133 games",
-   "reinjury": "Moderate",
-   "note": "'Knee' covers everything from a bruise to a torn ligament. Most MCL sprains cost 2-6 weeks; ACL tears go straight to IR.",
-   "evidence": "study",
-   "source": "Dr. Matthew Matava, NFL Physicians Society (NFL.com)",
-   "source_url": "https://www.nfl.com/news/rams-physician-explains-differences-among-knee-injuries-0ap3000000393135",
-   "changed": "2026-11-26T20:41-05:00"
-  },
-  {
-   "name": "Juwan Johnson",
-   "pos": "TE",
-   "team": "NO",
-   "status": "Practicing",
-   "condition": "Serious",
-   "injury": "Hamstring",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "DNP"
-    },
-    {
-     "d": "Thu",
-     "s": "DNP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Noah Fant",
-   "rank": 125,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20133 games",
-   "reinjury": "High",
-   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
-   "evidence": "study",
-   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
-   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Denzel Boston",
-   "pos": "WR",
-   "team": "CLE",
-   "status": "Practicing",
-   "condition": "Serious",
-   "injury": "Quadricep",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "DNP"
-    },
-    {
-     "d": "Thu",
-     "s": "DNP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Malachi Corley",
-   "rank": 128,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Moderate",
-   "note": "Thigh bruises usually cost little time; true quad strains behave more like hamstrings.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Kayshon Boutte",
-   "pos": "WR",
-   "team": "HOU",
-   "status": "Practicing",
-   "condition": "Serious",
-   "injury": "Hip",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "DNP"
-    },
-    {
-     "d": "Thu",
-     "s": "DNP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Nikko Remigio",
-   "rank": 130,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Moderate",
-   "note": "Trunk and hip injuries are usually played through, but they can cap snaps.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Kyler Murray",
-   "pos": "QB",
-   "team": "MIN",
-   "status": "Practicing",
-   "condition": "Fair",
-   "injury": "Hamstring",
-   "practice": "Limited Participation in Practice",
-   "practice_code": "LP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "LP"
-    },
-    {
-     "d": "Thu",
-     "s": "LP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Carson Wentz",
-   "rank": 143,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "High",
-   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
-   "evidence": "study",
-   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
-   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
    "name": "Baker Mayfield",
    "pos": "QB",
    "team": "TB",
@@ -1139,14 +877,18 @@
     {
      "d": "Thu",
      "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
     }
    ],
    "back": "Status due Sat",
    "pickup": "Jalon Daniels",
    "rank": 167,
    "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s practice report",
    "typical": "0\u20132 games",
    "reinjury": "Moderate",
    "note": "Mild midfoot sprains cost NFL players about 3 days; moderate ones about 5 weeks.",
@@ -1154,105 +896,6 @@
    "source": "Midfoot sprains in the National Football League (Am J Sports Med 2014)",
    "source_url": "https://vivo.weill.cornell.edu/display/pubid25490010",
    "changed": "2026-11-27T07:09-05:00"
-  },
-  {
-   "name": "Seth McGowan",
-   "pos": "RB",
-   "team": "IND",
-   "status": "Practicing",
-   "condition": "Serious",
-   "injury": "Hamstring",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "DNP"
-    },
-    {
-     "d": "Thu",
-     "s": "DNP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "DJ Giddens",
-   "rank": 175,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20133 games",
-   "reinjury": "High",
-   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
-   "evidence": "study",
-   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
-   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
-   "changed": "2026-11-26T11:49-05:00"
-  },
-  {
-   "name": "Rashod Bateman",
-   "pos": "WR",
-   "team": "BAL",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Groin",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "LP"
-    },
-    {
-     "d": "Thu",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Elijah Sarratt",
-   "rank": 178,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Moderate",
-   "note": "Groin strains often limit cutting for a week or two. Core muscle surgery usually means IR.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-27T07:09-05:00"
-  },
-  {
-   "name": "Sam Darnold",
-   "pos": "QB",
-   "team": "SEA",
-   "status": "Practicing",
-   "condition": "Good",
-   "injury": "Quadricep",
-   "practice": "Full Participation in Practice",
-   "practice_code": "FP",
-   "trail": [
-    {
-     "d": "Wed",
-     "s": "FP"
-    },
-    {
-     "d": "Thu",
-     "s": "FP"
-    }
-   ],
-   "back": "Status due Fri",
-   "pickup": "Drew Lock",
-   "rank": 185,
-   "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20132 games",
-   "reinjury": "Moderate",
-   "note": "Thigh bruises usually cost little time; true quad strains behave more like hamstrings.",
-   "evidence": "estimate",
-   "source": "",
-   "source_url": "",
-   "changed": "2026-11-26T20:41-05:00"
   },
   {
    "name": "Bryce Young",
@@ -1267,14 +910,18 @@
     {
      "d": "Thu",
      "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
     }
    ],
    "back": "Status due Sat",
    "pickup": "Kenny Pickett",
    "rank": 189,
    "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s practice report",
    "typical": "0\u20132 games",
    "reinjury": "Moderate",
    "note": "Mild midfoot sprains cost NFL players about 3 days; moderate ones about 5 weeks.",
@@ -1284,70 +931,78 @@
    "changed": "2026-11-27T07:09-05:00"
   },
   {
-   "name": "Omar Cooper Jr.",
+   "name": "Jaxon Smith-Njigba",
    "pos": "WR",
-   "team": "NYJ",
-   "status": "Practicing",
-   "condition": "Serious",
+   "team": "SEA",
+   "status": "Cleared",
+   "condition": "Good",
    "injury": "Ankle",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
    "trail": [
     {
      "d": "Wed",
-     "s": "DNP"
+     "s": "LP"
     },
     {
      "d": "Thu",
-     "s": "DNP"
+     "s": "LP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
     }
    ],
-   "back": "Status due Fri",
-   "pickup": "Malik McClain",
-   "rank": 193,
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 5,
    "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20133 games",
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
    "reinjury": "Moderate",
    "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
-   "changed": "2026-11-26T11:49-05:00"
+   "changed": "2026-11-28T10:27-05:00"
   },
   {
-   "name": "Zachariah Branch",
-   "pos": "WR",
-   "team": "ATL",
-   "status": "Practicing",
-   "condition": "Serious",
-   "injury": "Hamstring",
-   "practice": "Did Not Participate In Practice",
-   "practice_code": "DNP",
+   "name": "Derrick Henry",
+   "pos": "RB",
+   "team": "BAL",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Concussion",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
    "trail": [
     {
      "d": "Wed",
-     "s": "DNP"
+     "s": "LP"
     },
     {
      "d": "Thu",
-     "s": "DNP"
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
     }
    ],
-   "back": "Status due Fri",
+   "back": "Expected to play",
    "pickup": "",
-   "rank": 198,
+   "rank": 11,
    "dyn_rank": null,
-   "source_date": "2026-11-26",
-   "source_label": "Thursday\u2019s practice report",
-   "typical": "0\u20133 games",
-   "reinjury": "High",
-   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Low",
+   "note": "NFL players missed a median of 9 days after a concussion. 59% missed at least one game, and only 38% concussed on a Sunday played the next Sunday.",
    "evidence": "study",
-   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
-   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
-   "changed": "2026-11-26T11:49-05:00"
+   "source": "Return to Full Participation Following Concussion in the NFL, 2015-2020 (Clin J Sport Med 2022)",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/36315827/",
+   "changed": "2026-11-28T10:27-05:00"
   },
   {
    "name": "Saquon Barkley",
@@ -1448,6 +1103,43 @@
    "changed": "2026-11-26T11:49-05:00"
   },
   {
+   "name": "Zay Flowers",
+   "pos": "WR",
+   "team": "BAL",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Ankle",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "LP"
+    },
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 34,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Moderate",
+   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
+   "evidence": "study",
+   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
    "name": "DeVonta Smith",
    "pos": "WR",
    "team": "PHI",
@@ -1480,6 +1172,80 @@
    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
    "game_played": true,
    "changed": "2026-11-26T11:49-05:00"
+  },
+  {
+   "name": "Marvin Harrison Jr.",
+   "pos": "WR",
+   "team": "HOU",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Hamstring",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "LP"
+    },
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 52,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "High",
+   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "evidence": "study",
+   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Jayden Daniels",
+   "pos": "QB",
+   "team": "WAS",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Elbow",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "FP"
+    },
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 56,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Low",
+   "note": "Elbow bruises and sprains are usually played through with a sleeve or brace. For a QB's throwing arm, watch for lost velocity even if he plays. A UCL tear or fracture means IR.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
   },
   {
    "name": "Sam LaPorta",
@@ -1516,6 +1282,43 @@
    "changed": "2026-11-26T11:49-05:00"
   },
   {
+   "name": "Woody Marks",
+   "pos": "RB",
+   "team": "HOU",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Concussion",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "FP"
+    },
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 74,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Low",
+   "note": "NFL players missed a median of 9 days after a concussion. 59% missed at least one game, and only 38% concussed on a Sunday played the next Sunday.",
+   "evidence": "study",
+   "source": "Return to Full Participation Following Concussion in the NFL, 2015-2020 (Clin J Sport Med 2022)",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/36315827/",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
    "name": "Dak Prescott",
    "pos": "QB",
    "team": "DAL",
@@ -1550,6 +1353,191 @@
    "changed": "2026-11-26T11:49-05:00"
   },
   {
+   "name": "Harold Fannin Jr.",
+   "pos": "TE",
+   "team": "CLE",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Groin",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "LP"
+    },
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 79,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Moderate",
+   "note": "Groin strains often limit cutting for a week or two. Core muscle surgery usually means IR.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Carnell Tate",
+   "pos": "WR",
+   "team": "TEN",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Shoulder",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "FP"
+    },
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 87,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Moderate",
+   "note": "AC sprains are often played through with padding. Dislocations tend to recur.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Isaiah Likely",
+   "pos": "TE",
+   "team": "NYG",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Groin",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "LP"
+    },
+    {
+     "d": "Thu",
+     "s": "LP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 91,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Moderate",
+   "note": "Groin strains often limit cutting for a week or two. Core muscle surgery usually means IR.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Chris Rodriguez Jr.",
+   "pos": "RB",
+   "team": "JAX",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Hand",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "FP"
+    },
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 98,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Low",
+   "note": "Skill players usually play with a wrap or cast. It matters more for a QB's throwing hand.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Rachaad White",
+   "pos": "RB",
+   "team": "WAS",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Heel",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "FP"
+    },
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 99,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Moderate",
+   "note": "Turf toe and heel issues often linger and sap burst even when the player suits up.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
    "name": "Matthew Stafford",
    "pos": "QB",
    "team": "LA",
@@ -1578,6 +1566,76 @@
    "source_url": "",
    "game_played": true,
    "changed": "2026-11-25T03:25-05:00"
+  },
+  {
+   "name": "Dalton Schultz",
+   "pos": "TE",
+   "team": "HOU",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Illness",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Thu",
+     "s": "LP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 106,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Low",
+   "note": "Most illnesses cost a practice or two, rarely a game.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Jakobi Meyers",
+   "pos": "WR",
+   "team": "JAX",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Ankle",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "LP"
+    },
+    {
+     "d": "Thu",
+     "s": "LP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 116,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Moderate",
+   "note": "Low ankle sprains often cost 0-1 games. High ankle sprains averaged about two weeks in NFL data and can run much longer.",
+   "evidence": "study",
+   "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
+   "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "changed": "2026-11-28T10:27-05:00"
   },
   {
    "name": "Patrick Mahomes",
@@ -1666,7 +1724,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 12",
    "pickup": "",
    "rank": 140,
    "dyn_rank": null,
@@ -1678,7 +1736,45 @@
    "evidence": "study",
    "source": "Midfoot sprains in the National Football League (Am J Sports Med 2014)",
    "source_url": "https://vivo.weill.cornell.edu/display/pubid25490010",
+   "game_played": true,
    "changed": "2026-11-27T16:12-05:00"
+  },
+  {
+   "name": "Kyler Murray",
+   "pos": "QB",
+   "team": "MIN",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Hamstring",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "LP"
+    },
+    {
+     "d": "Thu",
+     "s": "LP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 143,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "High",
+   "note": "About a third of NFL hamstring strains recur, and players who come back within two weeks carry the highest re-injury risk.",
+   "evidence": "study",
+   "source": "Jenkins et al., Orthop J Sports Med 2024; Bodendorfer et al., Phys Sportsmed 2023",
+   "source_url": "https://pubmed.ncbi.nlm.nih.gov/39649523/",
+   "changed": "2026-11-28T10:27-05:00"
   },
   {
    "name": "Pat Bryant",
@@ -1699,7 +1795,7 @@
      "s": "FP"
     }
    ],
-   "back": "Expected to play",
+   "back": "Cleared for Week 12",
    "pickup": "",
    "rank": 174,
    "dyn_rank": null,
@@ -1711,7 +1807,82 @@
    "evidence": "study",
    "source": "Syndesmotic ankle injuries in NFL and NHL athletes (PMC8822069)",
    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822069/",
+   "game_played": true,
    "changed": "2026-11-26T11:49-05:00"
+  },
+  {
+   "name": "Rashod Bateman",
+   "pos": "WR",
+   "team": "BAL",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Groin",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "LP"
+    },
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 178,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Moderate",
+   "note": "Groin strains often limit cutting for a week or two. Core muscle surgery usually means IR.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
+  },
+  {
+   "name": "Sam Darnold",
+   "pos": "QB",
+   "team": "SEA",
+   "status": "Cleared",
+   "condition": "Good",
+   "injury": "Quadricep",
+   "practice": "Full Participation in Practice",
+   "practice_code": "FP",
+   "trail": [
+    {
+     "d": "Wed",
+     "s": "FP"
+    },
+    {
+     "d": "Thu",
+     "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
+    }
+   ],
+   "back": "Expected to play",
+   "pickup": "",
+   "rank": 185,
+   "dyn_rank": null,
+   "source_date": "2026-11-27",
+   "source_label": "Friday\u2019s final Week 12 report",
+   "typical": "\u2014",
+   "reinjury": "Moderate",
+   "note": "Thigh bruises usually cost little time; true quad strains behave more like hamstrings.",
+   "evidence": "estimate",
+   "source": "",
+   "source_url": "",
+   "changed": "2026-11-28T10:27-05:00"
   },
   {
    "name": "Tanner McKee",
@@ -1787,6 +1958,10 @@
     },
     {
      "d": "Thu",
+     "s": "LP"
+    },
+    {
+     "d": "Fri",
      "s": "LP"
     }
    ],
@@ -1937,6 +2112,10 @@
     {
      "d": "Thu",
      "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "FP"
     }
    ],
    "back": "Eligible Week 7",
@@ -2038,6 +2217,10 @@
     {
      "d": "Thu",
      "s": "FP"
+    },
+    {
+     "d": "Fri",
+     "s": "LP"
     }
    ],
    "back": "Eligible Week 8",
@@ -2541,6 +2724,435 @@
   }
  ],
  "recent_changes": [
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Jaxon Smith-Njigba",
+   "team": "SEA",
+   "pos": "WR",
+   "rank": 5,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Ankle",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Derrick Henry",
+   "team": "BAL",
+   "pos": "RB",
+   "rank": 11,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Concussion",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Brock Bowers",
+   "team": "LV",
+   "pos": "TE",
+   "rank": 17,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Questionable",
+   "injury": "Ankle",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Tee Higgins",
+   "team": "CIN",
+   "pos": "WR",
+   "rank": 24,
+   "kind": "added",
+   "from": null,
+   "to": "Questionable",
+   "injury": "Hamstring",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Zay Flowers",
+   "team": "BAL",
+   "pos": "WR",
+   "rank": 34,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Ankle",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Bhayshul Tuten",
+   "team": "JAX",
+   "pos": "RB",
+   "rank": 44,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Out",
+   "injury": "Ankle",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Marvin Harrison Jr.",
+   "team": "HOU",
+   "pos": "WR",
+   "rank": 52,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Hamstring",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Parker Washington",
+   "team": "JAX",
+   "pos": "WR",
+   "rank": 53,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Out",
+   "injury": "Shoulder",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Jayden Daniels",
+   "team": "WAS",
+   "pos": "QB",
+   "rank": 56,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Elbow",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Mike Evans",
+   "team": "SF",
+   "pos": "WR",
+   "rank": 59,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Questionable",
+   "injury": "Achilles",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "A.J. Brown",
+   "team": "NE",
+   "pos": "WR",
+   "rank": 66,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Out",
+   "injury": "Hamstring",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Drake Maye",
+   "team": "NE",
+   "pos": "QB",
+   "rank": 71,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Out",
+   "injury": "Fibula",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Woody Marks",
+   "team": "HOU",
+   "pos": "RB",
+   "rank": 74,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Concussion",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Justin Herbert",
+   "team": "LAC",
+   "pos": "QB",
+   "rank": 78,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Out",
+   "injury": "Concussion",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Harold Fannin Jr.",
+   "team": "CLE",
+   "pos": "TE",
+   "rank": 79,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Groin",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Jordan Addison",
+   "team": "MIN",
+   "pos": "WR",
+   "rank": 83,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Out",
+   "injury": "Thumb",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Carnell Tate",
+   "team": "TEN",
+   "pos": "WR",
+   "rank": 87,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Shoulder",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Brock Purdy",
+   "team": "SF",
+   "pos": "QB",
+   "rank": 90,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Out",
+   "injury": "Ankle",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Isaiah Likely",
+   "team": "NYG",
+   "pos": "TE",
+   "rank": 91,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Groin",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Chris Rodriguez Jr.",
+   "team": "JAX",
+   "pos": "RB",
+   "rank": 98,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Hand",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Rachaad White",
+   "team": "WAS",
+   "pos": "RB",
+   "rank": 99,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Heel",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Dalton Schultz",
+   "team": "HOU",
+   "pos": "TE",
+   "rank": 106,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Illness",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Jakobi Meyers",
+   "team": "JAX",
+   "pos": "WR",
+   "rank": 116,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Ankle",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Keaton Mitchell",
+   "team": "LAC",
+   "pos": "RB",
+   "rank": 122,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Out",
+   "injury": "Knee",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Juwan Johnson",
+   "team": "NO",
+   "pos": "TE",
+   "rank": 125,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Out",
+   "injury": "Hamstring",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Denzel Boston",
+   "team": "CLE",
+   "pos": "WR",
+   "rank": 128,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Questionable",
+   "injury": "Quadricep",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Kayshon Boutte",
+   "team": "HOU",
+   "pos": "WR",
+   "rank": 130,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Out",
+   "injury": "Hip",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Kyler Murray",
+   "team": "MIN",
+   "pos": "QB",
+   "rank": 143,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Hamstring",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Seth McGowan",
+   "team": "IND",
+   "pos": "RB",
+   "rank": 175,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Out",
+   "injury": "Hamstring",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Rashod Bateman",
+   "team": "BAL",
+   "pos": "WR",
+   "rank": 178,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Groin",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Sam Darnold",
+   "team": "SEA",
+   "pos": "QB",
+   "rank": 185,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Cleared",
+   "injury": "Quadricep",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Omar Cooper Jr.",
+   "team": "NYJ",
+   "pos": "WR",
+   "rank": 193,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Out",
+   "injury": "Ankle",
+   "news": false,
+   "week": 12
+  },
+  {
+   "at": "2026-11-28T10:27-05:00",
+   "name": "Zachariah Branch",
+   "team": "ATL",
+   "pos": "WR",
+   "rank": 198,
+   "kind": "status",
+   "from": "Practicing",
+   "to": "Out",
+   "injury": "Hamstring",
+   "news": false,
+   "week": 12
+  },
   {
    "at": "2026-11-27T16:12-05:00",
    "name": "Michael Pittman",
@@ -3152,435 +3764,6 @@
    "injury": "Ankle",
    "news": false,
    "week": 12
-  },
-  {
-   "at": "2026-11-26T11:49-05:00",
-   "name": "Seth McGowan",
-   "team": "IND",
-   "pos": "RB",
-   "rank": 175,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Hamstring",
-   "news": false,
-   "week": 12
-  },
-  {
-   "at": "2026-11-26T11:49-05:00",
-   "name": "Rashod Bateman",
-   "team": "BAL",
-   "pos": "WR",
-   "rank": 178,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Groin",
-   "news": false,
-   "week": 12
-  },
-  {
-   "at": "2026-11-26T11:49-05:00",
-   "name": "Jake Ferguson",
-   "team": "DAL",
-   "pos": "TE",
-   "rank": 188,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Out",
-   "injury": "Knee",
-   "news": false,
-   "week": 12
-  },
-  {
-   "at": "2026-11-26T11:49-05:00",
-   "name": "Tanner McKee",
-   "team": "PHI",
-   "pos": "QB",
-   "rank": 192,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Cleared",
-   "injury": "Rib",
-   "news": false,
-   "week": 12
-  },
-  {
-   "at": "2026-11-26T11:49-05:00",
-   "name": "Omar Cooper Jr.",
-   "team": "NYJ",
-   "pos": "WR",
-   "rank": 193,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Ankle",
-   "news": false,
-   "week": 12
-  },
-  {
-   "at": "2026-11-26T11:49-05:00",
-   "name": "Zachariah Branch",
-   "team": "ATL",
-   "pos": "WR",
-   "rank": 198,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Hamstring",
-   "news": false,
-   "week": 12
-  },
-  {
-   "at": "2026-11-25T03:25-05:00",
-   "name": "Kyren Williams",
-   "team": "LA",
-   "pos": "RB",
-   "rank": 20,
-   "kind": "added",
-   "from": null,
-   "to": "Cleared",
-   "injury": "Toe",
-   "news": false,
-   "week": 12
-  },
-  {
-   "at": "2026-11-25T03:25-05:00",
-   "name": "Dak Prescott",
-   "team": "DAL",
-   "pos": "QB",
-   "rank": 75,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Hand",
-   "news": false,
-   "week": 12
-  },
-  {
-   "at": "2026-11-25T03:25-05:00",
-   "name": "Josh Jacobs",
-   "team": "GB",
-   "pos": "RB",
-   "rank": 86,
-   "kind": "added",
-   "from": null,
-   "to": "Questionable",
-   "injury": "Finger",
-   "news": false,
-   "week": 12
-  },
-  {
-   "at": "2026-11-25T03:25-05:00",
-   "name": "Matthew Stafford",
-   "team": "LA",
-   "pos": "QB",
-   "rank": 105,
-   "kind": "added",
-   "from": null,
-   "to": "Cleared",
-   "injury": "Elbow",
-   "news": false,
-   "week": 12
-  },
-  {
-   "at": "2026-11-25T03:25-05:00",
-   "name": "George Holani",
-   "team": "SEA",
-   "pos": "RB",
-   "rank": 162,
-   "kind": "added",
-   "from": null,
-   "to": "IR",
-   "injury": "Ribs",
-   "news": false,
-   "week": 12
-  },
-  {
-   "at": "2026-11-25T03:25-05:00",
-   "name": "Pat Bryant",
-   "team": "DEN",
-   "pos": "WR",
-   "rank": 174,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Ankle",
-   "news": false,
-   "week": 12
-  },
-  {
-   "at": "2026-11-24T18:52-05:00",
-   "name": "Jacory Croskey-Merritt",
-   "team": "WAS",
-   "pos": "RB",
-   "rank": 76,
-   "kind": "status",
-   "from": "IR",
-   "to": "Questionable",
-   "injury": "Groin",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-24T08:36-05:00",
-   "name": "Sam LaPorta",
-   "team": "DET",
-   "pos": "TE",
-   "rank": 64,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Ankle",
-   "news": true,
-   "week": 11
-  },
-  {
-   "at": "2026-11-24T08:36-05:00",
-   "name": "Dallas Goedert",
-   "team": "PHI",
-   "pos": "TE",
-   "rank": 128,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Shin",
-   "news": true,
-   "week": 11
-  },
-  {
-   "at": "2026-11-23T07:26-05:00",
-   "name": "Derrick Henry",
-   "team": "BAL",
-   "pos": "RB",
-   "rank": 12,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Concussion",
-   "news": true,
-   "week": 11
-  },
-  {
-   "at": "2026-11-23T07:26-05:00",
-   "name": "DJ Moore",
-   "team": "BUF",
-   "pos": "WR",
-   "rank": 42,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Knee",
-   "news": true,
-   "week": 11
-  },
-  {
-   "at": "2026-11-23T07:26-05:00",
-   "name": "Justin Herbert",
-   "team": "LAC",
-   "pos": "QB",
-   "rank": 78,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Concussion",
-   "news": true,
-   "week": 11
-  },
-  {
-   "at": "2026-11-23T07:26-05:00",
-   "name": "Jalen Coker",
-   "team": "CAR",
-   "pos": "WR",
-   "rank": 92,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Undisclosed",
-   "news": true,
-   "week": 11
-  },
-  {
-   "at": "2026-11-23T07:26-05:00",
-   "name": "Keaton Mitchell",
-   "team": "LAC",
-   "pos": "RB",
-   "rank": 122,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Back",
-   "news": true,
-   "week": 11
-  },
-  {
-   "at": "2026-11-23T07:26-05:00",
-   "name": "Juwan Johnson",
-   "team": "NO",
-   "pos": "TE",
-   "rank": 125,
-   "kind": "added",
-   "from": null,
-   "to": "Practicing",
-   "injury": "Hamstring",
-   "news": true,
-   "week": 11
-  },
-  {
-   "at": "2026-11-23T07:26-05:00",
-   "name": "Tyjae Spears",
-   "team": "TEN",
-   "pos": "RB",
-   "rank": 144,
-   "kind": "status",
-   "from": "Questionable",
-   "to": "IR",
-   "injury": "Knee",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-23T07:26-05:00",
-   "name": "Dontayvion Wicks",
-   "team": "PHI",
-   "pos": "WR",
-   "rank": 161,
-   "kind": "status",
-   "from": "Out",
-   "to": "IR",
-   "injury": "Ankle",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-23T07:26-05:00",
-   "name": "Roman Wilson",
-   "team": "PIT",
-   "pos": "WR",
-   "rank": null,
-   "kind": "off",
-   "from": "IR",
-   "to": null,
-   "injury": "Hand",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-22T06:14-05:00",
-   "name": "Tee Higgins",
-   "team": "CIN",
-   "pos": "WR",
-   "rank": 24,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Cleared",
-   "injury": "Knee",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-22T06:14-05:00",
-   "name": "Joe Burrow",
-   "team": "CIN",
-   "pos": "QB",
-   "rank": 55,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Cleared",
-   "injury": "Illness",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-22T06:14-05:00",
-   "name": "Jayden Daniels",
-   "team": "WAS",
-   "pos": "QB",
-   "rank": 56,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Cleared",
-   "injury": "Elbow",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-22T06:14-05:00",
-   "name": "Rachaad White",
-   "team": "WAS",
-   "pos": "RB",
-   "rank": 99,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Questionable",
-   "injury": "Heel",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-22T06:14-05:00",
-   "name": "Chig Okonkwo",
-   "team": "WAS",
-   "pos": "TE",
-   "rank": 147,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Cleared",
-   "injury": "Back",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-21T05:56-05:00",
-   "name": "Kenneth Walker III",
-   "team": "KC",
-   "pos": "RB",
-   "rank": 11,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Out",
-   "injury": "Groin",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-21T05:56-05:00",
-   "name": "Saquon Barkley",
-   "team": "PHI",
-   "pos": "RB",
-   "rank": 15,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Cleared",
-   "injury": "Hamstring",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-21T05:56-05:00",
-   "name": "Brock Bowers",
-   "team": "LV",
-   "pos": "TE",
-   "rank": 18,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Questionable",
-   "injury": "Ankle",
-   "news": false,
-   "week": 11
-  },
-  {
-   "at": "2026-11-21T05:56-05:00",
-   "name": "Jaylen Waddle",
-   "team": "DEN",
-   "pos": "WR",
-   "rank": 29,
-   "kind": "status",
-   "from": "Practicing",
-   "to": "Cleared",
-   "injury": "Concussion",
-   "news": false,
-   "week": 11
   }
  ]
 }

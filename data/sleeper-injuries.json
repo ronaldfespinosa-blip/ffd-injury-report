@@ -1,5 +1,5 @@
 {
- "fetched_et": "2026-11-27T07:09",
+ "fetched_et": "2026-11-28T10:27",
  "players": [
   {
    "id": "",
@@ -7,7 +7,7 @@
    "name": "Parker Washington",
    "pos": "WR",
    "team": "JAX",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Shoulder"
   },
   {
@@ -16,7 +16,7 @@
    "name": "Kayshon Boutte",
    "pos": "WR",
    "team": "HOU",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Hip"
   },
   {
@@ -36,15 +36,6 @@
    "team": "SF",
    "status": "IR",
    "part": "Knee"
-  },
-  {
-   "id": "00-0035704",
-   "sleeper_id": "5854",
-   "name": "Drew Lock",
-   "pos": "QB",
-   "team": "SEA",
-   "status": "Questionable",
-   "part": "Elbow"
   },
   {
    "id": "",
@@ -79,7 +70,7 @@
    "name": "Jahan Dotson",
    "pos": "WR",
    "team": "ATL",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Hamstring"
   },
   {
@@ -90,15 +81,6 @@
    "team": "GB",
    "status": "IR",
    "part": "Neck"
-  },
-  {
-   "id": "",
-   "sleeper_id": "9488",
-   "name": "Jaxon Smith-Njigba",
-   "pos": "WR",
-   "team": "SEA",
-   "status": "Questionable",
-   "part": "Ankle"
   },
   {
    "id": "",
@@ -115,7 +97,7 @@
    "name": "Brenen Thompson",
    "pos": "WR",
    "team": "LAC",
-   "status": "Questionable",
+   "status": "Doubtful",
    "part": "Hamstring"
   },
   {
@@ -165,6 +147,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "7583",
+   "name": "Sam Ehlinger",
+   "pos": "QB",
+   "team": "DEN",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "10232",
    "name": "Michael Wilson",
    "pos": "WR",
@@ -205,7 +196,7 @@
    "name": "Will Mallory",
    "pos": "TE",
    "team": "IND",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Hamstring"
   },
   {
@@ -255,15 +246,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "8131",
-   "name": "Isaiah Likely",
-   "pos": "TE",
-   "team": "NYG",
-   "status": "Questionable",
-   "part": "Groin"
-  },
-  {
-   "id": "",
    "sleeper_id": "8177",
    "name": "Grant Calcaterra",
    "pos": "TE",
@@ -304,8 +286,17 @@
    "name": "Justin Herbert",
    "pos": "QB",
    "team": "LAC",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Concussion"
+  },
+  {
+   "id": "",
+   "sleeper_id": "6801",
+   "name": "Tee Higgins",
+   "pos": "WR",
+   "team": "CIN",
+   "status": "Questionable",
+   "part": "Hamstring"
   },
   {
    "id": "",
@@ -398,15 +389,6 @@
    "part": "Concussion"
   },
   {
-   "id": "00-0034960",
-   "sleeper_id": "5947",
-   "name": "Jakobi Meyers",
-   "pos": "WR",
-   "team": "JAX",
-   "status": "Questionable",
-   "part": "Ankle"
-  },
-  {
    "id": "",
    "sleeper_id": "11651",
    "name": "Isaac Guerendo",
@@ -421,7 +403,7 @@
    "name": "Carson Beck",
    "pos": "QB",
    "team": "ARI",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Back"
   },
   {
@@ -489,15 +471,6 @@
   },
   {
    "id": "",
-   "sleeper_id": "8135",
-   "name": "Treylon Burks",
-   "pos": "WR",
-   "team": "WAS",
-   "status": "Questionable",
-   "part": "Foot"
-  },
-  {
-   "id": "",
    "sleeper_id": "7694",
    "name": "Tommy Tremble",
    "pos": "TE",
@@ -511,26 +484,17 @@
    "name": "Keaton Mitchell",
    "pos": "RB",
    "team": "LAC",
-   "status": "Questionable",
-   "part": "Back"
+   "status": "Out",
+   "part": "Knee"
   },
   {
-   "id": "",
-   "sleeper_id": "8208",
-   "name": "Tyler Badie",
-   "pos": "RB",
+   "id": "00-0035406",
+   "sleeper_id": "5938",
+   "name": "Lil'Jordan Humphrey",
+   "pos": "WR",
    "team": "DEN",
-   "status": "Questionable",
-   "part": "Thumb"
-  },
-  {
-   "id": "",
-   "sleeper_id": "12474",
-   "name": "Woody Marks",
-   "pos": "RB",
-   "team": "HOU",
-   "status": "Questionable",
-   "part": "Concussion"
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "",
@@ -597,6 +561,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "13423",
+   "name": "Eli Heidenreich",
+   "pos": "RB",
+   "team": "PIT",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "13424",
    "name": "Seth McGowan",
    "pos": "RB",
@@ -612,15 +585,6 @@
    "team": "PHI",
    "status": "Out",
    "part": "Coach's Decision"
-  },
-  {
-   "id": "00-0032764",
-   "sleeper_id": "3198",
-   "name": "Derrick Henry",
-   "pos": "RB",
-   "team": "BAL",
-   "status": "Questionable",
-   "part": "Concussion"
   },
   {
    "id": "",
@@ -664,7 +628,7 @@
    "name": "A.J. Brown",
    "pos": "WR",
    "team": "NE",
-   "status": "Doubtful",
+   "status": "Out",
    "part": "Hamstring"
   },
   {
@@ -826,8 +790,8 @@
    "name": "Bhayshul Tuten",
    "pos": "RB",
    "team": "JAX",
-   "status": "Questionable",
-   "part": "Undisclosed"
+   "status": "Out",
+   "part": "Ankle"
   },
   {
    "id": "",
@@ -871,7 +835,7 @@
    "name": "Brevin Jordan",
    "pos": "TE",
    "team": "HOU",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Foot"
   },
   {
@@ -943,7 +907,7 @@
    "name": "Brock Purdy",
    "pos": "QB",
    "team": "SF",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Ankle"
   },
   {
@@ -952,7 +916,7 @@
    "name": "Zachariah Branch",
    "pos": "WR",
    "team": "ATL",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Hamstring"
   },
   {
@@ -961,7 +925,7 @@
    "name": "Jordan Watkins",
    "pos": "WR",
    "team": "SF",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Groin"
   },
   {
@@ -1024,7 +988,7 @@
    "name": "Omar Cooper Jr.",
    "pos": "WR",
    "team": "NYJ",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Ankle"
   },
   {
@@ -1080,6 +1044,15 @@
    "team": "CAR",
    "status": "IR",
    "part": "Abdomen"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13577",
+   "name": "Dallen Bentley",
+   "pos": "TE",
+   "team": "DEN",
+   "status": "Out",
+   "part": "Coach's Decision"
   },
   {
    "id": "00-0035659",
@@ -1208,6 +1181,15 @@
    "part": "Elbow"
   },
   {
+   "id": "00-0035644",
+   "sleeper_id": "5857",
+   "name": "Noah Fant",
+   "pos": "TE",
+   "team": "NO",
+   "status": "Questionable",
+   "part": "Calf"
+  },
+  {
    "id": "",
    "sleeper_id": "12521",
    "name": "Elijah Arroyo",
@@ -1290,6 +1272,15 @@
   },
   {
    "id": "",
+   "sleeper_id": "8489",
+   "name": "Drew Ogletree",
+   "pos": "TE",
+   "team": "IND",
+   "status": "Questionable",
+   "part": "Knee"
+  },
+  {
+   "id": "",
    "sleeper_id": "11508",
    "name": "Princeton Fant",
    "pos": "TE",
@@ -1344,20 +1335,11 @@
   },
   {
    "id": "",
-   "sleeper_id": "13075",
-   "name": "Myles Price",
-   "pos": "WR",
-   "team": "MIN",
-   "status": "Questionable",
-   "part": "Knee"
-  },
-  {
-   "id": "",
    "sleeper_id": "11056",
    "name": "Jared Wayne",
    "pos": "WR",
    "team": "MIA",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Quadriceps"
   },
   {
@@ -1377,15 +1359,6 @@
    "team": "HOU",
    "status": "Out",
    "part": "Undisclosed"
-  },
-  {
-   "id": "",
-   "sleeper_id": "12510",
-   "name": "Jalen Milroe",
-   "pos": "QB",
-   "team": "SEA",
-   "status": "Questionable",
-   "part": "Illness"
   },
   {
    "id": "00-0031610",
@@ -1425,6 +1398,24 @@
   },
   {
    "id": "",
+   "sleeper_id": "13491",
+   "name": "Kaden Wetjen",
+   "pos": "WR",
+   "team": "PIT",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
+   "sleeper_id": "13289",
+   "name": "Drew Allar",
+   "pos": "QB",
+   "team": "PIT",
+   "status": "Out",
+   "part": "Coach's Decision"
+  },
+  {
+   "id": "",
    "sleeper_id": "11604",
    "name": "Brock Bowers",
    "pos": "TE",
@@ -1442,21 +1433,12 @@
    "part": "Knee - MCL"
   },
   {
-   "id": "00-0034383",
-   "sleeper_id": "5001",
-   "name": "Dalton Schultz",
-   "pos": "TE",
-   "team": "HOU",
-   "status": "Questionable",
-   "part": "Illness"
-  },
-  {
    "id": "",
    "sleeper_id": "9756",
    "name": "Jordan Addison",
    "pos": "WR",
    "team": "MIN",
-   "status": "Doubtful",
+   "status": "Out",
    "part": "Thumb"
   },
   {
@@ -1467,15 +1449,6 @@
    "team": "LAC",
    "status": "Questionable",
    "part": "Shoulder"
-  },
-  {
-   "id": "00-0035228",
-   "sleeper_id": "5849",
-   "name": "Kyler Murray",
-   "pos": "QB",
-   "team": "MIN",
-   "status": "Questionable",
-   "part": "Hamstring"
   },
   {
    "id": "00-0034613",
@@ -1492,8 +1465,17 @@
    "name": "Juwan Johnson",
    "pos": "TE",
    "team": "NO",
-   "status": "Questionable",
+   "status": "Out",
    "part": "Hamstring"
+  },
+  {
+   "id": "",
+   "sleeper_id": "12485",
+   "name": "Tez Johnson",
+   "pos": "WR",
+   "team": "TB",
+   "status": "Questionable",
+   "part": "Illness"
   },
   {
    "id": "",
